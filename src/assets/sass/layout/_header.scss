@@ -1,0 +1,35 @@
+// HEADER
+.header {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, 0.8),
+    rgba($color-primary-dark, 0.8)),
+  url("../../../public/hero.jpg");
+  background-size: cover;
+  background-position: left;
+  height: 95vh;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  // Este path es de ejemplo con el slide de la presentación
+  // clip-path: polygon(50% 0, 100% 0, 100% 100%, 40% 100%);
+  // clip-path: polygon(0 0, 100% 0, 50% 100%, 50% 100%);
+
+  &__logo-box {
+    left: 4rem;
+    position: absolute;
+    top: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    transform: translate(-50%, -50%);
+  }
+}
