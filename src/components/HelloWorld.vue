@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Aquí trabajaremos el curso de CSS Master y practicaremos un montón de técnicas
+      Aquí trabajaremos el curso de CSS Master y practicaremos un montón de técnicas yeah
     </p>
   </div>
 </template>
