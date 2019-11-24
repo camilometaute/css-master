@@ -4,6 +4,8 @@ import HelloWorld from './components/HelloWorld.vue'
 import TruliaCards from './components/TruliaCards.vue'
 import OpenListingCards from './components/OpenListingCards.vue'
 import OutDoorProject from './components/OutDoorProject.vue'
+import WebSiteCssGrid from './components/WebSiteCssGrid.vue'
+import CssGridBasis from './components/CssGridBasis.vue'
 
 Vue.use(Router)
 
@@ -21,6 +23,11 @@ export default new Router ({
       component: TruliaCards
     },
     {
+      path: '/css-grid-basis',
+      name: 'CssGridBasis',
+      component: CssGridBasis
+    },
+    {
       path: '/openlisting-cards',
       name: 'OpenListingCards',
       component: OpenListingCards
@@ -29,6 +36,11 @@ export default new Router ({
       path: '/outdoor',
       name: 'OutDoorProject',
       component: OutDoorProject
+    },
+    {
+      path: '/website-css-grid',
+      name: 'WebSiteCssGrid',
+      component: WebSiteCssGrid
     }
   ]
 })

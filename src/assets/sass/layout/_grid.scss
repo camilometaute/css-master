@@ -69,7 +69,6 @@
     text-align: center;
 
     &--header {
-      // grid-column: col-start / grid-end;
       grid-area: head;
       background-color: lightblue;
     }
@@ -98,14 +97,14 @@
 
     &--main-content {
       // grid-column: col-start 1 / col-end 3;
-      background-color: purple;
+      background-color: coral;
       grid-area: main;
     }
 
     &--footer {
       // grid-column: col-start 1 / grid-end;
       grid-area: foot;
-      background-color: red;
+      background-color: #d3d3d3;
     }
   }
 }
