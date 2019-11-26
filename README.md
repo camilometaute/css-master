@@ -122,4 +122,15 @@ grid-template-columns: minmax(200px, 50%) repeat(3, 1fr);
 
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 
+
+GRID INSIDE GRIDS
+SUBGRID -> a item now is a container
+
+Align columns with parent grids?
+
+When we use grid-row: 1 / -1; -1 is used to explicit grid, to implicit grid we use span 2
+
+Responsive without mediaqueries
+grid-template-colums: repeat(auto-fit, minmax(25rem, 1fr));
+
  -->
