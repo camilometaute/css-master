@@ -1,4 +1,12 @@
 .homes {
   background-color: $color-primary-dark;
   grid-column: center-start / center-end;
+  margin: 200px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+
+  .card {
+    background-color: #D3D3D3;
+  }
 }
