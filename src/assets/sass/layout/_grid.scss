@@ -306,28 +306,31 @@
 
 // OPENLISTINGS CARDS
 .container-opl-cards {
-  display: grid;
   font-family: Helvetica;
-  grid-gap: 4rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 4rem;
 
+  //GRID --> CONTAINER
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
   .opl-cards {
-    width: 100%;
-    display: grid;
-    // box-shadow: 2px 0 12px 0 rgba(74,74,74,.05);
     box-shadow: -30 -30 80px 1px rgba(74,74,74,.08);
-    grid-template-rows: minmax(120px, 4fr) repeat(3, min-content) minmax(60px, 1.4fr);
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2rem;
     font-size: 1.4rem;
+    width: 100%;
+
+    //GRID --> ITEM
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(120px, 4fr) repeat(3, min-content) minmax(60px, 1.4fr);
+    grid-column-gap: 2rem;
     grid-template-areas: "img   img"
                          "ttle  ttle"
                          "loc   loc"
                          "amn   amn"
                          "hide  fav";
-    .card {
 
+    .card {
       &--img {
         grid-area: img;
         width: 100%;
@@ -338,11 +341,11 @@
       }
 
       &--title {
-        padding: .2rem;
         color: black;
         font-weight: 600;
         grid-area: ttle;
         margin-top: 2rem;
+        padding: .2rem;
 
         &--price {
           color: #00ad83;
@@ -351,18 +354,18 @@
       }
 
       &--location {
-        padding: .2rem;
         color: black;
         font-weight: lighter;
         grid-area: loc;
+        padding: .2rem;
       }
 
       &--amenities {
-        padding: .2rem;
-        grid-area: amn;
         color: #a5b0b4;
         font-size: 1.2rem;
         font-weight: lighter;
+        grid-area: amn;
+        padding: .2rem;
       }
 
       &--btn {
@@ -370,11 +373,11 @@
         background-color: white;
         border-radius: 200px;
         border: 1px solid #d8e3e7;
+        color: #4a4a4a;
         font-weight: 600;
         height: 45%;
         justify-self: center;
-        width: 80%;
-        color: #4a4a4a;
+        width: 95%;
       }
 
       &--btn-hide {

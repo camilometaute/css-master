@@ -7,9 +7,10 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { faCompass } from '@fortawesome/free-solid-svg-icons'
 import { faMapSigns } from '@fortawesome/free-solid-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUserSecret, faCompass, faMapSigns, faHeart)
+library.add(faUserSecret, faCompass, faMapSigns, faHeart, faEyeSlash);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

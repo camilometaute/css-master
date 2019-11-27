@@ -17,13 +17,16 @@
       grid-template-columns: repeat(5, 10px);
       grid-template-rows: repeat(7, 10px);
 
+      grid-template-areas: "wite wite wite wite wite" "head head head head head" "head head head head head"
+      ;
+
         .white {
           grid-area: wite;
           background-color: white;
         }
 
         .black {
-          grid-area: dark;
+          grid-area: head;
           background-color: black;
         }
 
