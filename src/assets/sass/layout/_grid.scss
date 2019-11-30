@@ -311,7 +311,7 @@
 
   //GRID --> CONTAINER
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
   .opl-cards {
@@ -326,8 +326,8 @@
     grid-column-gap: 2rem;
     grid-template-areas: "img   img"
                          "ttle  ttle"
-                         "loc   loc"
                          "amn   amn"
+                         "loc   loc"
                          "hide  fav";
 
     .card {
@@ -387,6 +387,87 @@
       &--btn-fav {
         grid-area: fav;
       }
+    }
+  }
+}
+
+ // Grammarly
+.grammarly-section {
+  height: 92vh;
+  margin-left: auto;
+  margin-right: auto;
+  //
+  display: grid;
+  //grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  background-image: url('https://static.grammarly.com/assets/files/513d15c7f12f8a27c1fea873458ebddb/bg.jpg');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 1000px;
+
+
+  .left-side {
+    align-content: center;
+    display: grid;
+
+    h2 {
+      font-family: Helvetica;
+      font-size: 6rem;
+      line-height: 6.4rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 2.1rem;
+    }
+
+    &--content {
+      margin-top: 4rem;
+
+      button {
+        background-color: #15c39a;
+        border-radius: 2rem;
+        border-width: 0;
+        padding: 1rem 1.6rem;
+        color: white;
+        font-size: 1.4rem;
+
+        span {
+          opacity: .6;
+        }
+      }
+
+      .stars {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+
+        span {
+          font-size: 1.2rem;
+        }
+
+        img {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 400px;
+      width: 100%;
     }
   }
 }

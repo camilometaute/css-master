@@ -8,7 +8,8 @@
     <router-link to="/css-grid-basis">CSS grid basis</router-link> |
     <router-link to="/trulia-cards">Trulia cards</router-link> |
     <router-link to="/openlisting-cards">Open Listing Cards</router-link> |
-    <router-link to="/website-css-grid">Web css grid</router-link>
+    <router-link to="/website-css-grid">Web css grid</router-link> |
+    <router-link to="/grammarly-section">Grammarly Section</router-link>
 
     <router-view/>
 

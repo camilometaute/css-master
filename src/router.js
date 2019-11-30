@@ -6,6 +6,7 @@ import OpenListingCards from './components/OpenListingCards.vue'
 import OutDoorProject from './components/OutDoorProject.vue'
 import WebSiteCssGrid from './components/WebSiteCssGrid.vue'
 import CssGridBasis from './components/CssGridBasis.vue'
+import GrammarlySection from './components/GrammarlySection.vue'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router ({
       path: '/website-css-grid',
       name: 'WebSiteCssGrid',
       component: WebSiteCssGrid
+    },
+    {
+      path: '/grammarly-section',
+      name: 'GrammarlySection',
+      component: GrammarlySection
     }
   ]
 })
