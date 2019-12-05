@@ -1,0 +1,25 @@
+.flexbox-master {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 40px;
+  background: lightgreen;
+
+  .item {
+    background-color: #D3D3D3;
+    padding: 40px;
+    margin: 10px;
+    color: #333;
+    font-size: 40px;
+
+    &--1 {
+      height: 180px;
+    }
+
+    &--2 {
+      height: 210px;
+    }
+  }
+}
