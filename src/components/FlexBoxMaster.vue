@@ -1,10 +1,23 @@
 <template>
-  <div class="flexbox-master">
-    <div class="item item--1">1</div>
-    <div class="item item--2">2</div>
-    <div class="item item--3">3</div>
-    <div class="item item--4">4</div>
-    <div class="item item--5">5</div>
+  <div class="container-fx-project">
+    <div class="main-container-fx">
+      <header class="header-fx">
+        <img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg" alt="">
+
+        <form class="" action="index.html" method="post">
+          <input type="text" name="" value="" placeholder="Search hotels">
+          
+        </form>
+      </header>
+      <div class="content-fx">
+        <nav class="sidebar-fx">
+          navbar
+        </nav>
+        <div class="main-content-fx">
+          main content
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

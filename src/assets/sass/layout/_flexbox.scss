@@ -1,27 +1,68 @@
-.flexbox-master {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 40px;
-  background: lightgreen;
+/*
+ Primary: #eb2f64
+ Primary light: #FF3366
+ Primary Dark: #BA265D
+ color-grey-light-1: #faf9f9
+ color-grey-light-2: #f4f2f2
+ color-grey-light-3: #f0eeee
+ color-grey-light-4: #ccc
 
-  .item {
-    background-color: #D3D3D3;
-    padding: 40px;
-    margin: 10px;
-    color: #333;
-    font-size: 40px;
+ --color-grey-dark-1: #333
+ --color-grey-dark-2: #777
+ --color-grey-dark-3: #999
+*/
 
-    &--1 {
-      height: 180px;
+.container-fx-project {
+  // CSS variables
+  --color-primary: #eb2f64;
+  --color-primary-light: #FF3366;
+  --color-primary-dark: #BA265D;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+
+  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-grey-dark-1);
+  min-height: 100vh;
+  padding: 4rem 0;
+
+  .main-container-fx {
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark);
+    margin: 0 auto;
+    max-width: 120rem;
+    min-height: 50rem;
+
+    .header-fx{
+      height: 7rem;
+      background-color: #fff;
+      border-bottom: var(--color-grey-light-2);
     }
 
-    &--2 {
-      height: 210px;
-      font-size: 6rem;
-      align-self: flex-end;
+    .content-fx {
+      display: flex;
+
+      .sidebar-fx {
+        background-color: var(--color-grey-dark-1);
+        flex: 0 0 18%;
+        color: white;
+      }
+
+      .main-content-fx {
+        background-color: purple;
+        flex: 1;
+        color: white;
+      }
     }
   }
 }
