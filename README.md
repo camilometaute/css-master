@@ -66,6 +66,8 @@ Note: We can put a variable here for pass @mixin name-mixing($col){ color: $col}
 29- transform: skewY(-7deg); to effect like girate the pic
 30- Select the direct child & > * {  tranform:}
 
+/////////////////////////////
+
 Undertanding CSS3
 !important have the highest priority, but only use as a last resource
 Inoine styles will always have priority over styles in external stylesheets
@@ -76,6 +78,7 @@ Rely more on especificity than on the order of selectors
 When using 3rd party stylesheets always put your author stylesheet last
 CSS is ordered by: Importance - Specificity - Sourcer order
 
+/////////////////////////////
 
 CSS GRID
 What is: new module that brings two dimensional grid system
@@ -132,5 +135,9 @@ When we use grid-row: 1 / -1; -1 is used to explicit grid, to implicit grid we u
 
 Responsive without mediaqueries
 grid-template-colums: repeat(auto-fit, minmax(25rem, 1fr));
+
+/////////////////////////////
+
+FLEXBOX
 
  -->

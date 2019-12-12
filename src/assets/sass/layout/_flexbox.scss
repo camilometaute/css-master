@@ -12,7 +12,7 @@
  --color-grey-dark-3: #999
 */
 
-.container-fx-project {
+.container-flx-project {
   // CSS variables
   --color-primary: #eb2f64;
   --color-primary-light: #FF3366;
@@ -36,29 +36,129 @@
   min-height: 100vh;
   padding: 4rem 0;
 
-  .main-container-fx {
+  .main-container-flx {
     background-color: var(--color-grey-light-2);
     box-shadow: var(--shadow-dark);
     margin: 0 auto;
     max-width: 120rem;
     min-height: 50rem;
 
-    .header-fx{
-      height: 7rem;
+    //////////////////////////////////////
+    //MAIN HEADER
+    .header-flx{
+      align-items: center;
       background-color: #fff;
       border-bottom: var(--color-grey-light-2);
+      display: flex;
+      font-size: 1.4rem;
+      height: 7rem;
+      justify-content: space-between;
+
+      //////////////////////////////////////
+      //LOGO
+
+      .logo-flx {
+        margin-left: 3rem;
+        height: 3.25rem;
+      }
+
+      //////////////////////////////////////
+      //SEACH CONTENT
+      .search-flx {
+        flex: 0 0 40%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__input {
+          background-color: var(--color-grey-light-2);
+          border-radius: 100px;
+          border: none;
+          font-family: inherit;
+          font-size: inherit;
+          margin-right: -3.25rem;
+          padding: .7rem 2rem;
+          transition: all .2s;
+          width: 90%;
+
+          &:focus {
+            background-color: var(--color-grey-light-3);
+            outline: none;
+            width: 100%;
+          }
+
+          &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: var(--color-grey-light-4);
+          }
+        }
+
+        &__input:focus + &__button:focus {
+          background-color: var(--color-grey-light-3);
+        }
+
+        &__button {
+          border: none;
+          background-color: var(--color-grey-light-2);
+
+          &:focus {
+            outline: none;
+          }
+
+          &:active {
+            transform: translateY(2px);
+          }
+        }
+
+        &__icon {
+          font-size: 1.5rem;
+          color: var(--color-grey-dark-3);
+        }
+      }
+
+      //////////////////////////////////////
+      //NAVBAR
+      .nav-flx {
+        background-color: yellow;
+        &__icon-box {
+
+          &__notification {
+
+          }
+
+          &__icon {
+            font-size: 2rem;
+          }
+        }
+
+        &__user {
+
+          &__photo {
+            height: 3.75rem;
+            border-radius: 50%;
+          }
+
+          &__name {
+
+          }
+
+        }
+      }
+
+
     }
 
-    .content-fx {
+    .content-flx {
       display: flex;
 
-      .sidebar-fx {
+      .sidebar-flx {
         background-color: var(--color-grey-dark-1);
         flex: 0 0 18%;
         color: white;
       }
 
-      .main-content-fx {
+      .main-content-flx {
         background-color: purple;
         flex: 1;
         color: white;
