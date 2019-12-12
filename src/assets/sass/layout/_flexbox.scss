@@ -125,11 +125,11 @@
         align-self: stretch;
 
         & > * {
-          padding: 0 2rem;
-          cursor: pointer;
-          height: 100%;
-          display: flex;
           align-items: center;
+          cursor: pointer;
+          display: flex;
+          height: 100%;
+          padding: 0 2rem;
         }
 
         & > *:hover {
@@ -183,14 +183,90 @@
     .content-flx {
       display: flex;
 
+      //////////////////////////////////////
+      //SIDEBAR
       .sidebar-flx {
         background-color: var(--color-grey-dark-1);
+
+        display: flex;
+        flex-direction: column;
         flex: 0 0 18%;
-        color: white;
+        justify-content: space-between;
+
+        .side-nav {
+
+          font-size: 1.4rem;
+          list-style: none;
+          margin-top: 3.5rem;
+
+          &__item {
+            margin: 0px;
+            position: relative;
+            width: 100%;
+
+            &:not(:last-child) {
+              margin-bottom: .5rem;
+            }
+          }
+
+          &__item::before, {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 3px;
+            background-color: var(--color-primary);
+            transform: scaleY(0);
+            //transform-origin: bottom;
+            transition: transform .2s,
+                        width .4s cubic-bezier(1,0,0,1) .2s,
+                        background-color .1s;
+          }
+
+
+          &__item:hover::before,
+          &__item--active::before {
+            transform: scaleY(1);
+            width: 100%;
+          }
+
+          &__item:active::before {
+            background-color: var(--color-primary-light);
+          }
+
+
+          &__link:link, &__link:visited {
+            color: var(--color-grey-light-1);
+            display: block;
+            padding: 1.5rem 3rem;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;
+            z-index: 10;
+
+            display: flex;
+            align-items: center;
+          }
+
+          &__icon {
+            font-size: 1.3rem;
+            margin-right: 2rem;
+            color: var(--color-grey-light-1);
+          }
+        }
+
+        .legal {
+          font-size: 1.2rem;
+          color: var(--color-grey-light-4);
+          text-align: center;
+          padding: 2.5rem;
+        }
       }
 
       .main-content-flx {
         background-color: purple;
+        height: 80rem;
         flex: 1;
         color: white;
       }

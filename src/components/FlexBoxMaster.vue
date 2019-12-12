@@ -28,8 +28,32 @@
       </header>
       <div class="content-flx">
         <nav class="sidebar-flx">
-          navbar
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <font-awesome-icon icon="comments" class="side-nav__icon" /></i>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <font-awesome-icon icon="comments" class="side-nav__icon" /></i>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <font-awesome-icon icon="comments" class="side-nav__icon" /></i>
+                <span>Hotel</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 2019 by trillo. All rights reserved
+          </div>
         </nav>
+
         <div class="main-content-flx">
           main content
         </div>
