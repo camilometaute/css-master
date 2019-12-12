@@ -10,10 +10,10 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
-import { faComment } from '@fortawesome/free-solid-svg-icons'
+import { faComments } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUserSecret, faCompass, faMapSigns, faHeart, faEyeSlash, faSearch, faBookmark, faComment);
+library.add(faUserSecret, faCompass, faMapSigns, faHeart, faEyeSlash, faSearch, faBookmark, faComments);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

@@ -17,7 +17,7 @@
             <div class="nav-flx__icon-box__notification">7</div>
           </div>
           <div class="nav-flx__icon-box">
-            <font-awesome-icon icon="comment" class="nav-flx__icon-box__icon" /></i>
+            <font-awesome-icon icon="comments" class="nav-flx__icon-box__icon" /></i>
             <div class="nav-flx__icon-box__notification">13</div>
           </div>
           <div class="nav-flx__user">
