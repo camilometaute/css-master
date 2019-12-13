@@ -55,7 +55,37 @@
         </nav>
 
         <div class="main-content-flx">
-          main content
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="https://images.pexels.com/photos/573552/pexels-photo-573552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="gallery__photo">
+            </figure>
+            <figure class="gallery__item">
+              <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="gallery__photo">
+            </figure>
+            <figure class="gallery__item">
+              <img src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="gallery__photo">
+            </figure>
+          </div>
+          <div class="overview">
+            <h1 class="overview__heading">Hotel Las Palmas</h1>
+            <div class="overview__stars">
+              <font-awesome-icon icon="star" class="overview__icon-star" /></i>
+              <font-awesome-icon icon="star" class="overview__icon-star" /></i>
+              <font-awesome-icon icon="star" class="overview__icon-star" /></i>
+              <font-awesome-icon icon="star" class="overview__icon-star" /></i>
+              <font-awesome-icon icon="star" class="overview__icon-star" /></i>
+            </div>
+
+            <div class="overview__location">
+              <font-awesome-icon icon="map-marker-alt" class="overview__icon-location" /></i>
+              <button class="btn-inline">Albufeira, Portugal</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">429 votes</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

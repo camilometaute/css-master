@@ -265,10 +265,49 @@
       }
 
       .main-content-flx {
-        background-color: purple;
         height: 80rem;
         flex: 1;
-        color: white;
+
+        .gallery {
+          display: flex;
+          &__photo {
+              width: 100%;
+              display: block;
+          }
+        }
+
+        .overview {
+          display: flex;
+          align-items: center;
+
+          &__heading {
+
+          }
+
+          &__stars {
+            margin-right: auto;
+          }
+
+          &__icon-star,
+          &__icon-location {
+            color: var(--color-primary);
+          }
+
+          &__lotation {
+          }
+
+          &__rating {
+
+          }
+
+          &__rating-average {
+
+          }
+
+          &__rating-count {
+
+          }
+        }
       }
     }
   }
