@@ -66,6 +66,7 @@
               <img src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="gallery__photo">
             </figure>
           </div>
+
           <div class="overview">
             <h1 class="overview__heading">Hotel Las Palmas</h1>
             <div class="overview__stars">
@@ -84,6 +85,43 @@
             <div class="overview__rating">
               <div class="overview__rating-average">8.6</div>
               <div class="overview__rating-count">429 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+
+              <p class="paragraph">
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+
+              <ul class="list">
+                <li class="list__item">Close to the beach</li>
+                <li class="list__item">Beakfast included</li>
+                <li class="list__item">Free airport</li>
+                <li class="list__item">Another important thing</li>
+                <li class="list__item">Here we pay all</li>
+                <li class="list__item">This is the best experience</li>
+                <li class="list__item">If you want live with love</li>
+                <li class="list__item">Yeah this is the best option</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Lucy and 3 other friends recoomend this hotel.
+                </p>
+                <div class="recommend__friends">
+                  <img class="recommend__photo" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwMzc5OTEzOF5BMl5BanBnXkFtZTgwMDc5ODU3MTE@._V1_UX172_CR0,0,172,256_AL_.jpg" alt="">
+                  <img class="recommend__photo" src="https://images-na.ssl-images-amazon.com/images/M/MV5BYzg2NDY4MjAtZDBjNS00MGRhLWJkZDMtYWJkZDM1NWZiMzgyXkEyXkFqcGdeQXVyMTE1MzA3MTI@._V1_UX172_CR0,0,172,256_AL_.jpg" alt="">
+                  <img class="recommend__photo" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2MDc2NjY1NF5BMl5BanBnXkFtZTcwMDY2MjE3Nw@@._V1_UX172_CR0,0,172,256_AL_.jpg" alt="">
+                  <img class="recommend__photo" src="https://randomuser.me/api/portraits/women/21.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">
+              user reviews
             </div>
           </div>
         </div>
