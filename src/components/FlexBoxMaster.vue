@@ -99,14 +99,14 @@
               </p>
 
               <ul class="list">
-                <li class="list__item">Close to the beach</li>
-                <li class="list__item">Beakfast included</li>
-                <li class="list__item">Free airport</li>
-                <li class="list__item">Another important thing</li>
-                <li class="list__item">Here we pay all</li>
-                <li class="list__item">This is the best experience</li>
-                <li class="list__item">If you want live with love</li>
-                <li class="list__item">Yeah this is the best option</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i> Close to the beach</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i>Beakfast included</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i>Free airport</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i>Another important thing</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i>Here we pay all</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i>This is the best experience</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i>If you want live with love</li>
+                <li class="list__item"><font-awesome-icon icon="chevron-right" class="list__item--icon" /></i>Yeah this is the best option</li>
               </ul>
               <div class="recommend">
                 <p class="recommend__count">

@@ -265,10 +265,10 @@
         }
 
         .legal {
-          font-size: 1.2rem;
           color: var(--color-grey-light-4);
-          text-align: center;
+          font-size: 1.2rem;
           padding: 2.5rem;
+          text-align: center;
         }
       }
 
@@ -375,18 +375,76 @@
         //////////////////////////////////////
         //DETAIL
         .detail {
-          display: flex;
-          padding: 4.5rem;
           background-color: var(--color-grey-light-1);
           border-bottom: var(--line);
+          display: flex;
+          padding: 4.5rem;
 
           .description {
-            font-size: 1.4rem;
             background-color: white;
             box-shadow: var(--shadow-light);
-            padding: 3rem;
             flex: 0 0 60%;
+            font-size: 1.4rem;
             margin-right: 4.5rem;
+            padding: 3rem;
+
+            //////////////////////////////////////
+            //Paragraph
+            .paragraph:not(:last-of-type) {
+              margin-bottom: 2rem;
+            }
+
+            //////////////////////////////////////
+            //List
+            .list {
+              border-bottom: var(--line);
+              border-top: var(--line);
+              list-style: none;
+              margin: 3rem 0;
+              padding: 3rem 0;
+
+              display: flex;
+              flex-wrap: wrap;
+
+              &__item {
+                flex: 0 0 50%;
+                margin: 0 0 .8rem 0;
+
+                &--icon {
+                  margin-right: .5rem;
+                }
+              }
+            }
+
+            //////////////////////////////////////
+            //Recommend
+            .recommend {
+              color: var(--color-grey-dark-3);
+              font-size: 1.3rem;
+
+              display: flex;
+              align-items: center;
+
+              &__count {
+                margin-right: auto;
+              }
+
+              &__friends {
+
+              }
+
+              &__photo {
+                border-radius: 50%;
+                border: 3px solid white;
+                box-sizing: content-box;
+                height: 4rem;
+                width: 4rem;
+
+                &:not(:last-child) {
+                  margin-right: -1.5rem;
+                }
+              }
+            }
           }
 
           .user-reviews {
