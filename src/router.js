@@ -8,6 +8,7 @@ import WebSiteCssGrid from './components/WebSiteCssGrid.vue'
 import CssGridBasis from './components/CssGridBasis.vue'
 import GrammarlySection from './components/GrammarlySection.vue'
 import FlexBoxMaster from './components/FlexBoxMaster.vue'
+import OpenDoorAdviser from './components/OpendoorAdviser.vue'
 
 Vue.use(Router)
 
@@ -53,6 +54,11 @@ export default new Router ({
       path: '/flexbox-master',
       name: 'FlexBoxMaster',
       component: FlexBoxMaster
+    },
+    {
+      path: '/opendoor-adviser',
+      name: 'OpenDoorAdviser',
+      component: OpenDoorAdviser
     }
   ]
 })
