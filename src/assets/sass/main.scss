@@ -17,7 +17,7 @@
 @import './layout/grid';
 @import './layout/flexbox';
 
-@import '/pages/home';
+@import './pages/home';
 
 // website-css-grid
 @import './pages/website-css-grid/base';
@@ -31,3 +31,5 @@
 @import './pages/website-css-grid/story';
 @import './pages/website-css-grid/typography';
 @import './pages/website-css-grid/thanks_message';
+
+@import './pages/opendoor-adviser/_opendoor_adviser';
