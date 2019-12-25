@@ -32,19 +32,25 @@
             <li class="side-nav__item side-nav__item--active">
               <a href="#" class="side-nav__link">
                 <font-awesome-icon icon="comments" class="side-nav__icon" /></i>
-                <span>Hotel</span>
+                <span>Hotel 1</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <font-awesome-icon icon="comments" class="side-nav__icon" /></i>
-                <span>Hotel</span>
+                <span>Hotel 2</span>
               </a>
             </li>
             <li class="side-nav__item">
               <a href="#" class="side-nav__link">
                 <font-awesome-icon icon="comments" class="side-nav__icon" /></i>
-                <span>Hotel</span>
+                <span>Hotel 3</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <font-awesome-icon icon="comments" class="side-nav__icon" /></i>
+                <span>Hotel 4</span>
               </a>
             </li>
           </ul>
@@ -150,8 +156,19 @@
               <button class="btn-inline">Show all <span>&rarr;</span> </button>
             </div>
           </div>
+
+          <div class="cta">
+            <h2 class="cta__book-now">
+              Good news! We have 4 free rooms for you selected dates!
+            </h2>
+            <button class="btn-trillo">
+              <span class="btn-trillo__visible">Book now</span>
+              <span class="btn-trillo__invisible">Only 4 rooms left</span>
+            </button>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
 </template>
