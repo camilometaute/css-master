@@ -23,6 +23,12 @@
           <div class="nav-flx__user">
             <img src="https://avatars0.githubusercontent.com/u/40438861?s=460&v=4" class="nav-flx__user__photo" alt="">
             <span class="nav-flx__user__name">Camilo</span>
+            <ul class="navbar-list">
+              <li class="navbar-list-item">Item 1</li>
+              <li class="navbar-list-item">Item 2</li>
+              <li class="navbar-list-item">Item 3</li>
+              <li class="navbar-list-item">Item 4</li>
+            </ul>
           </div>
         </nav>
       </header>
