@@ -7,24 +7,36 @@ $bp-xs: 31.25em; //500px / 16
 
 .main-contact-opendoor {
   background-color: rgb(255, 255, 255);
-  margin: 0 auto;
-  max-width: 1280px;
-  margin-top: 4rem;
-  padding: 2rem 4rem;
   display: flex;
   font-family: Helvetica;
+  margin-top: 4rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 2rem 4rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-wrap: wrap;
+  }
 
   .side-tips {
     box-shadow: 0 40px 54px rgba(0,0,0,0.1);
-    width: 50%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    height: 90vh;
     padding: 4rem;
+    text-align: center;
+    width: 50%;
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 100%;
+    }
 
     h4 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
+      line-height: 3.4rem;
       font-weight: 800;
+      margin-top: 1.8rem;
+      margin-bottom: 1.2rem;
       color: $color-black;
     }
 
@@ -36,7 +48,7 @@ $bp-xs: 31.25em; //500px / 16
 
     input, button {
       height: 2rem;
-      max-width: 20rem;
+      max-width: 26rem;
       border-radius: 5rem;
       padding: .6rem 5rem;
       height: 4.6rem;
@@ -49,6 +61,7 @@ $bp-xs: 31.25em; //500px / 16
 
     input {
       border: 1px solid $color-grey-light-2;
+      font-size: 1.6rem;
     }
 
     button {
@@ -59,8 +72,62 @@ $bp-xs: 31.25em; //500px / 16
   }
 
   .side-contact {
-    border: 1px solid red;
     width: 50%;
-  }
 
+    @media only screen and (max-width: $bp-medium) {
+      width: 100%;
+    }
+
+    .contact-block {
+      border-radius: 2rem;
+      border: 1px solid $color-grey-light-2;
+      color: $color-opendoor-primary;
+      font-family: Helvetica;
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin: 0 auto;
+      max-width: 30rem;
+      padding: 1rem 3rem;
+      text-align: center;
+
+      &:not(:last-child) {
+        margin-bottom: 1.6rem;
+      }
+
+    }
+
+    h4 {
+      font-size: 1.8rem;
+      color: $color-black;
+      margin: 4rem auto 1.2rem auto;
+      max-width: 30rem;
+    }
+
+    .message-service {
+      margin: 0 auto;
+      max-width: 30rem;
+    }
+
+    ul {
+      margin: 2rem auto;
+      max-width: 30rem;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        font-size: 1.2rem;
+        list-style: none;
+        padding: 1.2rem 0;
+
+        &:not(:first-child) {
+          margin-right: 2rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: $color-grey-dark;
+        }
+      }
+    }
+  }
 }
