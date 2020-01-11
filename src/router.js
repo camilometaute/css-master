@@ -9,6 +9,7 @@ import CssGridBasis from './components/CssGridBasis.vue'
 import GrammarlySection from './components/GrammarlySection.vue'
 import FlexBoxMaster from './components/FlexBoxMaster.vue'
 import OpenDoorAdviser from './components/OpendoorAdviser.vue'
+import AirbnbCards from './components/AirbnbCards.vue'
 
 Vue.use(Router)
 
@@ -59,6 +60,11 @@ export default new Router ({
       path: '/opendoor-adviser',
       name: 'OpenDoorAdviser',
       component: OpenDoorAdviser
+    },
+    {
+      path: '/airbnb-cards',
+      name: 'AirbnbCards',
+      component: AirbnbCards
     }
   ]
 })

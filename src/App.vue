@@ -12,6 +12,7 @@
     <router-link to="/grammarly-section">Grammarly Section</router-link> |
     <router-link to="/flexbox-master">Flex Box Master</router-link> |
     <router-link to="/opendoor-adviser">OpenDoor Adviser</router-link>
+    <router-link to="/airbnb-cards">Airbnb Cards</router-link>
 
     <router-view/>
 
