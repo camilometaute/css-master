@@ -1,0 +1,66 @@
+
+$bp-largest: 75em; //1200px / 16
+$bp-large: 68.75em; //1100px / 16
+$bp-medium: 56.25em; //900px / 16
+$bp-small: 37.5em; //600px / 16
+$bp-xs: 31.25em; //500px / 16
+
+.main-contact-opendoor {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  max-width: 1280px;
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+  display: flex;
+  font-family: Helvetica;
+
+  .side-tips {
+    box-shadow: 0 40px 54px rgba(0,0,0,0.1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem;
+
+    h4 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: $color-black;
+    }
+
+    p {
+      font-size: 1.8rem;
+      margin-bottom: 4rem;
+      padding: 0 6rem;
+    }
+
+    input, button {
+      height: 2rem;
+      max-width: 20rem;
+      border-radius: 5rem;
+      padding: .6rem 5rem;
+      height: 4.6rem;
+      margin: 0 auto;
+
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    input {
+      border: 1px solid $color-grey-light-2;
+    }
+
+    button {
+      background-color: $color-opendoor-primary;
+      color: $color-white;
+      font-size: 1.6rem;
+    }
+  }
+
+  .side-contact {
+    border: 1px solid red;
+    width: 50%;
+  }
+
+}

@@ -10,6 +10,7 @@ import GrammarlySection from './components/GrammarlySection.vue'
 import FlexBoxMaster from './components/FlexBoxMaster.vue'
 import OpenDoorAdviser from './components/OpendoorAdviser.vue'
 import AirbnbCards from './components/AirbnbCards.vue'
+import ContactOpenDoor from './components/ContactOpenDoor.vue'
 
 Vue.use(Router)
 
@@ -65,6 +66,11 @@ export default new Router ({
       path: '/airbnb-cards',
       name: 'AirbnbCards',
       component: AirbnbCards
+    },
+    {
+      path: '/contact-opendoor',
+      name: 'ContactOpenDoor',
+      component: ContactOpenDoor
     }
   ]
 })
