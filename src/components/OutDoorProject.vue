@@ -98,6 +98,76 @@
           </div>
         </div>
       </section>
+
+      <section class="section-tours">
+        <div class="u-center-text u-margin-botton-big">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Mos popular tours
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card-outdoor">
+              <div class="card-outdoor__side card-outdoor__side--front">
+                <div class="card__picture card__picture--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">The sea explorer</span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>3 day tours</li>
+                    <li>Up to 30 people</li>
+                    <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Another</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-1">
+                Back
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card-outdoor">
+              <div class="card-outdoor__side card-outdoor__side--front">
+                <div class="card__picture card__picture--2">
+                  &nbsp;
+                </div>
+                <div class="card__heading">
+                  Heading
+                </div>
+                <div class="card__details">
+                  Details
+                </div>
+              </div>
+              <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-1">
+                Back
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card-outdoor">
+              <div class="card-outdoor__side card-outdoor__side--front">
+                <div class="card__picture card__picture--3">
+                  &nbsp;
+                </div>
+                <div class="card__heading">
+                  Heading
+                </div>
+                <div class="card__details">
+                  Details
+                </div>
+              </div>
+              <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-1">
+                Back
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 
