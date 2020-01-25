@@ -113,7 +113,7 @@
                   &nbsp;
                 </div>
                 <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1">The sea explorer</span>
+                  <span class="card__heading-span card__heading-span--1">Landscape orange</span>
                 </h4>
                 <div class="card__details">
                   <ul>
@@ -126,44 +126,101 @@
                 </div>
               </div>
               <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-1">
-                Back
+                <div class="card-outdoor__cta">
+                  <div class="card-outdoor__price-box">
+                    <p class="card-outdoor__price-only">Only</p>
+                    <p class="card-outdoor__price-value">$298</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Book Now</a>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="col-1-of-3">
             <div class="card-outdoor">
               <div class="card-outdoor__side card-outdoor__side--front">
                 <div class="card__picture card__picture--2">
                   &nbsp;
                 </div>
-                <div class="card__heading">
-                  Heading
-                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2">Landscape green</span>
+                </h4>
                 <div class="card__details">
-                  Details
+                  <ul>
+                    <li>3 day tours</li>
+                    <li>Up to 30 people</li>
+                    <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Another</li>
+                  </ul>
                 </div>
               </div>
-              <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-1">
-                Back
+              <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-2">
+                <div class="card-outdoor__cta">
+                  <div class="card-outdoor__price-box">
+                    <p class="card-outdoor__price-only">Only</p>
+                    <p class="card-outdoor__price-value">$143</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Book Now</a>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="col-1-of-3">
             <div class="card-outdoor">
               <div class="card-outdoor__side card-outdoor__side--front">
                 <div class="card__picture card__picture--3">
                   &nbsp;
                 </div>
-                <div class="card__heading">
-                  Heading
-                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3">Landscape purple</span>
+                </h4>
                 <div class="card__details">
-                  Details
+                  <ul>
+                    <li>3 day tours</li>
+                    <li>Up to 30 people</li>
+                    <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Another</li>
+                  </ul>
                 </div>
               </div>
-              <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-1">
-                Back
+              <div class="card-outdoor__side card-outdoor__side--back card-outdoor__side--back-3">
+                <div class="card-outdoor__cta">
+                  <div class="card-outdoor__price-box">
+                    <p class="card-outdoor__price-only">Only</p>
+                    <p class="card-outdoor__price-value">$800</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Book Now</a>
+                </div>
               </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="u-center-text u-margin-top-big">
+          <a href="#" class="btn btn--green">Discover all tours</a>
+        </div>
+      </section>
+
+      <section class="section-stories">
+        <div class="u-center-text u-margin-botton-big">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Existing tour for aventour people
+          </h2>
+        </div>
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+              <figcaption class="caption">Mary Smith</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3>This is a great text</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
             </div>
           </div>
         </div>
