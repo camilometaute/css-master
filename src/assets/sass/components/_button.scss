@@ -22,7 +22,7 @@
     }
   }
 
-  &:link, .btn:visited {
+  &, &:link, .btn:visited {
     display: inline-block;
     padding: 1.5rem 5rem;
     text-decoration: none;
@@ -31,9 +31,13 @@
     transition: all .2s;
     position: relative;
     font-size: $default-font-size;
+    cursor: pointer;
+    border: none;
   }
 
-  &:active {
+  &:active,
+  &:focus {
+    outline: none;
     transform: translateY(-.1rem);
     box-shadow: 0 .5rem 10rem rgba($color-black, .2);
   }

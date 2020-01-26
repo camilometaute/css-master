@@ -16,7 +16,7 @@
 
     <main>
       <section class="section-about">
-        <div class="u-center-text u-margin-botton-big">
+        <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary u-margin-bottom-medium">
             Existing tour for aventour people
           </h2>
@@ -100,7 +100,7 @@
       </section>
 
       <section class="section-tours">
-        <div class="u-center-text u-margin-botton-big">
+        <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary u-margin-bottom-medium">
             Mos popular tours
           </h2>
@@ -207,7 +207,13 @@
       </section>
 
       <section class="section-stories">
-        <div class="u-center-text u-margin-botton-big">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="https://storage.coverr.co/videos/coverr-the-islands-1561045392058?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTc5OTY3Nzc3fQ.O1oaglT978eAkP3xP1b3UitpF0pyOLgEDMwnLkwlOUQ" type="video/mp4">
+              Bad browser, try with chrome friend :)
+          </video>
+        </div>
+        <div class="u-center-text u-margin-bottom-medium">
           <h2 class="heading-secondary u-margin-bottom-medium">
             Existing tour for aventour people
           </h2>
@@ -216,11 +222,72 @@
           <div class="story">
             <figure class="story__shape">
               <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-              <figcaption class="caption">Mary Smith</figcaption>
+              <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
             <div class="story__text">
               <h3>This is a great text</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="">
+              <figcaption class="story__caption">Jorge Ateortua</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3>This is another text</h3>
+              <p>Yeah boy, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary u-margin-bottom-medium">
+                    Start booking now
+                  </h2>
+                </div>
+                <div class="form__group">
+                  <input autocomplete="off" type="text" class="form__input" placeholder="Full Name" required id="name">
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group">
+                  <input autocomplete="off" type="email" class="form__input" placeholder="Email" required id="email">
+                  <label for="email" class="form__label">Email</label>
+                </div>
+
+                <div class="form__group">
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="small" name="size">
+                    <label class="form__radio-label" for="small">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group u-margin-bottom-medium">
+                    <input type="radio" class="form__radio-input" id="large" name="size">
+                    <label class="form__radio-label" for="large">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+
+                  <div>
+                    <button class="btn btn--green">Next Step &rarr;</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
