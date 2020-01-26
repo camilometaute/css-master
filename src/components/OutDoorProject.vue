@@ -16,7 +16,7 @@
 
     <main>
       <section class="section-about">
-        <div class="u-center-text u-margin-botton-big">
+        <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary u-margin-bottom-medium">
             Existing tour for aventour people
           </h2>
@@ -100,7 +100,7 @@
       </section>
 
       <section class="section-tours">
-        <div class="u-center-text u-margin-botton-big">
+        <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary u-margin-bottom-medium">
             Mos popular tours
           </h2>
@@ -213,7 +213,7 @@
               Bad browser, try with chrome friend :)
           </video>
         </div>
-        <div class="u-center-text u-margin-botton-big">
+        <div class="u-center-text u-margin-bottom-medium">
           <h2 class="heading-secondary u-margin-bottom-medium">
             Existing tour for aventour people
           </h2>
@@ -244,6 +244,53 @@
           </div>
         </div>
 
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary u-margin-bottom-medium">
+                    Start booking now
+                  </h2>
+                </div>
+                <div class="form__group">
+                  <input autocomplete="off" type="text" class="form__input" placeholder="Full Name" required id="name">
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group">
+                  <input autocomplete="off" type="email" class="form__input" placeholder="Email" required id="email">
+                  <label for="email" class="form__label">Email</label>
+                </div>
+
+                <div class="form__group">
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="small" name="size">
+                    <label class="form__radio-label" for="small">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group u-margin-bottom-medium">
+                    <input type="radio" class="form__radio-input" id="large" name="size">
+                    <label class="form__radio-label" for="large">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+
+                  <div>
+                    <button class="btn btn--green">Next Step &rarr;</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </div>
