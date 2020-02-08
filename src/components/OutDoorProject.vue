@@ -293,6 +293,40 @@
         </div>
       </section>
     </main>
+    <footer class="footer-outdoor">
+      <div class="footer-outdoor__logo-box">
+        <img class="footer-outdoor__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer-outdoor__navigation">
+            <ul class="footer-outdoor__list">
+              <li class="footer-outdoor__item">
+                <a href="#" class="footer-outdoor__link">Company</a>
+              </li>
+              <li class="footer-outdoor__item">
+                <a href="#" class="footer-outdoor__link">Contact us</a>
+              </li>
+              <li class="footer-outdoor__item">
+                <a href="#" class="footer-outdoor__link">Carrers</a>
+              </li>
+              <li class="footer-outdoor__item">
+                <a href="#" class="footer-outdoor__link">Privacy</a>
+              </li>
+              <li class="footer-outdoor__item">
+                <a href="#" class="footer-outdoor__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-1-of-2">
+          <p class="footer-outdoor__copyright">
+            Build my <a href="#">Jonas </a> For this online course <a href="#">Advanced CSS and Sass</a>. Copyright &copy; by milometaute
+          </p>
+        </div>
+      </div>
+    </footer>
   </div>
 
 </template>
