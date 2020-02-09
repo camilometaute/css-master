@@ -5,3 +5,9 @@
     clear: both;
   }
 }
+
+@mixin center-horizontal-vertical {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
