@@ -15,4 +15,21 @@ html {
 
 body {
   box-sizing: border-box;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+    border: 5px solid purple;
+  }
+  @include respond(tab-port) {
+    font-size: 50%;
+    border: 5px solid green;
+  }
+  @include respond(phone) {
+    font-size: 30%;
+    border: 5px solid red;
+  }
+  @include respond(big-desktop) {
+    font-size: 75%;
+    border: 5px solid pink;
+  }
 }
