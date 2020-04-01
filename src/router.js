@@ -11,6 +11,7 @@ import FlexBoxMaster from './components/FlexBoxMaster.vue'
 import OpenDoorAdviser from './components/OpendoorAdviser.vue'
 import AirbnbCards from './components/AirbnbCards.vue'
 import ContactOpenDoor from './components/ContactOpenDoor.vue'
+import AirbnbHeadSection from './components/AirbnbHeadSection.vue'
 
 Vue.use(Router)
 
@@ -71,6 +72,11 @@ export default new Router ({
       path: '/contact-opendoor',
       name: 'ContactOpenDoor',
       component: ContactOpenDoor
+    },
+    {
+      path: '/airbnb-header-section',
+      name: 'AirbnbHeadSection',
+      component: AirbnbHeadSection
     }
   ]
 })

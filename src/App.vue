@@ -13,7 +13,8 @@
     <router-link to="/flexbox-master">Flex Box Master</router-link> |
     <router-link to="/opendoor-adviser">OpenDoor Adviser</router-link> |
     <router-link to="/airbnb-cards">Airbnb Cards</router-link> |
-    <router-link to="/contact-opendoor">Contact OpenDoor</router-link>
+    <router-link to="/contact-opendoor">Contact OpenDoor</router-link> |
+    <router-link to="/airbnb-header-section">Airbnb Header</router-link>
 
     <router-view/>
 
