@@ -322,7 +322,10 @@
     </main>
     <footer class="footer-outdoor">
       <div class="footer-outdoor__logo-box">
-        <img class="footer-outdoor__logo" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png" alt="">
+        <!-- <picture>
+          <source srcset="img/imagen-small-1x.png 1x, img/imagen-small-2x.png 2x" media="(max-width: 37.5em) ">
+        </picture> -->
+        <img class="footer-outdoor__logo" srcset="https://i.pinimg.com/originals/75/49/67/754967b206af47214b3a5112dda70a39.png 1x, https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png 2x" alt="">
       </div>
       <div class="row">
         <div class="col-1-of-2">

@@ -1,0 +1,66 @@
+.airbnb-header {
+  display: flex;
+  height: 56vh;
+  margin-top: 64px;
+  padding: 0 2rem;
+
+  &__left {
+    flex: 0 0 33.3%;
+    background-color: #F2F2F2;
+    padding: 2rem 3rem;
+    margin-right: 1.4rem;
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: 3.6rem;
+      margin-top: 2rem;
+      color: #484848;
+    }
+
+    svg {
+      height: 50px;
+      width: 100%;
+    }
+  }
+
+  &__right {
+    flex: 1;
+    background-image: url('https://a0.muscache.com/4ea/air/v2/pictures/7ea52b34-8177-45ab-b5ad-d1cb83b6f006.jpg?t=r:w2500-h1500-sfit,e:fjpg-c90');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    &__top-btns {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }
+
+    &__back-btns {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+
+      button {
+        display: flex;
+
+        strong {
+          margin-left: .8rem;
+        }
+      }
+    }
+  }
+
+  &__btn {
+    background-color: white;
+    border-radius: .4rem;
+    border: none;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.14);
+    padding: 1rem;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+}
