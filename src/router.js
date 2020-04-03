@@ -12,6 +12,7 @@ import OpenDoorAdviser from './components/OpendoorAdviser.vue'
 import AirbnbCards from './components/AirbnbCards.vue'
 import ContactOpenDoor from './components/ContactOpenDoor.vue'
 import AirbnbHeadSection from './components/AirbnbHeadSection.vue'
+import OpenDoorPictureSection from './components/OpenDoorPictureSection.vue'
 
 Vue.use(Router)
 
@@ -77,6 +78,11 @@ export default new Router ({
       path: '/airbnb-header-section',
       name: 'AirbnbHeadSection',
       component: AirbnbHeadSection
+    },
+    {
+      path: '/opendoor-pic-section',
+      name: 'OpenDoorPictureSection',
+      component: OpenDoorPictureSection
     }
   ]
 })

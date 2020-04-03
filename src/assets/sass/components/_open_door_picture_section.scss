@@ -1,0 +1,86 @@
+.open-door-picture-section {
+  font-family: 'Nunito Sans', sans-serif;
+  background: #FFBC95;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+
+  @media only screen and (max-width: $bp-small) {
+    height: 110vh;
+  }
+
+  &__container {
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    @media only screen and (max-width: $bp-medium) {
+      justify-content: flex-end;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      align-items: flex-end;
+    }
+
+  }
+
+  &__box {
+    background: white;
+    flex: 0 0 380px;
+    height: 75%;
+    padding: 3rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media only screen and (max-width: $bp-medium) {
+      height: 100%;
+      border: 1rem solid #FFBC95;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      height: 40%;
+      flex: 1;
+    }
+
+    h4 {
+      margin: 1.4rem 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #092C4D;
+      line-height: 2.4rem;
+    }
+
+    &__quote {
+
+      p {
+        font-size: 1.4rem;
+        color: #092C4D;
+      }
+    }
+  }
+
+  &__bg-img {
+    background-image: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 68%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    @media only screen and (max-width: $bp-medium) {
+      left: 0;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      width: 100%;
+    }
+  }
+}
