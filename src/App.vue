@@ -15,8 +15,8 @@
     <router-link to="/airbnb-cards">Airbnb Cards</router-link> |
     <router-link to="/contact-opendoor">Contact OpenDoor</router-link> |
     <router-link to="/airbnb-header-section">Airbnb Header</router-link> |
-    <router-link to="/opendoor-pic-section">Open Door Pic Section</router-link>
-
+    <router-link to="/opendoor-pic-section">Open Door Pic Section</router-link> |
+    <router-link to="/scroll-handler-section">Scroll Handler Section</router-link> 
 
     <router-view/>
 
@@ -30,7 +30,7 @@ export default {
   name: 'app',
   components: {
     HelloWorld
-  },
+  }
 };
 </script>
 
