@@ -1,0 +1,30 @@
+.scroll-hadler-sections {
+
+
+  &__container {
+    height: 500px;
+    background: #d3d3d3;
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    &__orange {
+      background-color: red;
+
+      animation-duration: .6s;
+      animation-name: slidein;
+    }
+
+    @keyframes slidein {
+      from {
+        transform: translateX(-20%);
+      }
+
+      to {
+        transform: translateX(0);
+      }
+    }
+  }
+
+}

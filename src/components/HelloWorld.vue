@@ -21,6 +21,15 @@
         </ul>
       </div>
     </div>
+
+    <div class="training-container">
+      <div class="training-container__head">
+        <h1>Práctica de watchers</h1>
+      </div>
+      <div class="training-container__body">
+        <input type="number" name="" value="" v-model.number="counter">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -36,7 +45,8 @@ export default {
         'John Lindquist',
         'Jen Looper',
         'Miriam Suzanne'
-      ]
+      ],
+      counter: 0
     }
   },
   methods: {
@@ -53,6 +63,11 @@ export default {
     filterByNameAction() {
       let filter = new RegExp(this.sortByName, 'i')
       return this.names.filter(el => el.match(filter))
+    }
+  },
+  watch: {
+    counter() {
+      console.log('The counter was changed! by', this.counter);
     }
   }
 };
