@@ -3,14 +3,14 @@
 
   &__container {
     height: 500px;
-    background: #d3d3d3;
+    background: #00CFC1;
 
     &:not(:last-child) {
       margin-bottom: 2rem;
     }
 
     &__orange {
-      background-color: red;
+      background-color: #00FFE7;
 
       animation-duration: .6s;
       animation-name: slidein;
@@ -18,11 +18,11 @@
 
     @keyframes slidein {
       from {
-        transform: translateX(-20%);
+        opacity: .1;
       }
 
       to {
-        transform: translateX(0);
+        opacity: 1;
       }
     }
   }
