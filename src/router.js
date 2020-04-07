@@ -14,6 +14,7 @@ import ContactOpenDoor from './components/ContactOpenDoor.vue'
 import AirbnbHeadSection from './components/AirbnbHeadSection.vue'
 import OpenDoorPictureSection from './components/OpenDoorPictureSection.vue'
 import ScrollHandlerSections from './components/ScrollHandlerSections.vue'
+import SrpOpenDoor from './components/SrpOpenDoor.vue'
 
 Vue.use(Router)
 
@@ -89,6 +90,11 @@ export default new Router ({
       path: '/scroll-handler-section',
       name: 'ScrollHandlerSections',
       component: ScrollHandlerSections
+    },
+    {
+      path: '/srp-open-door',
+      name: 'SrpOpenDoor',
+      component: SrpOpenDoor
     }
   ]
 })
