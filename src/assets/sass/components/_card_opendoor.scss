@@ -1,0 +1,49 @@
+.card-open-door {
+  height: 240px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  &__img {
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 74%;
+    display: flex;
+    align-items: flex-end;
+
+    span {
+      color: white;
+      padding: 2rem 1.4rem;
+      font-size: 1.4rem;
+      font-weight: 100;
+
+      strong {
+        font-weight: 600;
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  &__body {
+    padding: 0 1.4rem;
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    p {
+      display: flex;
+      flex-direction: column;
+
+      strong {
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #333;
+      }
+
+      span {
+        color: #525975;
+      }
+    }
+  }
+}
