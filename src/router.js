@@ -15,6 +15,7 @@ import AirbnbHeadSection from './components/AirbnbHeadSection.vue'
 import OpenDoorPictureSection from './components/OpenDoorPictureSection.vue'
 import ScrollHandlerSections from './components/ScrollHandlerSections.vue'
 import SrpOpenDoor from './components/SrpOpenDoor.vue'
+import TabsStripe from './components/TabsStripe.vue'
 
 Vue.use(Router)
 
@@ -95,6 +96,11 @@ export default new Router ({
       path: '/srp-open-door',
       name: 'SrpOpenDoor',
       component: SrpOpenDoor
+    },
+    {
+      path: '/tabs-stripe',
+      name: 'TabsStripe',
+      component: TabsStripe
     }
   ]
 })
