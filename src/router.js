@@ -16,6 +16,7 @@ import OpenDoorPictureSection from './components/OpenDoorPictureSection.vue'
 import ScrollHandlerSections from './components/ScrollHandlerSections.vue'
 import SrpOpenDoor from './components/SrpOpenDoor.vue'
 import TabsStripe from './components/TabsStripe.vue'
+import GridGalleryColumns from './components/GridGalleryColumns.vue'
 
 Vue.use(Router)
 
@@ -101,6 +102,11 @@ export default new Router ({
       path: '/tabs-stripe',
       name: 'TabsStripe',
       component: TabsStripe
+    },
+    {
+      path: '/grid-gallery-columns',
+      name: 'GridGalleryColumns',
+      component: GridGalleryColumns
     }
   ]
 })

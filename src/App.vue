@@ -18,7 +18,9 @@
     <router-link to="/opendoor-pic-section">Open Door Pic Section</router-link> |
     <router-link to="/scroll-handler-section">Scroll Handler Section</router-link> |
     <router-link to="/srp-open-door">SRP OpenDoor</router-link> |
-    <router-link to="/tabs-stripe">Tabs stripe</router-link>
+    <router-link to="/tabs-stripe">Tabs stripe</router-link> |
+    <router-link to="/grid-gallery-columns">Grid gallery columns</router-link>
+
 
     <router-view/>
 
