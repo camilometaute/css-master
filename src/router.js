@@ -17,6 +17,7 @@ import ScrollHandlerSections from './components/ScrollHandlerSections.vue'
 import SrpOpenDoor from './components/SrpOpenDoor.vue'
 import TabsStripe from './components/TabsStripe.vue'
 import GridGalleryColumns from './components/GridGalleryColumns.vue'
+import AirbnbGrid from './components/AirbnbGrid.vue'
 
 Vue.use(Router)
 
@@ -107,6 +108,11 @@ export default new Router ({
       path: '/grid-gallery-columns',
       name: 'GridGalleryColumns',
       component: GridGalleryColumns
+    },
+    {
+      path: '/airbnb-grid',
+      name: 'AirbnbGrid',
+      component: AirbnbGrid
     }
   ]
 })

@@ -1,0 +1,102 @@
+.airbnb-grid {
+  height: 100vh;
+  background: black;
+  font-family: 'Poppins', sans-serif;
+
+  &__container {
+    background: black;
+    display: flex;
+    max-width: 998px;
+    margin: 0 auto;
+    max-height: 40vh;
+  }
+
+  &__item-bg, &__item-sm {
+    margin: 0 .6rem;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  &__item-bg {
+    flex: 2;
+  }
+
+  &__item-sm {
+    flex: 1;
+
+    img {
+      height: 48.5%;
+
+      &:not(:last-child) {
+        margin-bottom: .6rem;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    max-width: 998px;
+    margin: 4rem auto;
+
+    &__left {
+      margin-left: .6rem;
+      margin-right: 2rem;
+      flex: 1;
+    }
+
+    &__right {
+      flex: 3;
+      margin-right: .6rem;
+      margin-left: 2rem;
+    }
+  }
+
+  &__label {
+    background: white;
+    font-size: 1.4rem;
+    padding: .4rem;
+    color: black;
+    border-radius: .4rem;
+    font-weight: 500;
+  }
+
+  &__title {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    color: white;
+    font-weight: 300;
+    margin: 2rem 0;
+  }
+
+  &__location {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+  }
+
+  &__rate {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  &__sm-labels {
+    display: flex;
+
+    span {
+      background-color: #262626;
+      padding: .6rem;
+      font-weight: 400;
+      color: white;
+      border-radius: 4px;
+
+      &:not(:last-child) {
+        margin-right: .8rem;
+      }
+    }
+  }
+}
