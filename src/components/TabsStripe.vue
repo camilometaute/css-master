@@ -41,12 +41,14 @@
 </template>
 
 <script>
+
 export default {
   name: 'TabsStripe',
   data() {
     return {
       activeTab: 'html',
-      showMeAlert: false
+      showMeAlert: false,
+      elementPrueba: 'Este es el título 232322'
     }
   },
   methods: {

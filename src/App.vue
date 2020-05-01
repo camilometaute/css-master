@@ -20,7 +20,8 @@
     <router-link to="/srp-open-door">SRP OpenDoor</router-link> |
     <router-link to="/tabs-stripe">Tabs stripe</router-link> |
     <router-link to="/grid-gallery-columns">Grid gallery columns</router-link> |
-    <router-link to="/airbnb-grid">Airbnb Grid</router-link>
+    <router-link to="/airbnb-grid">Airbnb Grid</router-link> |
+    <router-link to="/compass-section">Compass Section</router-link>
     <router-view/>
 
   </div>
