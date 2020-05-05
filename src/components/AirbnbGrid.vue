@@ -29,22 +29,22 @@
       </div>
       <div class="airbnb-grid__info__right">
         <div class="airbnb-grid__reserve">
-          <i></i>
+          <font-awesome-icon class="icon" icon="mobile" />
           <p>Reserva y únete a esta experiencia desde tu ordenador, teléfono o tableta.</p>
         </div>
         <ul class="airbnb-grid__specs">
           <li>
-            <i>X</i>
+            <font-awesome-icon class="icon" icon="clock" />
+            <span>Duración aqui</span>
+            <strong>1.5 horas</strong>
+          </li>
+          <li>
+            <font-awesome-icon class="icon" icon="users" />
             <span>Duración</span>
             <span>1.5 horas</span>
           </li>
           <li>
-            <i>X</i>
-            <span>Duración</span>
-            <span>1.5 horas</span>
-          </li>
-          <li>
-            <i>X</i>
+            <font-awesome-icon class="icon" icon="comments" />
             <span>Duración</span>
             <span>1.5 horas</span>
           </li>
