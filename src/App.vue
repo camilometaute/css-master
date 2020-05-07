@@ -22,6 +22,7 @@
     <router-link to="/grid-gallery-columns">Grid gallery columns</router-link> |
     <router-link to="/airbnb-grid">Airbnb Grid</router-link> |
     <router-link to="/compass-section">Compass Section</router-link>
+    <router-link to="/quindoandar-client-section">QuindoAndar client section</router-link>
     <router-view/>
 
   </div>
