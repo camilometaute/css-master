@@ -1,0 +1,92 @@
+.quintoandar-client-section {
+  background: #142158;
+  display: flex;
+  align-items: center;
+  margin-top: 12rem;
+
+  &__left {
+    flex: 1;
+    position: relative;
+    padding: 4rem 2rem 4rem 6rem;
+
+    &__bg {
+      position: absolute;
+      top: -12rem;
+      left: 0;
+      z-index: -1;
+    }
+
+    h3 {
+      font-size: 2.4rem;
+      color: white;
+      margin-bottom: 2.4rem;
+      font-weight: 100;
+
+      strong {
+        font-weight: 400;
+      }
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 3.4rem;
+      color: white;
+      font-weight: 400;
+      width: 70%;
+      margin-bottom: 2.4rem;
+    }
+
+    button {
+      background-color: #5063f0;
+      border-radius: .6rem;
+      border: 0;
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 400;
+      padding: 1.6rem 1.4rem;
+    }
+  }
+
+  &__right {
+    flex: 0;
+    margin-top: -10rem;
+    text-align: center;
+    position: relative;
+    padding: 6rem 4rem;
+
+    &__bg {
+      position: absolute;
+      top: -6rem;
+      right: 2rem;
+      z-index: -1;
+    }
+
+    img {
+      max-width: 200px;
+      border-radius: .4rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      background: white;
+      padding: 1.4rem;
+      border-radius: .8rem;
+      width: 26rem;
+      position: relative;
+      margin-top: -2rem;
+      text-align: left;
+
+      &:before {
+        border-radius: .8rem;
+        border: 2px dotted green;
+        content: "";
+        height: 100%;
+        left: 1rem;
+        position: absolute;
+        top: 1rem;
+        width: 100%;
+        z-index: 0;
+      }
+    }
+  }
+}

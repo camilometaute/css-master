@@ -19,6 +19,7 @@ import TabsStripe from './components/TabsStripe.vue'
 import GridGalleryColumns from './components/GridGalleryColumns.vue'
 import AirbnbGrid from './components/AirbnbGrid.vue'
 import CompasSection from './components/CompasSection.vue'
+import QuintoAndarClientSection from './components/QuintoAndarClientSection.vue'
 
 Vue.use(Router)
 
@@ -119,6 +120,11 @@ export default new Router ({
       path: '/compass-section',
       name: 'CompasSection',
       component: CompasSection
+    },
+    {
+      path: '/quindoandar-client-section',
+      name: 'QuintoAndarClientSection',
+      component: QuintoAndarClientSection
     }
   ]
 })
