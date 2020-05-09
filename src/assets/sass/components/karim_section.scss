@@ -1,0 +1,48 @@
+.karim-section {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+
+  &__left {
+    flex: 0 0 26%;
+
+    h2 {
+      color: #8080ff;
+      font-size: 9.4rem;
+      font-weight: 800;
+      left: 4rem;
+      position: absolute;
+      top: 20%;
+    }
+
+    button {
+      border-bottom: 3px solid white;
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      bottom: 4rem;
+      color: #333;
+      cursor: pointer;
+      font-size: 2rem;
+      font-weight: 800;
+      left: 4rem;
+      position: absolute;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        border-bottom: 3px solid #8080ff;
+        color: #8080ff;
+      }
+    }
+  }
+
+  &__right {
+    flex: 0 0 74%;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
