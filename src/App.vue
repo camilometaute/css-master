@@ -3,27 +3,33 @@
     <!-- <img class="logo-css" alt="Vue logo" src="http://alternafestival.es/wp-content/uploads/css-logo.png">
      -->
     <!-- <HelloWorld msg="Welcome to CSS Master Course"/> -->
-    <router-link to="/">Home</router-link> |
-    <router-link to="/outdoor">OutDoor Project</router-link> |
-    <router-link to="/css-grid-basis">CSS grid basis</router-link> |
-    <router-link to="/trulia-cards">Trulia cards</router-link> |
-    <router-link to="/openlisting-cards">Open Listing Cards</router-link> |
-    <router-link to="/website-css-grid">Web css grid</router-link> |
-    <router-link to="/grammarly-section">Grammarly Section</router-link> |
-    <router-link to="/flexbox-master">Flex Box Master</router-link> |
-    <router-link to="/opendoor-adviser">OpenDoor Adviser</router-link> |
-    <router-link to="/airbnb-cards">Airbnb Cards</router-link> |
-    <router-link to="/contact-opendoor">Contact OpenDoor</router-link> |
-    <router-link to="/airbnb-header-section">Airbnb Header</router-link> |
-    <router-link to="/opendoor-pic-section">Open Door Pic Section</router-link> |
-    <router-link to="/scroll-handler-section">Scroll Handler Section</router-link> |
-    <router-link to="/srp-open-door">SRP OpenDoor</router-link> |
-    <router-link to="/tabs-stripe">Tabs stripe</router-link> |
-    <router-link to="/grid-gallery-columns">Grid gallery columns</router-link> |
-    <router-link to="/airbnb-grid">Airbnb Grid</router-link> |
-    <router-link to="/compass-section">Compass Section</router-link>
-    <router-link to="/quindoandar-client-section">QuindoAndar client section</router-link> |
-    <router-link to="/karim-section">Karim Section</router-link>
+    <div class="menu">
+      <button class="menu__button" @click="isActive = !isActive">CSS PROYECTS</button>
+
+      <div class="menu__options" v-if="isActive">
+        <router-link to="/">Home</router-link>
+        <router-link to="/outdoor">OutDoor Project</router-link>
+        <router-link to="/css-grid-basis">CSS grid basis</router-link>
+        <router-link to="/trulia-cards">Trulia cards</router-link>
+        <router-link to="/openlisting-cards">Open Listing Cards</router-link>
+        <router-link to="/website-css-grid">Web css grid</router-link>
+        <router-link to="/grammarly-section">Grammarly Section</router-link>
+        <router-link to="/flexbox-master">Flex Box Master</router-link>
+        <router-link to="/opendoor-adviser">OpenDoor Adviser</router-link>
+        <router-link to="/airbnb-cards">Airbnb Cards</router-link>
+        <router-link to="/contact-opendoor">Contact OpenDoor</router-link>
+        <router-link to="/airbnb-header-section">Airbnb Header</router-link>
+        <router-link to="/opendoor-pic-section">Open Door Pic Section</router-link>
+        <router-link to="/scroll-handler-section">Scroll Handler Section</router-link>
+        <router-link to="/srp-open-door">SRP OpenDoor</router-link>
+        <router-link to="/tabs-stripe">Tabs stripe</router-link>
+        <router-link to="/grid-gallery-columns">Grid gallery columns</router-link>
+        <router-link to="/airbnb-grid">Airbnb Grid</router-link>
+        <router-link to="/compass-section">Compass Section</router-link>
+        <router-link to="/quindoandar-client-section">QuindoAndar client section</router-link>
+        <router-link to="/karim-section">Karim Section</router-link>
+      </div>
+    </div>
     <router-view/>
 
   </div>
@@ -34,6 +40,11 @@ import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'app',
+  data: function(){
+    return {
+      isActive: false
+    }
+  },
   components: {
     HelloWorld
   }

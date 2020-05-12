@@ -29,4 +29,56 @@ body {
   @include respond(big-desktop) { // width < 1800?
     font-size: 75%;
   }
+
+  .menu {
+    background: #f9f9f9;
+    position: relative;
+
+
+    &__button {
+      background: white;
+      border: 0;
+      cursor: pointer;
+      font-weight: 600;
+      padding: 2rem;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        background: #5465ff;
+        color: white;
+      }
+
+    }
+
+    &__options {
+      background-color: white;
+      border-radius: 0 0 .8rem .8rem;
+      box-shadow: 1px 0px 6px #96969659;
+      display: flex;
+      flex-wrap: wrap;
+      height: 40vh;
+      left: 0;
+      margin-bottom: 2rem;
+      overflow: hidden;
+      padding: 3rem;
+      position: absolute;
+      top: 100%;
+      width: 100%;
+      z-index: 1;
+
+      a {
+        color: #333;
+        flex: 16.6% 0 0;
+        font-family: poppins;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: .8rem;
+        text-decoration: none;
+
+        &:hover {
+          color: #5465ff;
+        }
+      }
+    }
+  }
 }
