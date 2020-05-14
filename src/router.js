@@ -21,6 +21,7 @@ import AirbnbGrid from './components/AirbnbGrid.vue'
 import CompasSection from './components/CompasSection.vue'
 import QuintoAndarClientSection from './components/QuintoAndarClientSection.vue'
 import KarimSection from './components/KarimSection.vue'
+import StripeCarousel from './components/StripeCarousel.vue'
 
 Vue.use(Router)
 
@@ -131,6 +132,11 @@ export default new Router ({
       path: '/karim-section',
       name: 'KarimSection',
       component: KarimSection
+    },
+    {
+      path: '/stripe-carousel',
+      name: 'StripeCarousel',
+      component: StripeCarousel
     }
   ]
 })
