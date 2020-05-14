@@ -28,6 +28,7 @@
         <router-link to="/compass-section">Compass Section</router-link>
         <router-link to="/quindoandar-client-section">QuindoAndar client section</router-link>
         <router-link to="/karim-section">Karim Section</router-link>
+        <router-link to="/stripe-carousel">Stripe carousel</router-link>
       </div>
     </div>
     <router-view/>
