@@ -1,0 +1,111 @@
+.cards-zillow {
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: serif;
+
+   h2 {
+     font-size: 5.4rem;
+     text-align: center;
+     font-weight: 700;
+     color: black;
+   }
+
+   h4 {
+     font-size: 2.4rem;
+     text-align: center;
+     font-weight: 400;
+     margin-bottom: 3rem;
+   }
+
+   &__grid {
+     display: flex;
+     flex-wrap: wrap;
+
+     &__bg-card {
+       flex: 0 0 65.3%;
+       margin: .8rem;
+       box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+
+       &__head {
+         object-fit: contain;
+         width: 100%;
+         opacity: .1;
+       }
+
+       &__body {
+         background: white;
+         padding: 2.4rem 1.6rem;
+
+         h5 {
+           font-size: 3.2rem;
+           font-weight: 600;
+         }
+
+         span {
+           font-size: 1.6rem;
+           display: block;
+         }
+
+         button {
+           background-color: lightgray;
+           border-radius: .6rem;
+           border: none;
+           color: white;
+           font-size: 1.4rem;
+           font-weight: 600;
+           margin-top: 3rem;
+           padding: 1.2rem 1.6rem;
+           cursor: pointer;
+
+           &:hover {
+             opacity: .6;
+           }
+         }
+       }
+     }
+
+     &__sm-card {
+       box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+       display: flex;
+       flex-direction: column;
+       flex: 0 0 32%;
+       margin: .8rem;
+
+       &__head {
+         flex: 1;
+         opacity: .1;
+       }
+
+       &__body {
+         flex: 0;
+         background: white;
+         padding: 2.4rem 1.6rem;
+         text-align: center;
+
+         h5 {
+           font-size: 2.8rem;
+         }
+
+         span {
+           font-size: 1.6rem;
+           display: block;
+           margin-bottom: 1.6rem;
+         }
+
+         button {
+           border: 1px solid lightgray;
+           font-weight: 600;
+           font-size: 1.4rem;
+           padding: 1.2rem 1.6rem;
+           border-radius: .6rem;
+           cursor: pointer;
+
+           &:hover {
+             opacity: .6;
+           }
+         }
+       }
+     }
+
+   }
+}
