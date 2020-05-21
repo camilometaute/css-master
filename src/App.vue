@@ -29,6 +29,7 @@
         <router-link to="/quindoandar-client-section">QuindoAndar client section</router-link>
         <router-link to="/karim-section">Karim Section</router-link>
         <router-link to="/stripe-carousel">Stripe carousel</router-link>
+        <router-link to="/cards-zillow">Cards Zillow</router-link>
       </div>
     </div>
     <router-view/>

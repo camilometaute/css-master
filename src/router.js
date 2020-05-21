@@ -22,6 +22,7 @@ import CompasSection from './components/CompasSection.vue'
 import QuintoAndarClientSection from './components/QuintoAndarClientSection.vue'
 import KarimSection from './components/KarimSection.vue'
 import StripeCarousel from './components/StripeCarousel.vue'
+import CardsZillow from './components/CardsZillow.vue'
 
 Vue.use(Router)
 
@@ -137,6 +138,11 @@ export default new Router ({
       path: '/stripe-carousel',
       name: 'StripeCarousel',
       component: StripeCarousel
+    },
+    {
+      path: '/cards-zillow',
+      name: 'CardsZillow',
+      component: CardsZillow
     }
   ]
 })
