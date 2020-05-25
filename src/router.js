@@ -23,6 +23,7 @@ import QuintoAndarClientSection from './components/QuintoAndarClientSection.vue'
 import KarimSection from './components/KarimSection.vue'
 import StripeCarousel from './components/StripeCarousel.vue'
 import CardsZillow from './components/CardsZillow.vue'
+import PdpQuintoAndar from './components/PdpQuintoAndar.vue'
 
 Vue.use(Router)
 
@@ -143,6 +144,11 @@ export default new Router ({
       path: '/cards-zillow',
       name: 'CardsZillow',
       component: CardsZillow
+    },
+    {
+      path: '/pdp-quintoandar',
+      name: 'PdpQuintoAndar',
+      component: PdpQuintoAndar
     }
   ]
 })

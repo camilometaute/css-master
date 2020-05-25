@@ -30,6 +30,7 @@
         <router-link to="/karim-section">Karim Section</router-link>
         <router-link to="/stripe-carousel">Stripe carousel</router-link>
         <router-link to="/cards-zillow">Cards Zillow</router-link>
+        <router-link to="/pdp-quintoandar">PDP quintoandar</router-link>
       </div>
     </div>
     <router-view/>
