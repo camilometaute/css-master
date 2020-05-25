@@ -1,5 +1,38 @@
 .content-pdp-qnta {
 
+  &__body {
+    height: 160vh;
+    display: flex;
+    max-width: 1088px;
+    margin: 0 auto;
+
+    &__left {
+      background: orange;
+      flex: 3;
+
+      ul {
+        li {
+          list-style: none;
+        }
+      }
+    }
+
+    &__right {
+      background: pink;
+      flex: 1;
+
+      &__sticky-box {
+        background: white;
+        height: 40rem;
+        border-radius: .6rem;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+        position: sticky;
+        top: 0;
+        margin-top: -4rem;
+      }
+    }
+  }
+
   &__slider {
     display: flex;
     height: 22vh;
