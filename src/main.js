@@ -18,9 +18,11 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import { faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faMobile } from '@fortawesome/free-solid-svg-icons'
+import { faImage } from '@fortawesome/free-solid-svg-icons'
+import { faMap } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUserSecret, faMobile, faCompass, faMapSigns, faHeart, faEyeSlash, faSearch, faBookmark, faComments, faStar, faMapMarkerAlt, faChevronRight, faChevronLeft, faClock, faUsers);
+library.add(faUserSecret, faMobile, faImage, faMap, faCompass, faMapSigns, faHeart, faEyeSlash, faSearch, faBookmark, faComments, faStar, faMapMarkerAlt, faChevronRight, faChevronLeft, faClock, faUsers);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

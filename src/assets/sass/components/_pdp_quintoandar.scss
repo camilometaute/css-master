@@ -1,13 +1,13 @@
 .content-pdp-qnta {
+  background: #f7f7f7;
 
   &__body {
-    height: 160vh;
     display: flex;
-    max-width: 1088px;
+    height: 160vh;
     margin: 0 auto;
+    max-width: 1088px;
 
     &__left {
-      background: orange;
       flex: 3;
 
       ul {
@@ -18,17 +18,33 @@
     }
 
     &__right {
-      background: pink;
-      flex: 1;
+      flex: 1.4;
 
       &__sticky-box {
         background: white;
-        height: 40rem;
         border-radius: .6rem;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+        height: 40rem;
+        margin-top: -4rem;
         position: sticky;
         top: 0;
-        margin-top: -4rem;
+        padding: 2.4rem;
+
+        h5 {
+          font-size: 1.4rem;
+        }
+
+        h3 {
+          font-size: 2.8rem;
+        }
+        span {
+          font-size: 1.4rem;
+          color: #5063F0;
+        }
+      }
+
+      &__main-content {
+
       }
     }
   }
@@ -77,6 +93,61 @@
         object-fit: contain;
         padding: 0 .1rem;
         opacity: .2;
+      }
+    }
+  }
+
+  &__btn-container {
+    padding: 3.2rem 0 2.4rem 0;
+
+    .btn--fill-primary, .btn--outline-primary {
+      padding: 1.2rem 1.6rem;
+      border-radius: .6rem;
+      outline: none;
+      font-size: 1.4rem;
+      cursor: pointer;
+
+      &:hover {
+        opacity: .8;
+      }
+
+      svg {
+        margin-right: .8rem;
+        font-size: 1.6rem;
+      }
+    }
+
+    .btn--fill-primary {
+      background-color: #5063F0;
+      border: none;
+      color: white;
+      margin-right: .8rem;
+    }
+
+    .btn--outline-primary {
+      background-color: white;
+      border: 1px solid #5063F0;
+      color: #5063F0;
+    }
+  }
+
+  &__main-content {
+
+    h4 {
+      font-size: 2.2rem;
+      color: #333;
+      padding-bottom: 1.4rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    span {
+      font-size: 1.2rem;
+
+      svg {
+        margin-right: .8rem;
       }
     }
   }
