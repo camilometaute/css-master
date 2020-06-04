@@ -31,7 +31,30 @@
           <div class="content-pdp-qnta__body__right__sticky-box">
             <h5>Valor de inmueble</h5>
             <h3>$ 850.000</h3>
-            <span>Financiamiento a partir de $.5.163</span>
+            <span>Financiamiento a partir de $.5.163 <i>$</i> </span>
+            <ul class="list-container">
+              <li class="list-container__item">
+                <span>Condominio</span>
+                <span>$ 900</span>
+              </li>
+              <li class="list-container__item">
+                <span>Condominio</span>
+                <span>$ 900</span>
+              </li>
+            </ul>
+
+            <div class="whatsapp-contact">
+              <font-awesome-icon icon="image"/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <button class="qntr-btn-fw qntr-btn-fw__fill">Falar com corretor</button>
+            <button class="qntr-btn-fw qntr-btn-fw__outline">Fazer proposta</button>
+
+            <div class="half-btn-container">
+              <button class="qntr-btn-half">Falar com corretor</button>
+              <button class="qntr-btn-half">Fazer proposta</button>
+            </div>
           </div>
         </div>
       </section>
