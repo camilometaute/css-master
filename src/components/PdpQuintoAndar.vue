@@ -26,6 +26,71 @@
               <font-awesome-icon icon="clock"/> Publicado há 7 horas
             </span>
           </div>
+
+          <div class="content-pdp-qnta__features-main">
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>2 quartos</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>92 m2</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>próximo metro</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>sem vaga</p>
+            </div>
+          </div>
+
+          <div class="content-pdp-qnta__features">
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>3 quartos</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>92 m2</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>próximo metro</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>sem vaga</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>sem vaga</p>
+            </div>
+            <div class="feat-item">
+              <font-awesome-icon icon="clock"/>
+              <p>sem vaga</p>
+            </div>
+          </div>
+
+          <div class="content-pdp-qnta__available">
+              <div class="xm-label">
+                <font-awesome-icon icon="clock"/>
+                <span>Inmovel disponível para aluguel</span>
+              </div>
+              <span>Valor do aluguel: R$ 3.030</span>
+              <a href="#">Ver anuncio <font-awesome-icon icon="clock"/></a>
+          </div>
+
+          <div class="content-pdp-qnta__covid">
+            <div class="content-pdp-qnta__covid__left">
+              <p>Como prevenção à Covid-19, mudamos temporariamente o agendamento de visitas. Verifique com o corretor as condições de visita deste imóvel e conheça nossas recomendações.</p>
+              <button>Ver recomendaciones</button>
+            </div>
+            <div class="content-pdp-qnta__covid__right">
+              <img src="https://www.quintoandar.com.br/mobile_in_hand.9803e1400c0e4f33fd6fe346cac5d3ac.svg" alt="">
+            </div>
+          </div>
         </div>
         <div class="content-pdp-qnta__body__right">
           <div class="content-pdp-qnta__body__right__sticky-box">
