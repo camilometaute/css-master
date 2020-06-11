@@ -24,6 +24,7 @@ import KarimSection from './components/KarimSection.vue'
 import StripeCarousel from './components/StripeCarousel.vue'
 import CardsZillow from './components/CardsZillow.vue'
 import PdpQuintoAndar from './components/PdpQuintoAndar.vue'
+import ListPaymentHistory from './components/ListPaymentHistory.vue'
 
 Vue.use(Router)
 
@@ -149,6 +150,11 @@ export default new Router ({
       path: '/pdp-quintoandar',
       name: 'PdpQuintoAndar',
       component: PdpQuintoAndar
+    },
+    {
+      path: '/list-payment-history',
+      name: 'ListPaymentHistory',
+      component: ListPaymentHistory
     }
   ]
 })
