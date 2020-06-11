@@ -31,6 +31,7 @@
         <router-link to="/stripe-carousel">Stripe carousel</router-link>
         <router-link to="/cards-zillow">Cards Zillow</router-link>
         <router-link to="/pdp-quintoandar">PDP quintoandar</router-link>
+        <router-link to="/list-payment-history">List payment history</router-link>
       </div>
     </div>
     <router-view/>
