@@ -25,6 +25,7 @@ import StripeCarousel from './components/StripeCarousel.vue'
 import CardsZillow from './components/CardsZillow.vue'
 import PdpQuintoAndar from './components/PdpQuintoAndar.vue'
 import ListPaymentHistory from './components/ListPaymentHistory.vue'
+import CasperGridSection from './components/CasperGridSection.vue'
 
 Vue.use(Router)
 
@@ -155,6 +156,11 @@ export default new Router ({
       path: '/list-payment-history',
       name: 'ListPaymentHistory',
       component: ListPaymentHistory
+    },
+    {
+      path: '/casper-grid-section',
+      name: 'CasperGridSection',
+      component: CasperGridSection
     }
   ]
 })
