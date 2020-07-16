@@ -26,6 +26,7 @@ import CardsZillow from './components/CardsZillow.vue'
 import PdpQuintoAndar from './components/PdpQuintoAndar.vue'
 import ListPaymentHistory from './components/ListPaymentHistory.vue'
 import CasperGridSection from './components/CasperGridSection.vue'
+import CardSignUp from './components/CardSignUp.vue'
 
 Vue.use(Router)
 
@@ -161,6 +162,11 @@ export default new Router ({
       path: '/casper-grid-section',
       name: 'CasperGridSection',
       component: CasperGridSection
+    },
+    {
+      path: '/card-signup',
+      name: 'CardSignUp',
+      component: CardSignUp
     }
   ]
 })

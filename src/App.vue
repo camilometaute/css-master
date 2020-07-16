@@ -33,6 +33,7 @@
         <router-link to="/pdp-quintoandar">PDP quintoandar</router-link>
         <router-link to="/list-payment-history">List payment history</router-link>
         <router-link to="/casper-grid-section">Casper grid section</router-link>
+        <router-link to="/card-signup">Card Sign Up</router-link>
       </div>
     </div>
     <router-view/>
