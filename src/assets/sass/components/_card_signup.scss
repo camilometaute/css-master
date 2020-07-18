@@ -12,6 +12,7 @@ $bp-large: 68.75em; //1100px / 16
     margin: 0 auto;
     padding: 6rem 0;
     display: flex;
+    justify-content: center;
   }
 
   &--item {
@@ -25,7 +26,7 @@ $bp-large: 68.75em; //1100px / 16
     width: 30rem;
 
     img {
-      width: 40%;
+      width: 28%;
       margin: 3rem auto 0 auto;
     }
 
@@ -58,12 +59,17 @@ $bp-large: 68.75em; //1100px / 16
     }
 
     button {
-      background-color: lightgreen;
+      background-color: #d9d9d9;
+      border: none;
+      cursor: pointer;
       font-size: 1.6rem;
       font-weight: bold;
       height: 14%;
       width: 100%;
-      border: none;
+
+      &:hover {
+        background-color: #d4d4d4;
+      }
     }
   }
 }

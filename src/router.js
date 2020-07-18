@@ -27,6 +27,7 @@ import PdpQuintoAndar from './components/PdpQuintoAndar.vue'
 import ListPaymentHistory from './components/ListPaymentHistory.vue'
 import CasperGridSection from './components/CasperGridSection.vue'
 import CardSignUp from './components/CardSignUp.vue'
+import DonutsCalculator from './components/DonutsCalculator.vue'
 
 Vue.use(Router)
 
@@ -167,6 +168,11 @@ export default new Router ({
       path: '/card-signup',
       name: 'CardSignUp',
       component: CardSignUp
+    },
+    {
+      path: '/donuts-calculator',
+      name: 'DonutsCalculator',
+      component: DonutsCalculator
     }
   ]
 })
