@@ -34,6 +34,7 @@
         <router-link to="/list-payment-history">List payment history</router-link>
         <router-link to="/casper-grid-section">Casper grid section</router-link>
         <router-link to="/card-signup">Card Sign Up</router-link>
+        <router-link to="/donuts-calculator">Donuts calculator</router-link>
       </div>
     </div>
     <router-view/>
