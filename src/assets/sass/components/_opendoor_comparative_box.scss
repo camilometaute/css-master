@@ -1,0 +1,88 @@
+.opendoor-comparative-box {
+  padding: 4.8rem;
+  text-align: center;
+  background: #F7F9FC;
+  font-family: 'Poppins', sans-serif;
+
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  .container-comp-box {
+    margin-top: 7.2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    &__item {
+      background: white;
+      border-radius: .5rem;
+      box-shadow: 0 0 24px rgba(0,0,0,.125);
+      overflow: hidden;
+      padding: 4.8rem;
+      position: relative;
+      text-align: left;
+      width: 40%;
+
+      &:not(:last-child) {
+        margin-right: 4.8rem;
+      }
+
+      &::before {
+        background: #d8d8d8;
+        content: '';
+        height: 1rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 2.8rem;
+        font-weight: 600;
+      }
+
+      &__subtitle {
+        padding-bottom: 2.4rem;
+        border-bottom: 2px solid #d9d9d9;
+      }
+
+      ul {
+        list-style: none;
+        margin-top: 3.2rem;
+
+        li {
+          display: flex;
+          margin-top: 4.8rem;
+
+          i {
+            margin-right: 1.4rem;
+            font-size: 1.6rem;
+          }
+
+          div {
+
+            h5 {
+              color: #333;
+              font-size: 1.8rem;
+              font-weight: 600;
+              margin-bottom: 1.8rem;
+            }
+
+            p {
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

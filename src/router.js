@@ -28,6 +28,7 @@ import ListPaymentHistory from './components/ListPaymentHistory.vue'
 import CasperGridSection from './components/CasperGridSection.vue'
 import CardSignUp from './components/CardSignUp.vue'
 import DonutsCalculator from './components/DonutsCalculator.vue'
+import OpenDoorComparativeBox from './components/OpenDoorComparativeBox.vue'
 
 Vue.use(Router)
 
@@ -173,6 +174,11 @@ export default new Router ({
       path: '/donuts-calculator',
       name: 'DonutsCalculator',
       component: DonutsCalculator
+    },
+    {
+      path: '/opendoor-comparative-box',
+      name: 'OpenDoorComparativeBox',
+      component: OpenDoorComparativeBox
     }
   ]
 })
