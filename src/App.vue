@@ -35,6 +35,7 @@
         <router-link to="/casper-grid-section">Casper grid section</router-link>
         <router-link to="/card-signup">Card Sign Up</router-link>
         <router-link to="/donuts-calculator">Donuts calculator</router-link>
+        <router-link to="/opendoor-comparative-box">Opendoor Comparative Door</router-link>
       </div>
     </div>
     <router-view/>
