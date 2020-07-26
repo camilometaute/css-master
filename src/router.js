@@ -29,6 +29,7 @@ import CasperGridSection from './components/CasperGridSection.vue'
 import CardSignUp from './components/CardSignUp.vue'
 import DonutsCalculator from './components/DonutsCalculator.vue'
 import OpenDoorComparativeBox from './components/OpenDoorComparativeBox.vue'
+import DashboardGrid from './components/DashboardGrid.vue'
 
 Vue.use(Router)
 
@@ -179,6 +180,11 @@ export default new Router ({
       path: '/opendoor-comparative-box',
       name: 'OpenDoorComparativeBox',
       component: OpenDoorComparativeBox
+    },
+    {
+      path: '/dashboard-grid',
+      name: 'DashboardGrid',
+      component: DashboardGrid
     }
   ]
 })
