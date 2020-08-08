@@ -30,6 +30,7 @@ import CardSignUp from './components/CardSignUp.vue'
 import DonutsCalculator from './components/DonutsCalculator.vue'
 import OpenDoorComparativeBox from './components/OpenDoorComparativeBox.vue'
 import DashboardGrid from './components/DashboardGrid.vue'
+import StripeGrid from './components/StripeGrid.vue'
 
 Vue.use(Router)
 
@@ -185,6 +186,11 @@ export default new Router ({
       path: '/dashboard-grid',
       name: 'DashboardGrid',
       component: DashboardGrid
+    },
+    {
+      path: '/stripe-grid',
+      name: 'StripeGrid',
+      component: StripeGrid
     }
   ]
 })
