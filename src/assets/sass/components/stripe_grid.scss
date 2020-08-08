@@ -33,11 +33,13 @@ $bp-xs: 31.25em; //500px / 16
     font-size: 2rem;
     color: rgb(99, 91, 255);
     font-weight: 600;
+    padding-left: 2.4rem;
   }
 
   h1 {
     font-size: 3.4rem;
     font-weight: 600;
+    padding-left: 2.4rem;
     color: $color-grey-dark-3;
     width: 88%;
   }
@@ -63,6 +65,28 @@ $bp-xs: 31.25em; //500px / 16
   }
 
   &__column {
+    position: relative;
+    padding-left: 2.4rem;
+
+    &::before {
+      border-left: 1px dashed #ededed;
+      content: '';
+      height: 100vh;
+      left: -.4rem;
+      position: absolute;
+      top: -150%;
+      z-index: -2;
+    }
+
+    &::after {
+      border-left: 1px solid rgb(99, 91, 255);
+      content: '';
+      height: 1.6rem;
+      left: -.4rem;
+      position: absolute;
+      top: 6.8rem;
+      z-index: -1;
+    }
 
     &-img {
       img {
