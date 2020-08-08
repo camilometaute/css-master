@@ -4,11 +4,26 @@ $bp-medium: 56.25em; //900px / 16
 $bp-small: 37.5em; //600px / 16
 $bp-xs: 31.25em; //500px / 16
 
+  .top-container {
+    background: rgb(99, 91, 255);
+    width: 100%;
+    height: 40rem;
+    transform: skewY(-4deg);
+  }
+
+  .bottom-container {
+    background: rgb(99, 91, 255);
+    width: 100%;
+    height: 40rem;
+    transform: skewY(-4deg);
+  }
+
 .stripe-grid {
   max-width: 900px;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   margin-top: 9.6rem;
+  padding: 10.8rem 0;
 
   @media only screen and (max-width: $bp-largest) {
     padding: 2.4rem;
