@@ -31,6 +31,7 @@ import DonutsCalculator from './components/DonutsCalculator.vue'
 import OpenDoorComparativeBox from './components/OpenDoorComparativeBox.vue'
 import DashboardGrid from './components/DashboardGrid.vue'
 import StripeGrid from './components/StripeGrid.vue'
+import StripeCustomerCard from './components/StripeCustomerCard.vue'
 
 Vue.use(Router)
 
@@ -191,6 +192,11 @@ export default new Router ({
       path: '/stripe-grid',
       name: 'StripeGrid',
       component: StripeGrid
+    },
+    {
+      path: '/stripe-customer-card',
+      name: 'StripeCustomerCard',
+      component: StripeCustomerCard
     }
   ]
 })
