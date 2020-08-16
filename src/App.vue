@@ -38,6 +38,7 @@
         <router-link to="/opendoor-comparative-box">Opendoor Comparative Door</router-link>
         <router-link to="/dashboard-grid">Dashboard grid</router-link>
         <router-link to="/stripe-grid">Stripe grid section</router-link>
+        <router-link to="/stripe-customer-card">Stripe Customer card</router-link>
       </div>
     </div>
     <router-view/>
