@@ -32,6 +32,7 @@ import OpenDoorComparativeBox from './components/OpenDoorComparativeBox.vue'
 import DashboardGrid from './components/DashboardGrid.vue'
 import StripeGrid from './components/StripeGrid.vue'
 import StripeCustomerCard from './components/StripeCustomerCard.vue'
+import AdminLayout from './components/AdminLayout.vue'
 
 Vue.use(Router)
 
@@ -197,6 +198,11 @@ export default new Router ({
       path: '/stripe-customer-card',
       name: 'StripeCustomerCard',
       component: StripeCustomerCard
+    },
+    {
+      path: '/admin-layout',
+      name: 'AdminLayout',
+      component: AdminLayout
     }
   ]
 })
