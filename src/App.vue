@@ -40,6 +40,7 @@
         <router-link to="/stripe-grid">Stripe grid section</router-link>
         <router-link to="/stripe-customer-card">Stripe Customer card</router-link>
         <router-link to="/admin-layout">Admin layout</router-link>
+        <router-link to="/card-ref-ui">Card Refactoring UI</router-link>
       </div>
     </div>
     <router-view/>

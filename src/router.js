@@ -33,6 +33,7 @@ import DashboardGrid from './components/DashboardGrid.vue'
 import StripeGrid from './components/StripeGrid.vue'
 import StripeCustomerCard from './components/StripeCustomerCard.vue'
 import AdminLayout from './components/AdminLayout.vue'
+import CardRefUi from './components/CardRefUi.vue'
 
 Vue.use(Router)
 
@@ -203,6 +204,11 @@ export default new Router ({
       path: '/admin-layout',
       name: 'AdminLayout',
       component: AdminLayout
+    },
+    {
+      path: '/card-ref-ui',
+      name: 'CardRefUi',
+      component: CardRefUi
     }
   ]
 })
