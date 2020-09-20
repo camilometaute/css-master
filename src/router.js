@@ -35,6 +35,7 @@ import StripeCustomerCard from './components/StripeCustomerCard.vue'
 import AdminLayout from './components/AdminLayout.vue'
 import CardRefUi from './components/CardRefUi.vue'
 import AirbnbGalleryGrid from './components/AirbnbGalleryGrid.vue'
+import AdminGridTransactions from './components/AdminGridTransactions.vue'
 
 Vue.use(Router)
 
@@ -215,6 +216,11 @@ export default new Router ({
       path: '/airbnb-gallery-grid',
       name: 'AirbnbGalleryGrid',
       component: AirbnbGalleryGrid
+    },
+    {
+      path: '/admin-grid-transactions',
+      name: 'AdminGridTransactions',
+      component: AdminGridTransactions
     }
   ]
 })
