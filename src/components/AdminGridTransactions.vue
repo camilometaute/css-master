@@ -60,6 +60,55 @@
     </div>
     <div class="admin-grid-transactions__grid-30">
       <h4>Recent activities</h4>
+      <ul class="timeline">
+        <li class="timeline__list">
+          <div class="timeline__list__left-side">
+            <span class="timeline__list__left-side__dot timeline__list__left-side__dot--green"></span>
+          </div>
+          <div class="timeline__list__info">
+            <p>Updated server logs</p>
+          </div>
+          <div class="timeline__list__time">
+            <span>Just now</span>
+          </div>
+        </li>
+        <li class="timeline__list">
+          <div class="timeline__list__left-side">
+            <span class="timeline__list__left-side__dot timeline__list__left-side__dot--red"></span>
+          </div>
+          <div class="timeline__list__info">
+            <p>Send mail to HR and Admin</p>
+          </div>
+          <div class="timeline__list__time">
+            <span>2 min ago</span>
+          </div>
+        </li>
+        <li class="timeline__list">
+          <div class="timeline__list__left-side">
+            <span class="timeline__list__left-side__dot timeline__list__left-side__dot--orange"></span>
+          </div>
+          <div class="timeline__list__info">
+            <p>Backup files EOD</p>
+          </div>
+          <div class="timeline__list__time">
+            <span>14:00</span>
+          </div>
+        </li>
+        <li class="timeline__list">
+          <div class="timeline__list__left-side">
+            <span class="timeline__list__left-side__dot timeline__list__left-side__dot--blue"></span>
+          </div>
+          <div class="timeline__list__info">
+            <p>Collect documents from Camilo</p>
+          </div>
+          <div class="timeline__list__time">
+            <span>15:00</span>
+          </div>
+        </li>
+      </ul>
+      <div class="content-action">
+        <a href="#">View all <font-awesome-icon icon="chevron-down" class="" /></i></a>
+      </div>
     </div>
     <div class="admin-grid-transactions__grid-30">
       <h4>Account info</h4>
