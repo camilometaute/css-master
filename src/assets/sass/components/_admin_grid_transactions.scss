@@ -32,6 +32,7 @@ $bp-xs: 31.25em; //500px / 16
     .row-items {
       display: flex;
       flex-direction: column;
+      margin-top: 7rem;
 
       .column-item {
         align-items: center;
@@ -107,7 +108,81 @@ $bp-xs: 31.25em; //500px / 16
       margin-bottom: 2.4rem;
     }
 
+    .head-account-info {
+      text-align: center;
+      padding: 0 0 2.4rem 0;
+      border-bottom: 1px dashed #5f5f5f;
+
+      h4 {
+        font-size: 2.2rem;
+        margin: 0;
+        font-weight: 100;
+      }
+
+      h5 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #009688;
+      }
+    }
+
+    .body-account-info {
+      padding: 2.4rem 0;
+      border-bottom: 1px dashed #5f5f5f;
+
+      li {
+        list-style: none;
+        padding: .8rem 0;
+        font-size: 1.4rem;
+        font-weight: 600;
+        display: flex;
+
+        .title-list {
+          flex: 1;
+
+          &--secundary {
+            color: #9a9a9a;
+            font-weight: 100;
+            padding-left: .8rem;
+          }
+        }
+
+        .result-list {
+          flex: 0;
+
+          &--secundary {
+            color: #9a9a9a;
+            font-weight: 100;
+            padding-left: .8rem;
+          }
+        }
+      }
+    }
+
+    .actions-account-info {
+      padding: 2.4rem 0;
+      display: flex;
+      justify-content: center;
+
+      &__summary, &__transfer {
+        border-radius: .5rem;
+        border: none;
+        color: white;
+        margin: 0 .8rem;
+        padding: 1.2rem 1.6rem;
+      }
+
+      &__summary {
+        background: #888;
+      }
+
+      &__transfer {
+        background: #e7515a;
+      }
+    }
+
     .timeline {
+      margin-top: 7rem;
 
       &__list {
         align-items: flex-start;

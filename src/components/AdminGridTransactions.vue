@@ -112,6 +112,36 @@
     </div>
     <div class="admin-grid-transactions__grid-30">
       <h4>Account info</h4>
+      <div class="head-account-info">
+        <h4>Balance</h4>
+        <h5>$470</h5>
+      </div>
+      <ul class="body-account-info">
+        <li>
+          <span class="title-list">Monthly plan</span>
+          <span class="result-list">$199.0</span>
+        </li>
+        <li>
+          <span class="title-list">Taxes</span>
+          <span class="result-list">$17.82</span>
+        </li>
+        <li>
+          <span class="title-list">Extras this month</span>
+          <span class="result-list">$-0.68</span>
+        </li>
+        <li>
+          <span class="title-list title-list--secundary">Netflix yearly subscription</span>
+          <span class="result-list result-list--secundary">$0</span>
+        </li>
+        <li>
+          <span class="title-list title-list--secundary">Others</span>
+          <span class="result-list result-list--secundary">$-0.68</span>
+        </li>
+      </ul>
+      <div class="actions-account-info">
+        <button class="actions-account-info__summary">Summary</button>
+        <button class="actions-account-info__transfer">Transfer</button>
+      </div>
     </div>
   </div>
 
