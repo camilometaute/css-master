@@ -36,6 +36,7 @@ import AdminLayout from './components/AdminLayout.vue'
 import CardRefUi from './components/CardRefUi.vue'
 import AirbnbGalleryGrid from './components/AirbnbGalleryGrid.vue'
 import AdminGridTransactions from './components/AdminGridTransactions.vue'
+import GuglieriSticky from './components/GuglieriSticky.vue'
 
 Vue.use(Router)
 
@@ -221,6 +222,11 @@ export default new Router ({
       path: '/admin-grid-transactions',
       name: 'AdminGridTransactions',
       component: AdminGridTransactions
+    },
+    {
+      path: '/guglieri-sticky',
+      name: 'GuglieriSticky',
+      component: GuglieriSticky
     }
   ]
 })

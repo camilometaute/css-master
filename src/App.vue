@@ -43,6 +43,7 @@
         <router-link to="/card-ref-ui">Card Refactoring UI</router-link>
         <router-link to="/airbnb-gallery-grid">Airbnb Gallery grid</router-link>
         <router-link to="/admin-grid-transactions">Admin grid transactions</router-link>
+        <router-link to="/guglieri-sticky">Guglieri sticky</router-link>
       </div>
     </div>
     <router-view/>
