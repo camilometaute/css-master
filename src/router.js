@@ -37,6 +37,7 @@ import CardRefUi from './components/CardRefUi.vue'
 import AirbnbGalleryGrid from './components/AirbnbGalleryGrid.vue'
 import AdminGridTransactions from './components/AdminGridTransactions.vue'
 import GuglieriSticky from './components/GuglieriSticky.vue'
+import MailInbox from './components/MailInbox.vue'
 
 Vue.use(Router)
 
@@ -227,6 +228,11 @@ export default new Router ({
       path: '/guglieri-sticky',
       name: 'GuglieriSticky',
       component: GuglieriSticky
+    },
+    {
+      path: '/mail-inbox',
+      name: 'MailInbox',
+      component: MailInbox
     }
   ]
 })
