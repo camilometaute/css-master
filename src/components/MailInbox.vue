@@ -1,23 +1,25 @@
 <template>
   <section class="mail-inbox">
     <div class="mail-inbox__menu">
-      <button>+</button>
+      <button class="write-email">+</button>
       <ul>
         <li>
-          <font-awesome-icon icon="clock" class="overview__icon-star" />
-          <span>Option</span>
+          <font-awesome-icon icon="image" />
+          <span>Images</span>
+          <div class="float-number"> 4 </div>
         </li>
         <li>
-          <font-awesome-icon icon="clock" class="overview__icon-star" />
-          <span>Option</span>
+          <font-awesome-icon icon="star" />
+          <span>Important</span>
         </li>
         <li>
-          <font-awesome-icon icon="clock" class="overview__icon-star" />
-          <span>Option</span>
+          <font-awesome-icon icon="comments" />
+          <span>Comments</span>
+          <div class="float-number"> 2 </div>
         </li>
         <li>
-          <font-awesome-icon icon="clock" class="overview__icon-star" />
-          <span>Option</span>
+          <font-awesome-icon icon="clock" />
+          <span>Time</span>
         </li>
       </ul>
     </div>
