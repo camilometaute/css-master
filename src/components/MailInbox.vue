@@ -24,6 +24,19 @@
       </ul>
     </div>
     <div class="mail-inbox__list">
+      <div class="head-tools">
+        <div class="check-all-container">
+          <label>
+            <input type="checkbox">Check all
+          </label>
+        </div>
+        <div class="list-actions">
+          <button><font-awesome-icon icon="star" /></button>
+          <button><font-awesome-icon icon="compass" /></button>
+          <button><font-awesome-icon icon="bookmark" /></button>
+          <button><font-awesome-icon icon="clock" /></button>
+        </div>
+      </div>
       <ul>
         <li>
           <input type="checkbox" name="" value="">
