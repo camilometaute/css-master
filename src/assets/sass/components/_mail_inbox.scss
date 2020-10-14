@@ -112,5 +112,24 @@
         }
       }
     }
+
+    .row-inbox {
+      background: #0e1726;
+
+      .column-inbox {
+        padding: 1.6rem;
+        display: flex;
+
+        &__name {
+          font-size: 1.6rem;
+          font-weight: 800;
+        }
+
+        img {
+          border-radius: 50%;
+          width: 40px;
+        }
+      }
+    }
   }
 }

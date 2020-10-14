@@ -37,11 +37,11 @@
           <button><font-awesome-icon icon="clock" /></button>
         </div>
       </div>
-      <ul>
-        <li>
+      <ul class="row-inbox">
+        <li class="column-inbox">
           <input type="checkbox" name="" value="">
           <img src="https://designreset.com/cork/ltr/demo3/assets/img/profile-16.jpeg" alt="">
-          <span>Lauren</span>
+          <span class="column-inbox__name">Lauren</span>
           <div class="">
             <div class="">
               <font-awesome-icon icon="clock" class="overview__icon-star" />
