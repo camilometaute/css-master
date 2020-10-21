@@ -26,7 +26,7 @@
         <router-link to="/grid-gallery-columns">Grid gallery columns</router-link>
         <router-link to="/airbnb-grid">Airbnb Grid</router-link>
         <router-link to="/compass-section">Compass Section</router-link>
-        <router-link to="/quindoandar-client-section">QuindoAndar client section</router-link>
+        <router-link to="/quindoandar-client-section">Qto An client section</router-link>
         <router-link to="/karim-section">Karim Section</router-link>
         <router-link to="/stripe-carousel">Stripe carousel</router-link>
         <router-link to="/cards-zillow">Cards Zillow</router-link>
@@ -35,7 +35,7 @@
         <router-link to="/casper-grid-section">Casper grid section</router-link>
         <router-link to="/card-signup">Card Sign Up</router-link>
         <router-link to="/donuts-calculator">Donuts calculator</router-link>
-        <router-link to="/opendoor-comparative-box">Opendoor Comparative Door</router-link>
+        <router-link to="/opendoor-comparative-box">Opendoor Comparative</router-link>
         <router-link to="/dashboard-grid">Dashboard grid</router-link>
         <router-link to="/stripe-grid">Stripe grid section</router-link>
         <router-link to="/stripe-customer-card">Stripe Customer card</router-link>

@@ -30,9 +30,14 @@ body {
     font-size: 75%;
   }
 
+  #app {
+    display: flex;
+  }
+
   .menu {
     background: #f9f9f9;
-    position: relative;
+    flex: 0 0 208px;
+
 
 
     &__button {
@@ -55,23 +60,22 @@ body {
       border-radius: 0 0 .8rem .8rem;
       box-shadow: 1px 0px 6px #96969659;
       display: flex;
-      flex-wrap: wrap;
-      height: 40vh;
+      flex-direction: column;
+      height: 100vh;
       left: 0;
       margin-bottom: 2rem;
-      overflow: hidden;
-      padding: 3rem;
+      overflow-y: scroll;
+      padding: 3rem 1rem;
       top: 100%;
       width: 100%;
       z-index: 1;
 
       a {
         color: #333;
-        flex: 16.6% 0 0;
         font-family: poppins;
         font-size: 1.4rem;
         font-weight: 400;
-        padding: .8rem;
+        padding: 1.4rem .8rem;
         text-decoration: none;
 
         &:hover {
