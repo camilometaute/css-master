@@ -38,6 +38,7 @@ import AirbnbGalleryGrid from './components/AirbnbGalleryGrid.vue'
 import AdminGridTransactions from './components/AdminGridTransactions.vue'
 import GuglieriSticky from './components/GuglieriSticky.vue'
 import MailInbox from './components/MailInbox.vue'
+import AdminPanels from './components/AdminPanels.vue'
 
 Vue.use(Router)
 
@@ -233,6 +234,11 @@ export default new Router ({
       path: '/mail-inbox',
       name: 'MailInbox',
       component: MailInbox
+    },
+    {
+      path: '/admin-panels',
+      name: 'AdminPanels',
+      component: AdminPanels
     }
   ]
 })

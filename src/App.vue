@@ -4,7 +4,7 @@
      -->
     <!-- <HelloWorld msg="Welcome to CSS Master Course"/> -->
     <div class="menu">
-      <button class="menu__button" @click="isActive = !isActive">CSS PROYECTS</button>
+      <button class="menu__button" @click="isActive = !isActive">MENU</button>
 
       <div class="menu__options" v-if="isActive">
         <router-link to="/">Home</router-link>
@@ -45,6 +45,7 @@
         <router-link to="/admin-grid-transactions">Admin grid transactions</router-link>
         <router-link to="/guglieri-sticky">Guglieri sticky</router-link>
         <router-link to="/mail-inbox">Mail Inbox</router-link>
+        <router-link to="/admin-panels">Admin Panels</router-link>
       </div>
     </div>
     <router-view/>
