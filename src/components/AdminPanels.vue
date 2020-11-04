@@ -18,7 +18,20 @@
       </div>
     </div>
     <div class="admin-panels__columns panel-2">
-      <h3>Panel Title</h3>
+      <div class="panel-2__head">
+        <h3>Pending Tasks</h3>
+        <span>Nov, 2020</span>
+      </div>
+      <hr>
+      <div class="panel-2__body">
+        <div class="panel-2__body__container">
+          <div class="circle">
+            <span>2</span>
+          </div>
+          <p class="done">12 Done</p>
+          <p class="priority"><span>3 task</span> with a hight priority</p>
+        </div>
+      </div>
     </div>
     <div class="admin-panels__columns panel-3">
       <h3>Panel Title</h3>
