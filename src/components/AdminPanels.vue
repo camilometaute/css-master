@@ -34,7 +34,24 @@
       </div>
     </div>
     <div class="admin-panels__columns panel-3">
-      <h3>Panel Title</h3>
+      <div class="head-panel-3">
+        <img class="panel-3__img" src="https://designreset.com/cork/ltr/demo3/assets/img/g-8.png" alt="">
+        <div class="panel-3__head-title">
+          <h3>Dev Summit - New York</h3>
+          <p>Bronx, NY</p>
+        </div>
+      </div>
+      <hr>
+      <div class="panel-3__body">
+        <h4>4 Members Going</h4>
+        <div class="panel-3__body__grid-img">
+          <img src="https://designreset.com/cork/ltr/demo3/assets/img/profile-19.jpeg" alt="">
+          <img src="https://designreset.com/cork/ltr/demo3/assets/img/profile-6.jpeg" alt="">
+          <img src="https://designreset.com/cork/ltr/demo3/assets/img/profile-8.jpeg" alt="">
+          <img src="https://designreset.com/cork/ltr/demo3/assets/img/profile-3.jpeg" alt="">
+        </div>
+        <button type="button" name="button">View details</button>
+      </div>
     </div>
   </section>
 </template>
