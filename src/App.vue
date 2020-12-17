@@ -46,6 +46,7 @@
         <router-link to="/guglieri-sticky">Guglieri sticky</router-link>
         <router-link to="/mail-inbox">Mail Inbox</router-link>
         <router-link to="/admin-panels">Admin Panels</router-link>
+        <router-link to="/sealco-grid">Dinamic Grid Sealco</router-link>
       </div>
     </div>
     <router-view/>

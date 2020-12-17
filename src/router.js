@@ -39,6 +39,7 @@ import AdminGridTransactions from './components/AdminGridTransactions.vue'
 import GuglieriSticky from './components/GuglieriSticky.vue'
 import MailInbox from './components/MailInbox.vue'
 import AdminPanels from './components/AdminPanels.vue'
+import SealcoGrid from './components/SealcoGrid.vue'
 
 Vue.use(Router)
 
@@ -239,6 +240,11 @@ export default new Router ({
       path: '/admin-panels',
       name: 'AdminPanels',
       component: AdminPanels
+    },
+    {
+      path: '/sealco-grid',
+      name: 'SealcoGrid',
+      component: SealcoGrid
     }
   ]
 })
