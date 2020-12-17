@@ -1,0 +1,76 @@
+$bp-largest: 75em; //1200px / 16
+$bp-large: 68.75em; //1100px / 16
+$bp-medium: 56.25em; //900px / 16
+$bp-small: 37.5em; //600px / 16
+$bp-xs: 31.25em; //500px / 16
+
+.sealco-grid {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  padding: 4.8rem;
+
+  @media only screen and (max-width: $bp-large) {
+    flex-direction: column-reverse;
+    padding: 4.8rem 1.6rem;
+  }
+
+
+  &--left {
+    flex: 0 0 50%;
+
+    .head-text {
+      margin-bottom: 9.6rem;
+
+      span {
+        font-size: 1.6rem;
+
+        &:not(:last-child) {
+          margin-right: 5.6rem;
+        }
+      }
+    }
+
+    .img-container {
+      position: relative;
+
+      img {
+        max-width: 42rem;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: 10%;
+        bottom: -10%;
+        background: orange;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  &--right {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+
+    h3 {
+      font-size: 7.4rem;
+      font-weight: 400;
+      line-height: 7.4rem;
+      margin-bottom: 4.8rem;
+      text-transform: uppercase;
+    }
+
+    span {
+      font-size: 2rem;
+      margin-bottom: 5.6rem;
+      max-width: 60%;
+    }
+
+    img {
+      max-width: 34rem;
+    }
+  }
+}
