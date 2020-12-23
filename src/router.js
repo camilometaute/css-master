@@ -40,6 +40,7 @@ import GuglieriSticky from './components/GuglieriSticky.vue'
 import MailInbox from './components/MailInbox.vue'
 import AdminPanels from './components/AdminPanels.vue'
 import SealcoGrid from './components/SealcoGrid.vue'
+import AccentBoxHover from './components/AccentBoxHover.vue'
 
 Vue.use(Router)
 
@@ -245,6 +246,11 @@ export default new Router ({
       path: '/sealco-grid',
       name: 'SealcoGrid',
       component: SealcoGrid
+    },
+    {
+      path: '/accent-box-hover',
+      name: 'AccentBoxHover',
+      component: AccentBoxHover
     }
   ]
 })
