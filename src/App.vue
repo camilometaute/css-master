@@ -48,6 +48,7 @@
         <router-link to="/admin-panels">Admin Panels</router-link>
         <router-link to="/sealco-grid">Dinamic Grid Sealco</router-link>
         <router-link to="/accent-box-hover">Accent Box Hover</router-link>
+        <router-link to="/accent-products-section">Accent products section</router-link>
       </div>
     </div>
     <router-view/>
