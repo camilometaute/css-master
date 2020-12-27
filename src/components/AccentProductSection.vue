@@ -12,9 +12,18 @@
         </div>
         <p class="accent-products__right__card--body">Private equity founds</p>
       </div>
+
       <div class="accent-products__right__card">
         <div class="accent-products__right__card--head">
-          <span>1</span>
+          <span>2</span>
+          <font-awesome-icon icon="arrow-right" /></i>
+        </div>
+        <p class="accent-products__right__card--body">Private equity founds</p>
+      </div>
+
+      <div class="accent-products__right__card">
+        <div class="accent-products__right__card--head">
+          <span>3</span>
           <font-awesome-icon icon="arrow-right" /></i>
         </div>
         <p class="accent-products__right__card--body">Private equity founds</p>
