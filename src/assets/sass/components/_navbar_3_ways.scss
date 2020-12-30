@@ -1,8 +1,4 @@
-$bp-largest: 75em; //1200px / 16
-$bp-large: 68.75em; //1100px / 16
 $bp-medium: 56.25em; //900px / 16
-$bp-small: 37.5em; //600px / 16
-$bp-xs: 31.25em; //500px / 16
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
@@ -15,12 +11,34 @@ $bp-xs: 31.25em; //500px / 16
   overflow: hidden;
   width: 80%;
 
+  @media only screen and (max-width: $bp-medium) {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
   &__nav-1 {
     align-items: center;
     background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 1.6rem 2.4rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+
+      img {
+        flex: 1;
+        margin-bottom: 2.4rem;
+      }
+
+      ul {
+        flex: 0 0 100%;
+      }
+
+      button {
+        margin-top: 5.6rem;
+      }
+    }
 
     img {
       cursor: pointer;
