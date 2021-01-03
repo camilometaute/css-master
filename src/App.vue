@@ -50,6 +50,7 @@
         <router-link to="/accent-box-hover">Accent Box Hover</router-link>
         <router-link to="/accent-products-section">Accent products section</router-link>
         <router-link to="/navbar-3-ways">Navbar 3 ways</router-link>
+        <router-link to="/tubik-company">Tubik company section</router-link>
       </div>
     </div>
     <router-view/>
