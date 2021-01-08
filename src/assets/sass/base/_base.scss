@@ -36,22 +36,8 @@ body {
 
   .menu {
     background: #f9f9f9;
-    flex: 0 0 80px;
-
-    &__button {
-      background: white;
-      border: 0;
-      cursor: pointer;
-      font-weight: 600;
-      padding: 2rem;
-      transition: all .3s ease-in-out;
-
-      &:hover {
-        background: #5465ff;
-        color: white;
-      }
-
-    }
+    flex: 0 0 250px;
+    font-family: 'Poppins', sans-serif;
 
     &__options {
       background-color: white;
@@ -62,19 +48,37 @@ body {
       height: 100vh;
       left: 0;
       margin-bottom: 2rem;
-      overflow-y: scroll;
-      padding: 3rem 1rem;
+      overflow-y: hidden;
+      padding: 4rem 1rem;
       top: 100%;
       width: 100%;
       z-index: 1;
 
+      &:hover {
+        overflow-y: scroll;
+      }
+
+      span {
+        color: $color-grey-dark;
+        color: $color-grey-dark;
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-top: 2.4rem;
+        padding: .4rem .8rem;
+        text-transform: uppercase;
+      }
+
       a {
-        color: #333;
+        color: $color-grey-dark;
         font-family: poppins;
         font-size: 1.4rem;
-        font-weight: 400;
+        font-weight: 600;
         padding: 1.4rem .8rem;
         text-decoration: none;
+
+        svg {
+          margin-right: .8rem;
+        }
 
         &:hover {
           color: #5465ff;
