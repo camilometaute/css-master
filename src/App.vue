@@ -53,6 +53,7 @@
         <router-link to="/accent-products-section"><font-awesome-icon icon="bookmark" /></i>Accent products section</router-link>
         <router-link to="/navbar-3-ways"><font-awesome-icon icon="bookmark" /></i>Navbar 3 ways</router-link>
         <router-link to="/tubik-company"><font-awesome-icon icon="bookmark" /></i>Tubik company section</router-link>
+        <router-link to="/landing-user-interface"><font-awesome-icon icon="bookmark" /></i>Landing User Interface</router-link>
       </div>
     </div>
     <router-view/>

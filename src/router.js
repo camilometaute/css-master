@@ -44,6 +44,7 @@ import AccentBoxHover from './components/AccentBoxHover.vue'
 import AccentProductSection from './components/AccentProductSection.vue'
 import Navbar3Ways from './components/Navbar3Ways.vue'
 import TubikCompany from './components/TubikCompany.vue'
+import LandingUserInterface from './components/LandingUserInterface.vue'
 
 Vue.use(Router)
 
@@ -269,6 +270,11 @@ export default new Router ({
       path: '/tubik-company',
       name: 'TubikCompany',
       component: TubikCompany
+    },
+    {
+      path: '/landing-user-interface',
+      name: 'LandingUserInterface',
+      component: LandingUserInterface
     }
   ]
 })
