@@ -16,14 +16,18 @@
       <span>{{smallTitle}}</span>
       <h1>{{titlePanel}}</h1>
     </div>
-    <button class="main-cta"><font-awesome-icon icon="arrow-right" /></i>Join the Class</button>
+    <button class="main-cta"><font-awesome-icon icon="arrow-right" />Join the Class</button>
     <img class="lg-img" src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDN8fHBlb3BsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
     <div class="about">
       <h4>About</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="md-img">
       <img src="https://ep1.pinkbike.org/p2pb19964208/p2pb19964208.jpg" alt="">
+      <div class="md-img--box">
+
+      </div>
     </div>
     <div class="lg-title">
       <h5>Karein William</h5>
@@ -38,11 +42,11 @@
 <script>
 export default {
   name: 'LandingUserInterface',
-  data: function() {
+  data: function () {
     return {
-      titlePanel: "The role of User Interface Designer",
-      smallTitle: "Feature Class"
-    }
-  }
+      titlePanel: 'The role of User Interface Designer',
+      smallTitle: 'Feature Class',
+    };
+  },
 };
 </script>
