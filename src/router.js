@@ -45,6 +45,7 @@ import AccentProductSection from './components/AccentProductSection.vue'
 import Navbar3Ways from './components/Navbar3Ways.vue'
 import TubikCompany from './components/TubikCompany.vue'
 import LandingUserInterface from './components/LandingUserInterface.vue'
+import CardFace from './components/CardFace.vue'
 
 Vue.use(Router)
 
@@ -275,6 +276,11 @@ export default new Router ({
       path: '/landing-user-interface',
       name: 'LandingUserInterface',
       component: LandingUserInterface
+    },
+    {
+      path: '/card-face',
+      name: 'CardFace',
+      component: CardFace
     }
   ]
 })
