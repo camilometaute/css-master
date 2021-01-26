@@ -55,6 +55,7 @@
         <router-link to="/tubik-company"><font-awesome-icon icon="bookmark" /></i>Tubik company section</router-link>
         <router-link to="/landing-user-interface"><font-awesome-icon icon="bookmark" /></i>Landing User Interface</router-link>
         <router-link to="/card-face"><font-awesome-icon icon="bookmark" /></i>Card face</router-link>
+        <router-link to="/cookies-components"><font-awesome-icon icon="bookmark" /></i>Cookies components</router-link>
       </div>
     </div>
     <router-view/>

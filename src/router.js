@@ -46,6 +46,7 @@ import Navbar3Ways from './components/Navbar3Ways.vue'
 import TubikCompany from './components/TubikCompany.vue'
 import LandingUserInterface from './components/LandingUserInterface.vue'
 import CardFace from './components/CardFace.vue'
+import CookiesComponents from './components/CookiesComponents.vue'
 
 Vue.use(Router)
 
@@ -281,6 +282,11 @@ export default new Router ({
       path: '/card-face',
       name: 'CardFace',
       component: CardFace
+    },
+    {
+      path: '/cookies-components',
+      name: 'CookiesComponents',
+      component: CookiesComponents
     }
   ]
 })
