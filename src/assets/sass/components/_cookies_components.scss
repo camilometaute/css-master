@@ -15,16 +15,86 @@ section {
   width: 100%;
 
   .cookie-light-xl {
-    align-items: center;
     background: #EADFD8;
+
+    &__btn-container {
+
+      .allow {
+        background-color: #E1D7D2;
+        border: 1px solid #D1C9C7;
+
+        &:hover {
+          background-color: #D1C9C7;
+        }
+      }
+
+      .decline {
+        background-color: #EADFD8;
+        border: 1px solid #D1C9C7;
+
+        &:hover {
+          background-color: #D1C9C7;
+        }
+      }
+    }
+
+    a {
+        border-bottom: 1px solid #B1ABAD;
+        color: #2D3349;
+    }
+
+    p {
+      color: #2D3349;
+    }
+  }
+
+  .cookie-dark-xl {
+    background: #2C3249;
+    margin-top: 2rem !important;
+
+    &__btn-container {
+
+      .allow {
+        background-color: #333A50;
+        border: 1px solid #41485B;
+        color: white;
+
+        &:hover {
+          background-color: #262c42;
+        }
+      }
+
+      .decline {
+        background-color: #2C3249;
+        border: 1px solid #41485B;
+        color: white;
+
+        &:hover {
+          background-color: #262c42;
+        }
+      }
+    }
+
+    a {
+      border-bottom: 1px solid #DFE0E3;
+      color: #DFE0E3;
+    }
+
+    p {
+      color: #DFE0E3;
+    }
+  }
+
+  .cookie-light-xl, .cookie-dark-xl {
+    align-items: center;
     border-radius: .5rem;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 60rem;
+    min-width: 40rem;
     padding: 2.4rem;
     width: 60%;
-    min-width: 40rem;
 
     @media only screen and (max-width: $bp-large) {
       flex-wrap: wrap;
@@ -35,8 +105,8 @@ section {
       }
 
       p {
-        text-align: center;
         padding: 1.6rem 0;
+        text-align: center;
         width: 80%;
       }
     }
@@ -46,13 +116,10 @@ section {
     }
 
     p {
-      color: #2D3349;
       font-size: 1.4rem;
       margin: 0 1.6rem;
 
       a {
-        border-bottom: 1px solid #B1ABAD;
-        color: #2D3349;
         text-decoration: none;
       }
     }
@@ -61,28 +128,17 @@ section {
       display: flex;
 
       .allow {
-        background-color: #E1D7D2;
         border-radius: 10rem 5rem 5rem 10rem;
-        border: 1px solid #D1C9C7;
+        cursor: pointer;
         margin-right: 1.2rem;
         padding: 1.6rem 2.4rem;
-        cursor: pointer;
 
-        &:hover {
-          background-color: #D1C9C7;
-        }
       }
 
       .decline {
-        background-color: #EADFD8;
         border-radius: 5rem 10rem 10rem 5rem;
-        border: 1px solid #D1C9C7;
-        padding: 1.6rem;
         cursor: pointer;
-
-        &:hover {
-          background-color: #D1C9C7;
-        }
+        padding: 1.6rem;
       }
     }
   }
