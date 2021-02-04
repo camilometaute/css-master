@@ -1,0 +1,86 @@
+.top-product-sales {
+  background-color: white;
+  border-radius: .5rem;
+  border: 1px solid #d9d9d9;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 4rem auto;
+  max-width: 40rem;
+  padding: 2rem;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+      color: $color-grey-dark-3;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    select {
+      border-color: #fafafa;
+      padding: .8rem 1.6rem;
+    }
+  }
+
+  &__body {
+    margin-top: 4rem;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin: 4rem 0;
+
+      .left-side {
+        display: flex;
+
+        img {
+          border-radius: .5rem;
+          width: 4rem;
+          margin-right: 1.2rem;
+        }
+
+        h4 {
+          font-size: 1.6rem;
+          font-weight: 600;
+          color: $color-grey-dark-3;
+        }
+
+        span {
+          font-size: 1.4rem;
+          color: $color-grey-dark;
+        }
+
+      }
+
+      .right-side {
+        text-align: right;
+
+        span {
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: $color-grey-dark;
+        }
+
+        p {
+          font-size: 1.4rem;
+          font-weight: 600;
+          color: $color-grey-dark-3;
+        }
+
+        svg {
+          margin-left: .4rem;
+        }
+
+        .green {
+          color: $color-primary-dark;
+        }
+
+        .alert {
+          color: $color-secondary-dark
+        }
+      }
+    }
+  }
+}
