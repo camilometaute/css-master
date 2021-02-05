@@ -57,6 +57,7 @@
         <router-link to="/card-face"><font-awesome-icon icon="bookmark" />Card face</router-link>
         <router-link to="/cookies-components"><font-awesome-icon icon="bookmark" />Cookies components</router-link>
         <router-link to="/top-product-sales"><font-awesome-icon icon="bookmark" />Top product sales</router-link>
+        <router-link to="/menu-gmail"><font-awesome-icon icon="bookmark" />Menu Gmail</router-link>
       </div>
     </div>
     <router-view/>

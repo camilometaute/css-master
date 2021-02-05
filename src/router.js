@@ -48,6 +48,7 @@ import LandingUserInterface from './components/LandingUserInterface.vue';
 import CardFace from './components/CardFace.vue';
 import CookiesComponents from './components/CookiesComponents.vue';
 import TopProductSales from './components/TopProductSales.vue';
+import MenuGmail from './components/MenuGmail.vue';
 
 Vue.use(Router);
 
@@ -293,6 +294,11 @@ export default new Router({
       path: '/top-product-sales',
       name: 'TopProductSales',
       component: TopProductSales,
+    },
+    {
+      path: '/menu-gmail',
+      name: 'MenuGmail',
+      component: MenuGmail,
     },
   ],
 });
