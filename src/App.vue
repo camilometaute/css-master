@@ -58,6 +58,7 @@
         <router-link to="/cookies-components"><font-awesome-icon icon="bookmark" />Cookies components</router-link>
         <router-link to="/top-product-sales"><font-awesome-icon icon="bookmark" />Top product sales</router-link>
         <router-link to="/menu-gmail"><font-awesome-icon icon="bookmark" />Menu Gmail</router-link>
+        <router-link to="/menu-dribbble"><font-awesome-icon icon="bookmark" />Menu Dribbble</router-link>
       </div>
     </div>
     <router-view/>

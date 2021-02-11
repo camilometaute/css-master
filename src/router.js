@@ -49,6 +49,7 @@ import CardFace from './components/CardFace.vue';
 import CookiesComponents from './components/CookiesComponents.vue';
 import TopProductSales from './components/TopProductSales.vue';
 import MenuGmail from './components/MenuGmail.vue';
+import MenuDribbble from './components/MenuDribbble.vue';
 
 Vue.use(Router);
 
@@ -299,6 +300,11 @@ export default new Router({
       path: '/menu-gmail',
       name: 'MenuGmail',
       component: MenuGmail,
+    },
+    {
+      path: '/menu-dribbble',
+      name: 'MenuDribbble',
+      component: MenuDribbble,
     },
   ],
 });
