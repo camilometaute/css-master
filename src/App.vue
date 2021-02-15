@@ -59,6 +59,7 @@
         <router-link to="/top-product-sales"><font-awesome-icon icon="bookmark" />Top product sales</router-link>
         <router-link to="/menu-gmail"><font-awesome-icon icon="bookmark" />Menu Gmail</router-link>
         <router-link to="/menu-dribbble"><font-awesome-icon icon="bookmark" />Menu Dribbble</router-link>
+        <router-link to="/grid-collections"><font-awesome-icon icon="bookmark" />Grid Collections</router-link>
       </div>
     </div>
     <router-view/>
