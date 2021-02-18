@@ -50,6 +50,7 @@ import CookiesComponents from './components/CookiesComponents.vue';
 import TopProductSales from './components/TopProductSales.vue';
 import MenuGmail from './components/MenuGmail.vue';
 import MenuDribbble from './components/MenuDribbble.vue';
+import GridCollections from './components/GridCollections.vue';
 
 Vue.use(Router);
 
@@ -305,6 +306,11 @@ export default new Router({
       path: '/menu-dribbble',
       name: 'MenuDribbble',
       component: MenuDribbble,
+    },
+    {
+      path: '/grid-collections',
+      name: 'GridCollections',
+      component: GridCollections,
     },
   ],
 });
