@@ -60,6 +60,7 @@
         <router-link to="/menu-gmail"><font-awesome-icon icon="bookmark" />Menu Gmail</router-link>
         <router-link to="/menu-dribbble"><font-awesome-icon icon="bookmark" />Menu Dribbble</router-link>
         <router-link to="/grid-collections"><font-awesome-icon icon="bookmark" />Grid Collections</router-link>
+        <router-link to="/group-avatar"><font-awesome-icon icon="bookmark" />Group Avatar</router-link>
       </div>
     </div>
     <router-view/>
