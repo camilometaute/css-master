@@ -1,0 +1,52 @@
+.group-avatar {
+  border-radius: .5rem;
+  border: 1px solid #d3d3d3;
+  height: 18rem;
+  margin: 4.8rem auto;
+  max-width: 40rem;
+  padding: 1.6rem 2.4rem;
+
+  span {
+    margin-bottom: 1.6rem;
+  }
+
+  .container-users {
+    align-items: center;
+    border-top: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+    padding: 1.6rem 0;
+
+    button {
+      background-color: white;
+      border-radius: .4rem;
+      border: 1px solid #d3d3d3;
+      cursor: pointer;
+      height: 4rem;
+      padding: .8rem 1.6rem;
+
+      &:hover {
+        background-color: #fafafa;
+      }
+    }
+
+    &__avatars {
+      display: flex;
+
+      img {
+        border-radius: 50%;
+        border: 2px solid white;
+        width: 5.6rem;
+
+        &:hover {
+          z-index: 999;
+        }
+
+        &:not(:first-child) {
+          margin-left: -1.6rem;
+        }
+      }
+    }
+  }
+}
