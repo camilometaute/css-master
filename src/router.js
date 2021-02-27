@@ -45,7 +45,7 @@ import AccentProductSection from './components/AccentProductSection.vue';
 import Navbar3Ways from './components/Navbar3Ways.vue';
 import TubikCompany from './components/TubikCompany.vue';
 import LandingUserInterface from './components/LandingUserInterface.vue';
-import CardFace from './components/CardFace.vue';
+import CardProfile from './components/CardProfile.vue';
 import CookiesComponents from './components/CookiesComponents.vue';
 import TopProductSales from './components/TopProductSales.vue';
 import MenuGmail from './components/MenuGmail.vue';
@@ -285,8 +285,8 @@ export default new Router({
     },
     {
       path: '/card-face',
-      name: 'CardFace',
-      component: CardFace,
+      name: 'CardProfile',
+      component: CardProfile,
     },
     {
       path: '/cookies-components',
