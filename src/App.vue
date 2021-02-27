@@ -54,7 +54,7 @@
         <router-link to="/navbar-3-ways"><font-awesome-icon icon="bookmark" />Navbar 3 ways</router-link>
         <router-link to="/tubik-company"><font-awesome-icon icon="bookmark" />Tubik company section</router-link>
         <router-link to="/landing-user-interface"><font-awesome-icon icon="bookmark" />Landing User Interface</router-link>
-        <router-link to="/card-face"><font-awesome-icon icon="bookmark" />Card face</router-link>
+        <router-link to="/card-profile"><font-awesome-icon icon="bookmark" />Card profile</router-link>
         <router-link to="/cookies-components"><font-awesome-icon icon="bookmark" />Cookies components</router-link>
         <router-link to="/top-product-sales"><font-awesome-icon icon="bookmark" />Top product sales</router-link>
         <router-link to="/menu-gmail"><font-awesome-icon icon="bookmark" />Menu Gmail</router-link>
