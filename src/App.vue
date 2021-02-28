@@ -61,6 +61,7 @@
         <router-link to="/menu-dribbble"><font-awesome-icon icon="bookmark" />Menu Dribbble</router-link>
         <router-link to="/grid-collections"><font-awesome-icon icon="bookmark" />Grid Collections</router-link>
         <router-link to="/group-avatar"><font-awesome-icon icon="bookmark" />Group Avatar</router-link>
+        <router-link to="/grid-agency"><font-awesome-icon icon="bookmark" />Grid Agency</router-link>
       </div>
     </div>
     <router-view/>
