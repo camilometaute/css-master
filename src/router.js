@@ -52,6 +52,7 @@ import MenuGmail from './components/MenuGmail.vue';
 import MenuDribbble from './components/MenuDribbble.vue';
 import GridCollections from './components/GridCollections.vue';
 import GroupAvatar from './components/GroupAvatar.vue';
+import GridAgency from './components/GridAgency.vue';
 
 Vue.use(Router);
 
@@ -317,6 +318,11 @@ export default new Router({
       path: '/group-avatar',
       name: 'GroupAvatar',
       component: GroupAvatar,
+    },
+    {
+      path: '/grid-agency',
+      name: 'GridAgency',
+      component: GridAgency,
     },
   ],
 });
