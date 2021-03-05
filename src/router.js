@@ -53,6 +53,7 @@ import MenuDribbble from './components/MenuDribbble.vue';
 import GridCollections from './components/GridCollections.vue';
 import GroupAvatar from './components/GroupAvatar.vue';
 import GridAgency from './components/GridAgency.vue';
+import LandingHero from './components/LandingHero.vue';
 
 Vue.use(Router);
 
@@ -323,6 +324,11 @@ export default new Router({
       path: '/grid-agency',
       name: 'GridAgency',
       component: GridAgency,
+    },
+    {
+      path: '/landing-hero',
+      name: 'LandingHero',
+      component: LandingHero,
     },
   ],
 });
