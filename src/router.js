@@ -54,6 +54,7 @@ import GridCollections from './components/GridCollections.vue';
 import GroupAvatar from './components/GroupAvatar.vue';
 import GridAgency from './components/GridAgency.vue';
 import LandingHero from './components/LandingHero.vue';
+import LandingCoffee from './components/LandingCoffee.vue';
 
 Vue.use(Router);
 
@@ -286,7 +287,7 @@ export default new Router({
       component: LandingUserInterface,
     },
     {
-      path: '/card-face',
+      path: '/card-profile',
       name: 'CardProfile',
       component: CardProfile,
     },
@@ -329,6 +330,11 @@ export default new Router({
       path: '/landing-hero',
       name: 'LandingHero',
       component: LandingHero,
+    },
+    {
+      path: '/landing-coffee',
+      name: 'LandingCoffee',
+      component: LandingCoffee,
     },
   ],
 });

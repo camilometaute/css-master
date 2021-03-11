@@ -1,0 +1,103 @@
+.landing-coffee {
+  font-family: 'Poppins', sans-serif;
+
+  &__hero {
+    background-image: url("https://images.unsplash.com/photo-1514163161321-f4f7c2a90296?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    padding: 2.4rem 4.8rem 0 4.8rem;
+    position: relative;
+
+    .search-coffee-hero {
+      background: #333;
+      border-radius: 50%;
+      border: none;
+      color: white;
+      height: 4rem;
+      width: 4rem;
+    }
+
+    .logo-coffee-hero {
+      width: 4rem;
+      height: 4rem;
+    }
+
+    .top {
+      display: flex;
+      height: 5%;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    h2 {
+      align-items: center;
+      color: #333;
+      display: flex;
+      font-size: 4rem;
+      font-weight: 400;
+      height: 80%;
+      line-height: 4rem;
+      width: 100%;
+    }
+
+
+    .bottom {
+      align-items: center;
+      background: white;
+      bottom: 0;
+      display: flex;
+      height: 15%;
+      justify-content: space-between;
+      padding: 1.6rem 2.4rem;
+      position: absolute;
+      right: 0;
+      width: 38%;
+
+      &__left {
+        button {
+          background: transparent;
+          border: none;
+          color: #777;
+          cursor: pointer;
+          font-size: 2rem;
+
+          &:not(:last-child) {
+            margin-right: 1.4rem;
+          }
+        }
+      }
+
+      &__right {
+        button {
+          border: none;
+          background: transparent;
+          font-size: 3.2rem;
+        }
+      }
+    }
+  }
+
+  &__sub-sections {
+    display: flex;
+
+    &__left {
+      flex: 1;
+      img {
+        width: 100%;
+      }
+    }
+
+    &__center {
+      flex: 1.5;
+      background: pink;
+    }
+
+    &__right {
+      flex: 1;
+      background: lightgreen;
+    }
+  }
+}

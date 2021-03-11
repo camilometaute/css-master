@@ -63,6 +63,7 @@
         <router-link to="/group-avatar"><font-awesome-icon icon="bookmark" />Group Avatar</router-link>
         <router-link to="/grid-agency"><font-awesome-icon icon="bookmark" />Grid Agency</router-link>
         <router-link to="/landing-hero"><font-awesome-icon icon="bookmark" />Landing Hero</router-link>
+        <router-link to="/landing-coffee"><font-awesome-icon icon="bookmark" />Landing Coffee</router-link>
       </div>
     </div>
     <router-view/>
