@@ -2,14 +2,15 @@
   font-family: 'Poppins', sans-serif;
 
   &__hero {
-    background-image: url("https://images.unsplash.com/photo-1514163161321-f4f7c2a90296?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80");
+    background-image: url(https://images.unsplash.com/photo-1514163161321-f4f7c2a90296?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80);
+    background-position-x: right;
+    background-position-y: top;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 120%;
     height: 50vh;
-    width: 100%;
     padding: 2.4rem 4.8rem 0 4.8rem;
     position: relative;
+    width: 100%;
 
     .search-coffee-hero {
       background: #333;
@@ -21,8 +22,8 @@
     }
 
     .logo-coffee-hero {
-      width: 4rem;
       height: 4rem;
+      width: 4rem;
     }
 
     .top {
@@ -64,6 +65,10 @@
           cursor: pointer;
           font-size: 2rem;
 
+          &:hover {
+            opacity: .8;
+          }
+
           &:not(:last-child) {
             margin-right: 1.4rem;
           }
@@ -72,8 +77,8 @@
 
       &__right {
         button {
-          border: none;
           background: transparent;
+          border: none;
           font-size: 3.2rem;
         }
       }
@@ -82,22 +87,96 @@
 
   &__sub-sections {
     display: flex;
+    height: 20vh;
 
     &__left {
       flex: 1;
+
       img {
+        height: 100%;
         width: 100%;
+        object-fit: fill;
       }
     }
 
     &__center {
       flex: 1.5;
-      background: pink;
+      overflow: hidden;
+
+      .top-head {
+        align-items: center;
+        background-color: #212020;
+        color: white;
+        display: flex;
+        height: 30%;
+        padding: 1.6rem 2.4rem;
+        width: 100%;
+
+        h4 {
+          font-size: 1.6rem;
+          font-weight: 100;
+          line-height: 1.8rem;
+          text-transform: uppercase;
+        }
+
+        span {
+          font-size: 1rem;
+          font-weight: 100;
+        }
+      }
+
+      .bottom-body {
+        height: 70%;
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
     }
 
     &__right {
+      background-color: #927563;
       flex: 1;
-      background: lightgreen;
+      padding: 2.4rem;
+
+      h4 {
+        color: white;
+        margin-bottom: 1.6rem;
+      }
+
+      ul {
+        li {
+          display: flex;
+
+          &:not(:last-child) {
+            margin-bottom: 2.4rem;
+          }
+
+          img {
+            border-radius: 50%;
+            height: 4rem;
+            margin-right: 1.2rem;
+            width: 4rem;
+          }
+
+          .list-content {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h5 {
+              font-weight: 600;
+              font-size: 1.4rem;
+            }
+
+            span {
+              font-weight: 200;
+            }
+          }
+        }
+      }
     }
   }
 }
