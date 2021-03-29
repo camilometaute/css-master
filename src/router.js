@@ -55,6 +55,7 @@ import GroupAvatar from './components/GroupAvatar.vue';
 import GridAgency from './components/GridAgency.vue';
 import LandingHero from './components/LandingHero.vue';
 import LandingCoffee from './components/LandingCoffee.vue';
+import LandingProcreate from './components/LandingProcreate.vue';
 
 Vue.use(Router);
 
@@ -335,6 +336,11 @@ export default new Router({
       path: '/landing-coffee',
       name: 'LandingCoffee',
       component: LandingCoffee,
+    },
+    {
+      path: '/landing-procreate',
+      name: 'LandingProcreate',
+      component: LandingProcreate,
     },
   ],
 });
