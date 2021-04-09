@@ -56,6 +56,7 @@ import GridAgency from './components/GridAgency.vue';
 import LandingHero from './components/LandingHero.vue';
 import LandingCoffee from './components/LandingCoffee.vue';
 import LandingProcreate from './components/LandingProcreate.vue';
+import SvgGrid from './components/SvgGrid.vue';
 
 Vue.use(Router);
 
@@ -341,6 +342,11 @@ export default new Router({
       path: '/landing-procreate',
       name: 'LandingProcreate',
       component: LandingProcreate,
+    },
+    {
+      path: '/svg-grid',
+      name: 'SvgGrid',
+      component: SvgGrid,
     },
   ],
 });
