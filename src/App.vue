@@ -65,6 +65,7 @@
         <router-link to="/landing-hero"><font-awesome-icon icon="bookmark" />Landing Hero</router-link>
         <router-link to="/landing-coffee"><font-awesome-icon icon="bookmark" />Landing Coffee</router-link>
         <router-link to="/landing-procreate"><font-awesome-icon icon="bookmark" />Landing Procreate</router-link>
+        <router-link to="/svg-grid"><font-awesome-icon icon="bookmark" />Svg Grid</router-link>
       </div>
     </div>
     <router-view/>

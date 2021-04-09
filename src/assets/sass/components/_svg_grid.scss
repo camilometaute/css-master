@@ -1,0 +1,131 @@
+
+.svg-grid {
+
+  &__box {
+    height: 100px;
+    left: 50%;
+    position: absolute;
+    top: 20rem;
+    width: 100px;
+
+    #box-1 {
+      animation-name: moveBoxPath1;
+      animation-duration: 2.3s;
+      animation-timing-function: ease-in-out;
+    }
+
+    #img-1 {
+      animation-name: moveImgPath1;
+      animation-duration: 2.5s;
+      animation-timing-function: ease-in-out;
+    }
+
+    #box-2 {
+      animation-name: moveBoxPath2;
+      animation-duration: 2.2s;
+      animation-timing-function: ease-in-out;
+    }
+
+    #img-2 {
+      animation-name: moveImgPath2;
+      animation-duration: 2.4s;
+      animation-timing-function: ease-in-out;
+    }
+
+    #box-3 {
+      animation-name: moveBoxPath3;
+      animation-duration: 2.4s;
+      animation-timing-function: ease-in-out;
+    }
+
+    #img-3 {
+      animation-name: moveImgPath3;
+      animation-duration: 2.6s;
+      animation-timing-function: ease-in-out;
+    }
+  }
+
+  @keyframes moveImgPath1 {
+    0% {
+      transform: translateX(80px);
+    }
+
+    80% {
+      transform: translateX(80px);
+    }
+
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes moveBoxPath1 {
+    0% {
+      transform: translateX(80px);
+    }
+
+    80% {
+      transform: translateX(80px);
+    }
+
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes moveImgPath2 {
+    0% {
+      transform: translateY(80px);
+    }
+
+    80% {
+      transform: translateY(80px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes moveBoxPath2 {
+    0% {
+      transform: translateY(80px);
+    }
+
+    80% {
+      transform: translateY(80px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes moveImgPath3 {
+    0% {
+      transform: translateX(40px);
+    }
+
+    80% {
+      transform: translateX(40px);
+    }
+
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes moveBoxPath3 {
+    0% {
+      transform: translateX(60px);
+    }
+
+    80% {
+      transform: translateX(60px);
+    }
+
+    100% {
+      transform: translateX(0px);
+    }
+  }
+}
