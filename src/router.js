@@ -57,6 +57,7 @@ import LandingHero from './components/LandingHero.vue';
 import LandingCoffee from './components/LandingCoffee.vue';
 import LandingProcreate from './components/LandingProcreate.vue';
 import SvgGrid from './components/SvgGrid.vue';
+import EcommerceCard from './components/EcommerceCard.vue';
 
 Vue.use(Router);
 
@@ -347,6 +348,11 @@ export default new Router({
       path: '/svg-grid',
       name: 'SvgGrid',
       component: SvgGrid,
+    },
+    {
+      path: '/ecommerce-card',
+      name: 'EcommerceCard',
+      component: EcommerceCard,
     },
   ],
 });
