@@ -1,0 +1,100 @@
+.pay-amount-component {
+  font-family: 'Poppins', sans-serif;
+  background: #f1f1f1;
+
+  &__container {
+    background: white;
+    border-radius: 1rem;
+    margin: 10rem auto;
+    padding: 3.2rem 2.4rem;
+    width: 40rem;
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.6rem;
+
+      h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+
+      label {
+        background-color: #bee7ff;
+        border-radius: .5rem;
+        color: #0a75c2;
+        font-size: 1.6rem;
+        padding: .4rem 1.2rem;
+      }
+    }
+
+    .forms {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .input-container {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          color: #a6a6a6;
+          font-size: 1.4rem;
+          letter-spacing: -.4px;
+          margin-bottom: .8rem;
+        }
+
+        input {
+          border-radius: .5rem;
+          border: 1.5px solid #d2d2d2;
+          color: #a3a3a3;
+          font-size: 1.3rem;
+          padding: 1.2rem;
+        }
+
+        input[type=number] {
+          padding: 1.3rem 1.2rem;
+        }
+
+
+        &__fullwidth {
+          flex: 0 0 100%;
+          margin-bottom: 1.6rem;
+        }
+
+        &__half {
+          flex: 0 0 48%;
+        }
+      }
+    }
+
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2.4rem;
+
+      button {
+        border-radius: .5rem;
+        border: none;
+        flex: 0 0 48%;
+        font-size: 1.4rem;
+        padding: 1.2rem 1.6rem;
+      }
+
+      .cancel-btn {
+        background: white;
+        border: 1px solid #a7a7a7;
+        color: #999;
+      }
+
+      .pay-btn {
+        background: #3db5f5;
+        color: white;
+
+        svg {
+          margin-right: .8rem;
+        }
+      }
+    }
+  }
+}

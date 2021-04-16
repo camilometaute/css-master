@@ -67,6 +67,7 @@
         <router-link to="/landing-procreate"><font-awesome-icon icon="bookmark" />Landing Procreate</router-link>
         <router-link to="/svg-grid"><font-awesome-icon icon="bookmark" />Svg Grid</router-link>
         <router-link to="/ecommerce-card"><font-awesome-icon icon="bookmark" />Ecommerce Card</router-link>
+        <router-link to="/pay-amount-component"><font-awesome-icon icon="bookmark" />Pay Amount Component</router-link>
       </div>
     </div>
     <router-view/>
