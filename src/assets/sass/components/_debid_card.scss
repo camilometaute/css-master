@@ -1,0 +1,93 @@
+$bp-largest: 75em; //1200px / 16
+$bp-large: 68.75em; //1100px / 16
+$bp-medium: 56.25em; //900px / 16
+$bp-small: 37.5em; //600px / 16
+$bp-xs: 31.25em; //500px / 16
+
+.debid-card-container {
+  font-family: 'Poppins', sans-serif;
+
+  img {
+    width: 100%;
+  }
+
+  .debid-card {
+    display: flex;
+    flex-direction: row;
+    padding: 3.2rem 2.4rem;
+    width: 100%;
+
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: row;
+      padding-right: 3.2rem;
+
+      @media only screen and (max-width: $bp-large) {
+        flex-direction: column;
+      }
+
+      h1 {
+        color: #000;
+        flex: 1;
+        font-size: 4.2rem;
+        font-weight: 500;
+        line-height: 4.4rem;
+        margin-bottom: 2.4rem;
+      }
+
+      .text-container {
+        flex: 1;
+        p {
+          font-size: 1.4rem;
+          margin-bottom: 1.6rem;
+        }
+
+        span {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @media only screen and (max-width: $bp-small) {
+        flex-direction: row;
+      }
+
+      button {
+        border-radius: .5rem;
+        border: none;
+        cursor: pointer;
+        margin: .8rem;
+        padding: 2rem 2.4rem;
+        text-transform: uppercase;
+        white-space: pre;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+
+      .fill {
+        background: black;
+        color: white;
+
+        svg {
+          margin-left: .4rem;
+          transform: rotate(-45deg);
+        }
+      }
+
+      .outline {
+        border: 1px solid black;
+      }
+    }
+  }
+}
