@@ -59,6 +59,7 @@ import LandingProcreate from './components/LandingProcreate.vue';
 import SvgGrid from './components/SvgGrid.vue';
 import EcommerceCard from './components/EcommerceCard.vue';
 import PayAmountComponent from './components/PayAmountComponent.vue';
+import DebidCard from './components/DebidCard.vue';
 
 Vue.use(Router);
 
@@ -359,6 +360,11 @@ export default new Router({
       path: '/pay-amount-component',
       name: 'PayAmountComponent',
       component: PayAmountComponent,
+    },
+    {
+      path: '/debid-card',
+      name: 'DebidCard',
+      component: DebidCard,
     },
   ],
 });

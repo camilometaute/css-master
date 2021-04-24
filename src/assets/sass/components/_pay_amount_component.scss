@@ -79,17 +79,23 @@
         flex: 0 0 48%;
         font-size: 1.4rem;
         padding: 1.2rem 1.6rem;
+
+        &:hover {
+          opacity: .8;
+        }
       }
 
       .cancel-btn {
         background: white;
         border: 1px solid #a7a7a7;
         color: #999;
+        cursor: pointer;
       }
 
       .pay-btn {
         background: #3db5f5;
         color: white;
+        cursor: pointer;
 
         svg {
           margin-right: .8rem;
