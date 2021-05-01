@@ -60,6 +60,7 @@ import SvgGrid from './components/SvgGrid.vue';
 import EcommerceCard from './components/EcommerceCard.vue';
 import PayAmountComponent from './components/PayAmountComponent.vue';
 import DebidCard from './components/DebidCard.vue';
+import CardMinimalSubscribe from './components/CardMinimalSubscribe.vue';
 
 Vue.use(Router);
 
@@ -365,6 +366,11 @@ export default new Router({
       path: '/debid-card',
       name: 'DebidCard',
       component: DebidCard,
+    },
+    {
+      path: '/card-minimal-subscribe',
+      name: 'CardMinimalSubscribe',
+      component: CardMinimalSubscribe,
     },
   ],
 });
