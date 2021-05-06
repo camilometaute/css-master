@@ -61,6 +61,7 @@ import EcommerceCard from './components/EcommerceCard.vue';
 import PayAmountComponent from './components/PayAmountComponent.vue';
 import DebidCard from './components/DebidCard.vue';
 import CardMinimalSubscribe from './components/CardMinimalSubscribe.vue';
+import CourseFlexbox from './components/CourseFlexbox.vue';
 
 Vue.use(Router);
 
@@ -371,6 +372,11 @@ export default new Router({
       path: '/card-minimal-subscribe',
       name: 'CardMinimalSubscribe',
       component: CardMinimalSubscribe,
+    },
+    {
+      path: '/course-flexbox',
+      name: 'CourseFlexbox',
+      component: CourseFlexbox,
     },
   ],
 });

@@ -70,6 +70,7 @@
         <router-link to="/pay-amount-component"><font-awesome-icon icon="bookmark" />Pay Amount Component</router-link>
         <router-link to="/debid-card"><font-awesome-icon icon="bookmark" />Debid Card</router-link>
         <router-link to="/card-minimal-subscribe"><font-awesome-icon icon="bookmark" />Card Minimal Subscribe</router-link>
+        <router-link to="/course-flexbox"><font-awesome-icon icon="bookmark" />Course Flexbox css-grid</router-link>
       </div>
     </div>
     <router-view/>
