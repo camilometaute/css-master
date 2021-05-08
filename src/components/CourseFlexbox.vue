@@ -67,6 +67,7 @@
     </nav>
     <!-- END Navigation Rail -->
 
+    <!-- Card -->
     <br><br><br>
     <h1>Card</h1>
     <h3>Solution with FLEXBOX</h3>
@@ -115,6 +116,33 @@
         <font-awesome-icon class="share" icon="share-alt" />
       </div>
     </div>
+    <!-- End Card -->
+
+    <br><br>
+    <!-- NEUMORPHISM -->
+    <section class="play-list">
+      <div class="play-list__head">
+        <button type="button" name="button">
+          <font-awesome-icon icon="arrow-left" />
+        </button>
+        <h5>Episode 64</h5>
+        <button type="button" name="button">
+          <font-awesome-icon icon="bars" />
+        </button>
+      </div>
+      <div class="play-list__body">
+        <div class="img-container">
+          <img src="https://images.unsplash.com/photo-1579158362234-cdc57d55a502?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80" alt="">
+        </div>
+      </div>
+      <div class="play-list__timeline">
+
+      </div>
+      <div class="play-list__controls">
+
+      </div>
+    </section>
+    <!-- END NEUMORPHISM -->
   </section>
 </template>
 
