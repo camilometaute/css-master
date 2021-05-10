@@ -28,13 +28,14 @@ import { faMap } from '@fortawesome/free-solid-svg-icons'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faCookieBite } from '@fortawesome/free-solid-svg-icons'
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import { faShareAlt } from '@fortawesome/free-solid-svg-icons'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUserSecret, faMobile, faShareAlt, faLock, faUserPlus, faEdit, faCookieBite, faCheck, faImage, faMap, faCompass, faMapSigns, faArrowDown, faArrowUp, faArrowRight, faHeart, faEyeSlash, faSearch, faBookmark, faComments, faStar, faMapMarkerAlt, faChevronRight, faChevronLeft, faChevronDown, faChevronUp, faClock, faUsers, faBars);
+library.add(faUserSecret, faMobile, faShareAlt, faLock, faUserPlus, faEdit, faCookieBite, faCheck, faImage, faMap, faCompass, faMapSigns, faArrowDown, faArrowUp, faArrowRight, faArrowLeft, faHeart, faEyeSlash, faSearch, faBookmark, faComments, faStar, faMapMarkerAlt, faChevronRight, faChevronLeft, faChevronDown, faChevronUp, faClock, faUsers, faBars);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
