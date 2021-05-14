@@ -1,9 +1,9 @@
 .card-open-door {
-  height: 240px;
-  width: 350px;
   display: flex;
   flex-direction: column;
+  height: 240px;
   margin: 0 auto;
+  width: 350px;
 
   &__img {
     background-position: center;

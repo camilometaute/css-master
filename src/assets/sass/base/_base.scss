@@ -35,31 +35,43 @@ body {
   }
 
   .menu {
-    background: #f9f9f9;
-    flex: 0 0 250px;
-    font-family: 'Poppins', sans-serif;
 
     &__options {
       background-color: white;
-      border-radius: 0 0 .8rem .8rem;
-      box-shadow: 1px 0px 6px #96969659;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
+      cursor: pointer;
+      border-top: 1px solid #d3d3d3;
+      bottom: -230px;
+      display: inline-block;
+      flex-direction: row;
       left: 0;
-      margin-bottom: 2rem;
-      overflow-y: hidden;
-      padding: 4rem 1rem;
-      top: 100%;
+      overflow: inherit;
+      padding: 2.4rem;
+      position: fixed;
+      transition: all .3s ease-in-out;
       width: 100%;
-      z-index: 1;
+      z-index: 2;
+
+      &::before {
+        align-items: center;
+        background-color: #333;
+        border-radius: .4rem .4rem 0 0;
+        color: white;
+        content: "↑";
+        display: flex;
+        font-size: 1.4rem;
+        height: 2.4rem;
+        justify-content: center;
+        left: 1.6rem;
+        position: absolute;
+        top: -2.4rem;
+        width: 2.4rem;
+      }
 
       &:hover {
-        overflow-y: scroll;
+        bottom: 0;
       }
 
       span {
-        color: $color-grey-dark;
         color: $color-grey-dark;
         font-size: 1.4rem;
         font-weight: 600;

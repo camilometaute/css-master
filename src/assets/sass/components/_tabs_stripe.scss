@@ -6,8 +6,10 @@
   .cards-stripe {
     border-radius: .6rem;
     color: #6B727C;
+    left: 50%;
     overflow: hidden;
     position: relative;
+    top: 20%;
     transform: rotate3d(-0.1,1.7, -0.4, 14deg);
     width: 400px;
 
