@@ -6,10 +6,10 @@
   }
 
   &__button {
+    @include btn-default;
     background-color: $color-white;
     border-radius: 50%;
     box-shadow: 0 1rem 3rem rgba($color-black, .1);
-    cursor: pointer;
     height: 7rem;
     position: fixed;
     right: 2rem;

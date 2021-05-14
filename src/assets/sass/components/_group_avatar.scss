@@ -19,10 +19,10 @@
     padding: 1.6rem 0;
 
     button {
+      @include btn-default;
       background-color: white;
       border-radius: .4rem;
       border: 1px solid #d3d3d3;
-      cursor: pointer;
       height: 4rem;
       padding: .8rem 1.6rem;
 

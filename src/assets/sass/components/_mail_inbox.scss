@@ -93,11 +93,10 @@
       .list-actions {
 
         button {
+          @include btn-default;
           background: transparent;
-          border: none;
           color: #888ea8;
           font-size: 1.6rem;
-          cursor: pointer;
 
           &:hover {
             opacity: .8;

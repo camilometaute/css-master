@@ -217,11 +217,11 @@
         flex: 1;
 
         button {
-          border: none;
+          @include btn-default;
           background-color: transparent;
           color: #8468bd;
-          text-transform: uppercase;
           font-weight: 600;
+          text-transform: uppercase;
 
           &:not(:last-child) {
             margin-right: 2.4rem;
@@ -307,11 +307,11 @@
       }
 
       button {
-        border: none;
+        @include btn-default;
         background-color: transparent;
         color: #8468bd;
-        text-transform: uppercase;
         font-weight: 600;
+        text-transform: uppercase;
 
         &:nth-child(1) {
           grid-column: 1;
@@ -351,12 +351,11 @@
       button {
         width: 4rem;
         height: 4rem;
-        border: none;
+        @include btn-default;
         border-radius: 21px;
         background: #33373D;
         color: white;
         transition: all .3s ease-in-out;
-        cursor: pointer;
         box-shadow:  3px 3px 6px #202326,
                      -3px -3px 6px #464b54;
 

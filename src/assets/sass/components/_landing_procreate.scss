@@ -28,11 +28,10 @@
     }
 
     button {
+      @include btn-default;
       background-color: #1D1D1D;
       border-radius: 5rem;
-      border: none;
       color: white;
-      cursor: pointer;
       font-size: 1.4rem;
       margin-top: 3.2rem;
       padding: .8rem 1.2rem;

@@ -113,7 +113,7 @@
         }
 
         &__button {
-          border: none;
+          @include btn-default;
           background-color: var(--color-grey-light-2);
 
           &:focus {

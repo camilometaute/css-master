@@ -59,10 +59,9 @@
 
       &__left {
         button {
+          @include btn-default;
           background: transparent;
-          border: none;
           color: #777;
-          cursor: pointer;
           font-size: 2rem;
 
           &:hover {
@@ -77,8 +76,8 @@
 
       &__right {
         button {
+          @include btn-default;
           background: transparent;
-          border: none;
           font-size: 3.2rem;
         }
       }

@@ -118,10 +118,9 @@
       }
 
       button {
+        @include btn-default;
         background: #9b5de5;
-        border: none;
         color: white;
-        cursor: pointer;
         display: flex;
         justify-content: space-between;
         padding: 2rem 2.4rem;

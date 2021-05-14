@@ -65,10 +65,9 @@
     }
 
     button {
+      @include btn-default;
       background-color: #1D1D20;
-      border: none;
       color: white;
-      cursor: pointer;
       font-size: 1.6rem;
       font-weight: 400;
       padding: 1.2rem 4rem;

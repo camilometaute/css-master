@@ -44,6 +44,7 @@
 
       button {
         display: flex;
+        @include btn-default;
 
         strong {
           margin-left: .8rem;
@@ -53,6 +54,7 @@
   }
 
   &__btn {
+    @include btn-default;
     background-color: white;
     border-radius: .4rem;
     border: none;
