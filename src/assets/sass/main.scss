@@ -10,6 +10,10 @@
 @import '/base/utilities';
 @import '/base/breakpoints';
 
+@import './layout/header';
+@import './layout/grid';
+@import './layout/flexbox';
+
 @import './components/button';
 @import './components/composition';
 @import './components/feature_box';
@@ -74,10 +78,6 @@
 @import './components/debid_card';
 @import './components/card_minimal_subscribe';
 @import './components/course_flexbox';
-
-@import './layout/header';
-@import './layout/grid';
-@import './layout/flexbox';
 
 @import './pages/home';
 

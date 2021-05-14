@@ -35,40 +35,41 @@ body {
   }
 
   .menu {
+    &::before {
+      align-items: center;
+      background-color: #333;
+      border-radius: .4rem 0 0 .4rem;
+      color: white;
+      content: "←";
+      display: flex;
+      font-size: 1.4rem;
+      height: 2.4rem;
+      justify-content: center;
+      right: 2rem;
+      position: fixed;
+      top: 1.6rem;
+      width: 3.2rem;
+    }
 
     &__options {
       background-color: white;
       cursor: pointer;
-      border-top: 1px solid #d3d3d3;
-      bottom: -230px;
-      display: inline-block;
-      flex-direction: row;
-      left: 0;
-      overflow: inherit;
+      border-left: 1px solid #d3d3d3;
+      display: flex;
+      flex-direction: column;
+      right: -22rem;
+      top: 0;
+      overflow-y: scroll;
+      overflow-x: inherit;
       padding: 2.4rem;
       position: fixed;
       transition: all .3s ease-in-out;
-      width: 100%;
+      width: 24rem;
+      height: 100vh;
       z-index: 2;
 
-      &::before {
-        align-items: center;
-        background-color: #333;
-        border-radius: .4rem .4rem 0 0;
-        color: white;
-        content: "↑";
-        display: flex;
-        font-size: 1.4rem;
-        height: 2.4rem;
-        justify-content: center;
-        left: 1.6rem;
-        position: absolute;
-        top: -2.4rem;
-        width: 2.4rem;
-      }
-
       &:hover {
-        bottom: 0;
+        right: -2rem;
       }
 
       span {
