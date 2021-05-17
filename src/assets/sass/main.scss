@@ -8,6 +8,11 @@
 @import '/base/base';
 @import '/base/typography';
 @import '/base/utilities';
+@import '/base/breakpoints';
+
+@import './layout/header';
+@import './layout/grid';
+@import './layout/flexbox';
 
 @import './components/button';
 @import './components/composition';
@@ -74,10 +79,6 @@
 @import './components/card_minimal_subscribe';
 @import './components/course_flexbox';
 
-@import './layout/header';
-@import './layout/grid';
-@import './layout/flexbox';
-
 @import './pages/home';
 
 // website-css-grid
@@ -94,3 +95,7 @@
 @import './pages/website-css-grid/thanks_message';
 
 @import './pages/opendoor-adviser/_opendoor_adviser';
+
+body {
+  @include font-poppins;
+}

@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-family: 'Poppins', sans-serif;
   padding: 2.4rem 1.6rem;
 
   &__card {
@@ -64,7 +63,7 @@
         button {
           font-size: 1.6rem;
           font-weight: 600;
-          cursor: pointer;
+          @include btn-default;
 
           &:hover {
             opacity: .8;

@@ -1,13 +1,6 @@
-$bp-largest: 75em; //1200px / 16
-$bp-large: 68.75em; //1100px / 16
-$bp-medium: 56.25em; //900px / 16
-$bp-small: 37.5em; //600px / 16
-$bp-xs: 31.25em; //500px / 16
-
 .admin-panels {
   background-color: #060818;
   display: flex;
-  font-family: 'Poppins', sans-serif;
   height: 100%;
   padding: 1.8rem;
   width: 100%;
@@ -128,10 +121,9 @@ $bp-xs: 31.25em; //500px / 16
       }
 
       button {
+        @include btn-default;
         background: lightgreen;
         border-radius: .5rem;
-        border: none;
-        cursor: pointer;
         padding: 1.6rem;
         width: 100%;
 

@@ -1,5 +1,4 @@
 .pay-amount-component {
-  font-family: 'Poppins', sans-serif;
   background: #f1f1f1;
 
   &__container {
@@ -74,8 +73,8 @@
       margin-top: 2.4rem;
 
       button {
+        @include btn-default;
         border-radius: .5rem;
-        border: none;
         flex: 0 0 48%;
         font-size: 1.4rem;
         padding: 1.2rem 1.6rem;

@@ -35,31 +35,44 @@ body {
   }
 
   .menu {
-    background: #f9f9f9;
-    flex: 0 0 250px;
-    font-family: 'Poppins', sans-serif;
+    &::before {
+      align-items: center;
+      background-color: #333;
+      border-radius: .4rem 0 0 .4rem;
+      color: white;
+      content: "←";
+      display: flex;
+      font-size: 1.4rem;
+      height: 2.4rem;
+      justify-content: center;
+      right: 2rem;
+      position: fixed;
+      top: 1.6rem;
+      width: 3.2rem;
+    }
 
     &__options {
       background-color: white;
-      border-radius: 0 0 .8rem .8rem;
-      box-shadow: 1px 0px 6px #96969659;
+      cursor: pointer;
+      border-left: 1px solid #d3d3d3;
       display: flex;
       flex-direction: column;
+      right: -22rem;
+      top: 0;
+      overflow-y: scroll;
+      overflow-x: inherit;
+      padding: 2.4rem;
+      position: fixed;
+      transition: all .3s ease-in-out;
+      width: 24rem;
       height: 100vh;
-      left: 0;
-      margin-bottom: 2rem;
-      overflow-y: hidden;
-      padding: 4rem 1rem;
-      top: 100%;
-      width: 100%;
-      z-index: 1;
+      z-index: 2;
 
       &:hover {
-        overflow-y: scroll;
+        right: -2rem;
       }
 
       span {
-        color: $color-grey-dark;
         color: $color-grey-dark;
         font-size: 1.4rem;
         font-weight: 600;

@@ -5,7 +5,6 @@ $bp-large: 68.75em; //1100px / 16
   background-image: url('https://images.unsplash.com/photo-1553142276-d4f852d8e863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
   background-position-y: bottom;
   background-size: cover;
-  font-family: 'Poppins', sans-serif;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -40,10 +39,9 @@ $bp-large: 68.75em; //1100px / 16
         margin-bottom: 2.4rem;
 
         button {
+          @include btn-default;
           background-color: #fff0fc;
           border-radius: 50%;
-          border: none;
-          cursor: pointer;
           display: inline-block;
           height: 3.8rem;
           padding: 1.2rem;

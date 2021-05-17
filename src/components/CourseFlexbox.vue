@@ -1,6 +1,19 @@
 <template>
   <section class="course-flexbox">
 
+    <!-- GRID WITH FOR SASS -->
+    <div class="grid-with-for-sass">
+      <div class="column__1"></div>
+      <div class="column__2"></div>
+      <div class="column__3"></div>
+      <div class="column__4"></div>
+      <div class="column__5"></div>
+      <div class="column__6"></div>
+      <div class="column__7"></div>
+      <div class="column__8"></div>
+      <div class="column__9"></div>
+      <div class="column__10"></div>
+    </div>
     <!-- APPBAR -->
     <h1>App Bar</h1>
     <h3>Solution with FLEXBOX</h3>

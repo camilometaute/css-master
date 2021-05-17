@@ -1,13 +1,6 @@
-$bp-largest: 75em; //1200px / 16
-$bp-large: 68.75em; //1100px / 16
-$bp-medium: 56.25em; //900px / 16
-$bp-small: 37.5em; //600px / 16
-$bp-xs: 31.25em; //500px / 16
-
 .landing-hero {
   background: #F9E4DB;
   display: flex;
-  font-family: 'Poppins', sans-serif;
   height: 45vh;
   margin: 0 auto;
   max-width: 1200px;
@@ -71,10 +64,9 @@ $bp-xs: 31.25em; //500px / 16
     }
 
     button {
+      @include btn-default;
       background-color: #1D1D20;
-      border: none;
       color: white;
-      cursor: pointer;
       font-size: 1.6rem;
       font-weight: 400;
       padding: 1.2rem 4rem;
