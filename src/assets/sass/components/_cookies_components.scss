@@ -3,79 +3,79 @@ section {
 }
 
 .cookies-components {
-  background: #1E2336;
+  background: $dark-mode-extra-dark;
   height: 100%;
   padding: 4rem;
   width: 100%;
 
   .cookie-light-xl {
-    background: #EADFD8;
+    background: $coffee-light;
 
     &__btn-container {
 
       .allow {
-        background-color: #E1D7D2;
-        border: 1px solid #D1C9C7;
+        background-color: $coffee-dark;
+        border: 1px solid darken($coffee-dark, 6%);
 
         &:hover {
-          background-color: #D1C9C7;
+          background-color: $coffee-light;
         }
       }
 
       .decline {
-        background-color: #EADFD8;
-        border: 1px solid #D1C9C7;
+        background-color: $coffee-light;
+        border: 1px solid $coffee-dark;
 
         &:hover {
-          background-color: #D1C9C7;
+          background-color: $coffee-dark;
         }
       }
     }
 
     a {
-        border-bottom: 1px solid #B1ABAD;
-        color: #2D3349;
+        border-bottom: 1px solid $color-grey-dark-2;
+        color: $dark-mode-extra-dark;
     }
 
     p {
-      color: #2D3349;
+      color: $dark-mode-dark;
     }
   }
 
   .cookie-dark-xl {
-    background: #2C3249;
+    background: lighten($dark-mode-dark, 3%);
     margin-top: 2rem !important;
 
     &__btn-container {
 
       .allow {
-        background-color: #333A50;
-        border: 1px solid #41485B;
-        color: white;
+        background-color: lighten($dark-mode-extra-dark, 3%);
+        border: 1px solid lighten($dark-mode-dark, 8%);
+        color: $color-white;
 
         &:hover {
-          background-color: #262c42;
+          background-color: $dark-mode-dark;
         }
       }
 
       .decline {
-        background-color: #2C3249;
-        border: 1px solid #41485B;
-        color: white;
+        background-color: lighten($dark-mode-dark, 3%);
+        border: 1px solid lighten($dark-mode-dark, 12%);
+        color: $color-white;
 
         &:hover {
-          background-color: #262c42;
+          background-color: $dark-mode-dark;
         }
       }
     }
 
     a {
-      border-bottom: 1px solid #DFE0E3;
-      color: #DFE0E3;
+      border-bottom: 1px solid $color-grey-dark-2;
+      color: $dark-mode-text-white;
     }
 
     p {
-      color: #DFE0E3;
+      color: $dark-mode-text-white;
     }
   }
 

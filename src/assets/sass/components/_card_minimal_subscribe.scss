@@ -1,6 +1,6 @@
 .card-minimal-subscribe {
   border-radius: 1rem;
-  box-shadow: 1px 1px 7px #e6e6e6;
+  box-shadow: 1px 1px 7px $color-grey-light-2;
   display: inline-table;
   margin-left: auto;
   margin-right: auto;
@@ -9,26 +9,26 @@
   width: 30rem;
 
   h3 {
-    color: #333;
+    color: $color-grey-dark-3;
     font-size: 2rem;
     font-weight: 600;
     margin-top: 1.6rem;
   }
 
   p {
-    color: #c3c3c3;
+    color: $dark-mode-text-gray;
     font-size: 1.4rem;
     margin-bottom: 2.4rem;
   }
 
   span {
-    color: #777777;
+    color: $dark-mode-text-gray;
     font-size: 1.2rem;
     margin-right: 1.6rem;
   }
 
   i {
-    background: #023e8a;
+    background: darken($dark-mode-info, 16%);
     border-radius: 50%;
     display: inline-block;
     height: 40px;

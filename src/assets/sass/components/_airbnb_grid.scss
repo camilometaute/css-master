@@ -1,10 +1,10 @@
 .airbnb-grid {
-  background: black;
+  background: $dark-mode-extra-dark;
   height: 100vh;
   padding-top: 4rem;
 
   &__container {
-    background: black;
+    background: $dark-mode-extra-dark;
     display: flex;
     max-width: 998px;
     margin: 0 auto;
@@ -39,19 +39,19 @@
   &__reserve {
     display: flex;
     align-items: center;
-    border-top: 1px solid #d3d3d3;
-    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid $dark-mode-border-gray;
+    border-bottom: 1px solid $dark-mode-border-gray;
     padding: 2rem 0;
 
     .icon {
       font-size: 2.8rem;
       margin-right: 1.4rem;
-      color: white;
+      color: $color-white;
     }
 
     p {
       font-size: 1.6rem;
-      color: white;
+      color: $color-white;
       margin: 0;
     }
   }
@@ -101,42 +101,42 @@
   }
 
   &__label {
-    background: white;
-    font-size: 1.4rem;
-    padding: .4rem;
-    color: black;
+    background: lighten($dark-mode-text-gray, 16%);
     border-radius: .4rem;
+    color: black;
+    font-size: 1.4rem;
     font-weight: 500;
+    padding: .4rem 1.2rem;
   }
 
   &__title {
+    color: $color-white;
     font-size: 3rem;
-    line-height: 3.2rem;
-    color: white;
     font-weight: 300;
+    line-height: 3.2rem;
     margin: 2rem 0;
   }
 
   &__location {
     font-size: 1.4rem;
     font-weight: 400;
-    color: white;
+    color: $color-white;
   }
 
   &__rate {
     font-size: 1.4rem;
     font-weight: 600;
-    color: white;
+    color: $color-white;
   }
 
   &__sm-labels {
     display: flex;
 
     span {
-      background-color: #262626;
-      padding: .6rem;
+      background-color: $dark-mode-dark;
+      padding: .6rem 1.2rem;
       font-weight: 400;
-      color: white;
+      color: $color-white;
       border-radius: 4px;
 
       &:not(:last-child) {

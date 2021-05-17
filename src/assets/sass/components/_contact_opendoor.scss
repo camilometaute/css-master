@@ -1,13 +1,8 @@
-
-
-
 .main-contact-opendoor {
-  background-color: rgb(255, 255, 255);
+  background-color: $color-grey-light-1;
   display: flex;
-  font-family: Helvetica;
   margin-top: 4rem;
   margin: 0 auto;
-  max-width: 1280px;
   padding: 2rem 4rem;
 
   @media only screen and (max-width: $bp-medium) {
@@ -63,7 +58,7 @@
 
     button {
       @include btn-default;
-      background-color: $color-opendoor-primary;
+      background-color: $color-sky-cool;
       color: $color-white;
       font-size: 1.6rem;
     }
@@ -79,7 +74,7 @@
     .contact-block {
       border-radius: 2rem;
       border: 1px solid $color-grey-light-2;
-      color: $color-opendoor-primary;
+      color: $color-sky-cool;
       font-family: Helvetica;
       font-size: 1.8rem;
       font-weight: 400;

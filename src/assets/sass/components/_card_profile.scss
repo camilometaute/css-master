@@ -1,8 +1,8 @@
 .card-profile {
-  background: #bed9c7;
+  background: lighten($dark-mode-positive, 60%);
 
   &--container {
-    background-color: white;
+    background-color: $color-white;
     border-radius: 1rem;
     padding: 2.4rem;
     margin: 4rem auto;
@@ -24,7 +24,7 @@
 
       .check-container {
         align-items: center;
-        background: #bed9c7;
+        background: lighten($dark-mode-positive, 12%);
         border-radius: 50%;
         display: flex;
         height: 2.4rem;
@@ -33,7 +33,7 @@
         width: 2.4rem;
 
         svg {
-          color: white;
+          color: $color-white;
           font-size: 1.2rem;
         }
       }

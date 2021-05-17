@@ -10,6 +10,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+@mixin font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @mixin center-horizontal-vertical {
   left: 50%;
   top: 50%;
