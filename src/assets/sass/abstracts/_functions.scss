@@ -1,0 +1,62 @@
+//CURSO DE SASSS
+
+//Variables
+
+$zindex : (
+  zindex-modal: 800,
+  zindex-tooltip: 700,
+  zindex-dropdown: 600
+);
+
+$typeColors : (
+  primary: #b5e48c,
+  secondary: #1a759f,
+  tertiary: #184e77
+);
+
+$typeBordersRadius: (
+  small: 5px,
+  medium: 10px,
+  large: 14px,
+  x-large: 16px
+);
+
+//listas desde variables
+
+$font-weights: normal bold italic;
+
+@each $font in ($font-weights) {
+  .#{$font} {font-weight: $font}
+}
+
+// Ciclos for @each
+@for $i from 1 to 10 {
+  .columns#{$i} {
+    &:before {
+      content: "#{$i}";
+    }
+  }
+}
+
+//Ejercicio sprites paises
+$paises: colombia mexico panama chile;
+$sprite-height: 24px;
+$sprite-width: 24px;
+$sprite-source: url("../../../public/lamp-png.png");
+$position-y: 0;
+
+.sprites-paises {
+  display: block;
+  background-image: $sprite-source;
+  background-position: 0 0;
+  height: $sprite-height;
+  width: $sprite-width;
+
+  @each $pais in $paises {
+    .bandera-#{$pais} {
+      background-position: ($position-y) 0;
+    }
+
+    $position-y: $position-y + $sprite-height;
+  }
+}
