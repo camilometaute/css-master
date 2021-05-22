@@ -4,10 +4,10 @@
     <span>Group user example</span>
     <div class="container-users">
       <div class="container-users__avatars">
-        <img src="https://mannatthemes.com/dastone-1/default/assets/images/users/user-8.jpg">
-        <img src="https://mannatthemes.com/dastone-1/default/assets/images/users/user-5.jpg">
-        <img src="https://mannatthemes.com/dastone-1/default/assets/images/users/user-4.jpg">
-        <img src="https://mannatthemes.com/dastone-1/default/assets/images/users/user-6.jpg">
+        <img src="https://via.placeholder.com/150">
+        <img src="https://via.placeholder.com/150">
+        <img src="https://via.placeholder.com/150">
+        <img src="https://via.placeholder.com/150">
       </div>
       <button>Message</button>
     </div>

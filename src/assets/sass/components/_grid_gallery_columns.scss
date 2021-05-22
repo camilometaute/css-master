@@ -1,5 +1,5 @@
 .grid-gallery-columns {
-  background: white;
+  background: $color-white;
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: repeat(8, 1fr);
@@ -155,7 +155,7 @@
 }
 
 .grid-exploration {
-  background: white;
+  background: $color-white;
   display: grid;
   grid-gap: 1.6rem;
   grid-template-columns: repeat(16, 1fr);
@@ -164,7 +164,7 @@
 
 
   h1 {
-    color: #25A18E;
+    color: $color-primary-dark;
     font-size: 3.9rem;
     grid-column: 2 / span 4;
     grid-row: 5 / span 3;
@@ -187,7 +187,7 @@
 
   p {
     font-size: 1.4rem;
-    color: #25A18E;
+    color: $color-primary-dark;
     grid-column: 2 / span 4;
     grid-row: 8 / span 5;
     z-index: 2;
@@ -195,7 +195,7 @@
 
   h3 {
     align-self: center;
-    color: #9FFFCB;
+    color: $color-primary-dark;
     font-size: 2.2rem;
     font-weight: 600;
     grid-column: 11 / span 2;
@@ -217,7 +217,7 @@
     &__1 {
       grid-column: 1 / span 6;
       grid-row: 1 / span 16;
-      background: #9FFFCB;
+      background: lighten($color-primary, 28%);
       z-index: 1;
     }
 
@@ -251,13 +251,13 @@
     &__5 {
       grid-column: 10 / span 4;
       grid-row: 6 / span 6;
-      background: #25A18E;
+      background: lighten($color-primary, 28%);
     }
 
     &__6 {
       grid-column: 10 / span 4;
       grid-row: 12 / span 5;
-      background: lightblue;
+      background: lighten($color-primary, 28%);
 
       figure {
         background-image: url('https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -294,7 +294,7 @@
     &__10 {
       grid-column: 16 / span 1;
       grid-row: 1 / span 2;
-      background-color: lightgreen;
+      background-color: lighten($color-primary, 28%);
     }
 
     &__11 {
@@ -316,7 +316,7 @@
     }
 
     &__13 {
-      background-color: lightgreen;
+      background-color: lighten($color-primary, 28%);
       grid-column: 16 / span 1;
       grid-row: 15 / span 2;
     }

@@ -6,16 +6,16 @@
     background-position-y: top;
     background-repeat: no-repeat;
     background-size: 120%;
-    height: 50vh;
+    height: 60vh;
     padding: 2.4rem 4.8rem 0 4.8rem;
     position: relative;
     width: 100%;
 
     .search-coffee-hero {
-      background: #333;
+      background: $color-grey-dark-3;
       border-radius: 50%;
       border: none;
-      color: white;
+      color: $color-white;
       height: 4rem;
       width: 4rem;
     }
@@ -34,7 +34,7 @@
 
     h2 {
       align-items: center;
-      color: #333;
+      color: $color-grey-dark-3;
       display: flex;
       font-size: 4rem;
       font-weight: 400;
@@ -46,7 +46,7 @@
 
     .bottom {
       align-items: center;
-      background: white;
+      background: $color-white;
       bottom: 0;
       display: flex;
       height: 15%;
@@ -60,7 +60,7 @@
         button {
           @include btn-default;
           background: transparent;
-          color: #777;
+          color: $color-grey-dark-2;
           font-size: 2rem;
 
           &:hover {
@@ -103,8 +103,8 @@
 
       .top-head {
         align-items: center;
-        background-color: #212020;
-        color: white;
+        background-color: $color-grey-dark-3;
+        color: $color-white;
         display: flex;
         height: 30%;
         padding: 1.6rem 2.4rem;
@@ -134,12 +134,12 @@
     }
 
     &__right {
-      background-color: #927563;
+      background-color: $coffee-primary;
       flex: 1;
       padding: 2.4rem;
 
       h4 {
-        color: white;
+        color: $color-white;
         margin-bottom: 1.6rem;
       }
 
@@ -159,7 +159,7 @@
           }
 
           .list-content {
-            color: white;
+            color: $color-white;
             display: flex;
             flex-direction: column;
             justify-content: center;

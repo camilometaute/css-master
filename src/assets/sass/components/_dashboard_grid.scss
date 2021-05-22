@@ -1,6 +1,6 @@
 .dashboard-grid {
   &__row {
-    background: #f5f8fb;
+    background: $color-grey-light-2;
     display: flex;
     padding: 1.6rem;
 
@@ -14,7 +14,7 @@
     }
 
     &__four-column {
-      background-color: white;
+      background-color: $color-white;
       flex: 1 1 auto;
       margin: 1rem .8rem;
       height: 14rem;
@@ -36,7 +36,7 @@
     }
 
     &__three-column {
-      background-color: white;
+      background-color: $color-white;
       flex: 1 1 70%;
       margin: 1rem .8rem;
       padding: 1.6rem;
@@ -53,7 +53,7 @@
     }
 
     &__one-column {
-      background-color: white;
+      background-color: $color-white;
       flex: 1 1 20%;
       margin: 1rem .8rem;
       padding: 1.6rem;
@@ -71,7 +71,7 @@
     }
 
     &__half {
-      background-color: white;
+      background-color: $color-white;
       flex: 1 1 45%;
       margin: 1rem .8rem;
       padding: 1.6rem;
