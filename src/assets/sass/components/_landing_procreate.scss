@@ -1,14 +1,14 @@
 
 .landing-procreate {
-  background: #0F0F0F;
-  color: #AAAAAA;
+  background: $color-black;
+  color: $dark-mode-text-gray;
 
   &__head {
     padding: 9.6rem 0;
     text-align: center;
 
     span {
-      color: #DA1C52;
+      color: $red-themeprimary;
       font-size: 2rem;
       text-transform: uppercase;
     }
@@ -20,7 +20,7 @@
       margin-top: 1.6rem;
 
       strong {
-        color: white;
+        color: $color-white;
         display: block;
         margin-top: 1.2rem;
       }
@@ -28,9 +28,9 @@
 
     button {
       @include btn-default;
-      background-color: #1D1D1D;
+      background-color: $color-black;
       border-radius: 5rem;
-      color: white;
+      color: $color-white;
       font-size: 1.4rem;
       margin-top: 3.2rem;
       padding: .8rem 1.2rem;

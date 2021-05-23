@@ -1,5 +1,5 @@
 .quintoandar-client-section {
-  background: #142158;
+  background: darken($color-tertiary-dark, 46%);
   display: flex;
   align-items: center;
   margin-top: 12rem;
@@ -18,7 +18,7 @@
 
     h3 {
       font-size: 2.4rem;
-      color: white;
+      color: $color-white;
       margin-bottom: 2.4rem;
       font-weight: 100;
 
@@ -30,7 +30,7 @@
     p {
       font-size: 1.6rem;
       line-height: 3.4rem;
-      color: white;
+      color: $color-white;
       font-weight: 400;
       width: 70%;
       margin-bottom: 2.4rem;
@@ -38,9 +38,9 @@
 
     button {
       @include btn-default;
-      background-color: #5063f0;
+      background-color: $color-tertiary-dark;
       border-radius: .6rem;
-      color: white;
+      color: $color-white;
       font-size: 1.4rem;
       font-weight: 400;
       padding: 1.6rem 1.4rem;
@@ -68,7 +68,7 @@
 
     p {
       font-size: 1.4rem;
-      background: white;
+      background: $color-white;
       padding: 1.4rem;
       border-radius: .8rem;
       width: 26rem;
@@ -78,7 +78,7 @@
 
       &:before {
         border-radius: .8rem;
-        border: 2px dotted green;
+        border: 2px dotted $color-primary-dark;
         content: "";
         height: 100%;
         left: 1rem;

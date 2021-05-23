@@ -39,13 +39,13 @@ $font-weights: normal bold italic;
 }
 
 //Ejercicio sprites paises
-$paises: colombia mexico panama chile;
-$sprite-height: 24px;
+$paises: colombia mexico ecuador brasil argentina;
 $sprite-width: 24px;
-$sprite-source: url("../../../public/lamp-png.png");
+$sprite-height: 24px;
+$sprite-source: url('../../../public/lamp-png.png');
 $position-y: 0;
 
-.sprites-paises {
+.sprites {
   display: block;
   background-image: $sprite-source;
   background-position: 0 0;
@@ -53,7 +53,7 @@ $position-y: 0;
   width: $sprite-width;
 
   @each $pais in $paises {
-    .bandera-#{$pais} {
+    .column__#{$pais} {
       background-position: ($position-y) 0;
     }
 

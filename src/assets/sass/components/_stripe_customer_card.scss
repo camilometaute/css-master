@@ -3,8 +3,8 @@ $bp-medium: 56.25em; //900px / 16
 .stripe-customer-card {
   display: flex;
   margin: 4.8rem;
-  max-width: 1080px;
   margin: 7.2rem auto;
+  max-width: 1080px;
 
   @media only screen and (max-width: $bp-medium) {
     flex-wrap: wrap;
@@ -43,14 +43,14 @@ $bp-medium: 56.25em; //900px / 16
     }
 
     a {
-      color: #5D81AC;
+      color: $color-tertiary-dark;
       font-size: 1.8rem;
     }
   }
 
   .card-client {
     width: 100%;
-    background: #1C2C36;
+    background: $dark-mode-dark;
     border-radius: 1.2rem;
     overflow: hidden;
 
@@ -59,13 +59,13 @@ $bp-medium: 56.25em; //900px / 16
     }
 
     &__info {
-      background: #1C2C36;
+      background: $dark-mode-dark;
       padding: 3.2rem 4.8rem;
       transform: skewY(7deg);
       position: relative;
       bottom: 4rem;
       left: 0;
-      color: #E5EBF0;
+      color: $color-grey-light-2;
 
       h3 {
         font-size: 3.2rem;

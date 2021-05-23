@@ -1,11 +1,11 @@
 
 .menu-dribbble {
-  background-color: #d9d9d9;
+  background-color: lighten($dark-mode-text-gray, 30%);
 
   &__container {
-    background: white;
+    background: $color-white;
     border-radius: .5rem;
-    border: 1px solid #f3f3f3;
+    border: 1px solid $color-grey-light-2;
     display: flex;
     margin: 4.2rem auto;
     width: 40vw;
@@ -47,7 +47,7 @@
 
     &__right {
       flex: 0 0 35%;
-      background-color: #fafafa;
+      background-color: $color-white;
       padding: 2.4rem 3.2rem;
 
       h4 {

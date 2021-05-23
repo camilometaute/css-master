@@ -1,5 +1,5 @@
 .landing-hero {
-  background: #F9E4DB;
+  background: lighten($color-secondary-light, 40%);
   display: flex;
   height: 45vh;
   margin: 0 auto;
@@ -12,7 +12,7 @@
   }
 
   &:after {
-    background-color: #F9E4DB;
+    background-color: lighten($color-secondary-light, 40%);
     content: "";
     height: 45vh;
     left: -100%;
@@ -35,7 +35,7 @@
     }
 
     span {
-      color: #1D1D20;
+      color: $color-grey-dark-3;
       font-size: 1.2rem;
       font-weight: 200;
       text-transform: uppercase;
@@ -43,7 +43,7 @@
     }
 
     h3 {
-      color: #1D1D20;
+      color: $color-grey-dark-3;
       font-size: 5.6rem;
       font-weight: 600;
       line-height: 6rem;
@@ -58,23 +58,23 @@
     }
 
     p {
-      color: #1D1D20;
+      color: $color-grey-dark-3;
       font-size: 1.4rem;
       margin-bottom: 3.2rem;
     }
 
     button {
       @include btn-default;
-      background-color: #1D1D20;
-      color: white;
+      background-color: $color-grey-dark-3;
+      color: $color-white;
       font-size: 1.6rem;
       font-weight: 400;
       padding: 1.2rem 4rem;
       transition: all .3s ease-in-out;
 
       &:hover {
-        background-color: white;
-        color: #1D1D20;
+        background-color: $color-white;
+        color: $color-grey-dark-3;
       }
     }
   }

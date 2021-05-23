@@ -31,14 +31,14 @@
       }
 
       &::before {
+        background: lighten($color-secondary-dark, 10%);
+        border-radius: 50%;
+        bottom: -10%;
         content: "";
+        height: 20rem;
         position: absolute;
         right: 10%;
-        bottom: -10%;
-        background: orange;
         width: 20rem;
-        height: 20rem;
-        border-radius: 50%;
       }
     }
   }

@@ -30,8 +30,8 @@
 
       span {
         padding: .4rem;
-        background-color: #FFEFC3;
-        color: #FFC930;
+        background-color: lighten($color-secondary-light, 44%);
+        color: $color-secondary-light;
         border-radius: .4rem;
       }
     }
@@ -41,16 +41,16 @@
       p {
         font-size: 1.6rem;
         font-weight: 600;
-        color: #3B476E;
+        color: $color-grey-dark-3;
       }
 
       span {
-        background: #F6F7FB;
+        background: lighten($dark-mode-text-gray, 35%);
         padding: .4rem;
         border-radius: .4rem;
 
         strong {
-          color: #333;
+          color: $color-grey-dark-3;
         }
       }
     }
@@ -58,7 +58,7 @@
     .arrow {
       margin: 0 1.4rem;
       font-size: 1.4rem;
-      color: #B4BCD7;
+      color: $dark-mode-text-gray;
     }
   }
 

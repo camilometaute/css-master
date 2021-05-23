@@ -1,6 +1,6 @@
 
 .landing-user-interface {
-  background: #1A1A1A;
+  background: $dark-mode-extra-dark;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr 3fr 2fr 1fr 1fr;
@@ -25,7 +25,7 @@
   }
 
   .line-1, .line-2, .line-3, .line-4, .line-5, .line-6, .line-7 {
-    border-left: 1px solid #212121;
+    border-left: 1px solid $dark-mode-dark;
     grid-row: 1 / span 5;
     width: 0;
   }
@@ -59,7 +59,7 @@
   }
 
   .menu-1, .menu-2, .menu-3, .menu-4 {
-    color: #d3d3d3;
+    color: $dark-mode-text-gray;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -67,7 +67,7 @@
     transition: all .3s ease-in-out;
 
     &:hover {
-      color: #ffba08;
+      color: $dark-mode-negative;
     }
   }
 
@@ -92,15 +92,15 @@
     padding: 4.8rem 0;
 
     span {
-      border-left: 1px solid #fafafa;
-      color: #fafafa;
+      border-left: 1px solid $color-white;
+      color: $color-white;
       font-size: 1.4rem;
       padding-left: .8rem;
       text-transform: uppercase;
     }
 
     h1 {
-      color: #fafafa;
+      color: $color-white;
       font-size: 7rem;
       font-weight: 600;
       letter-spacing: -3px;
@@ -153,8 +153,8 @@
     padding-bottom: 3.2rem;
 
     h4 {
-      border-left: 1px solid #fafafa;
-      color: #fafafa;
+      border-left: 1px solid $color-white;
+      color: $color-white;
       font-size: 1.4rem;
       font-weight: 400;
       padding-left: .8rem;
@@ -164,7 +164,7 @@
     p {
       padding-left: .8rem;
       padding-top: 1.6rem;
-      color: #d2d2d2;
+      color: $dark-mode-text-gray;
       font-size: 1.2rem;
       line-height: 2.4locarem;
     }
@@ -174,14 +174,14 @@
     grid-area: lgtitle;
 
     h5 {
-      color: #fafafa;
+      color: $color-white;
       font-size: 1.4rem;
       font-weight: 500;
       padding-top: 1.2rem;
     }
 
     span {
-      color: #d4d4d4;
+      color: $dark-mode-text-gray;
     }
   }
 

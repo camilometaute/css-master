@@ -1,10 +1,10 @@
 .grid-collections {
-  background: #fafafa;
+  background: $color-white;
 
   &__container {
-    background-color: white;
+    background-color: $color-white;
     border-radius: 1rem;
-    box-shadow: 0px 1px 2px 0px #d3d3d3;
+    box-shadow: 0px 1px 2px 0px $color-grey-light-2;
     display: flex;
     flex-direction: column;
     margin: 4.8rem auto;
@@ -27,9 +27,9 @@
 
   &__column {
     align-items: center;
-    background: white;
+    background: $color-white;
     border-radius: .5rem;
-    border: 1px solid #eeeeee;
+    border: 1px solid $color-grey-light-2;
     display: flex;
     height: 10rem;
     padding: 1.4rem;
@@ -50,7 +50,7 @@
     .fill {
       height: 50%;
       width: 100%;
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid $color-white;
     }
 
     .mid {
@@ -58,7 +58,7 @@
       width: 50%;
 
       &:not(:last-child) {
-        border-right: 2px solid white;
+        border-right: 2px solid $color-white;
       }
     }
 

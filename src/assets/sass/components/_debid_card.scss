@@ -24,7 +24,7 @@
       }
 
       h1 {
-        color: #000;
+        color: $color-black;
         flex: 1;
         font-size: 4.2rem;
         font-weight: 500;
@@ -68,8 +68,8 @@
       }
 
       .fill {
-        background: black;
-        color: white;
+        background: $color-black;
+        color: $color-white;
 
         svg {
           margin-left: .4rem;
@@ -78,7 +78,7 @@
       }
 
       .outline {
-        border: 1px solid black;
+        border: 1px solid $color-black;
       }
     }
   }

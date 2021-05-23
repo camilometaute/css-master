@@ -5,7 +5,7 @@
   position: relative;
 
   &__side {
-    color: white;
+    color: $color-white;
     height: 52rem;
     transition: all .8s ease;
     position: absolute;
@@ -112,7 +112,7 @@
       margin: 0 auto;
 
       li {
-        color: #333;
+        color: $color-grey-dark-3;
         font-size: 1.5rem;
         padding: 1rem;
         text-align: center;
@@ -152,7 +152,7 @@
   @include respond(tab-port) {
     height: auto;
     border-radius: 3px;
-    background-color: white;
+    background-color: $color-white;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
     &__side {

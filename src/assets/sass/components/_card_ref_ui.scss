@@ -1,12 +1,12 @@
 .container-ref-ui {
-  background-color: #d3d3d3;
+  background-color: $color-grey-light-2;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 2.4rem 1.6rem;
 
   &__card {
-    background: white;
+    background: $color-white;
     border-radius: .8rem;
     display: flex;
     max-width: 600px;
@@ -31,7 +31,7 @@
       &__price {
         display: flex;
         justify-content: space-between;
-        color: #444;
+        color: $dark-mode-extra-dark;
 
         h2  {
           font-size: 2rem;
@@ -73,7 +73,7 @@
         .delete {
           background: transparent;
           border: none;
-          color: #7768AE;
+          color: $color-tertiary-light;
           padding: 1.2rem 0;
         }
 
@@ -82,16 +82,16 @@
             background: #f1f1f1;
             border-radius: .6rem;
             border: 0;
-            color: #7768AE;
+            color: $color-tertiary-light;
             margin-left: 1.2rem;
             padding: 1.2rem;
           }
 
           .publish {
-            background: #7768AE;
+            background: $color-tertiary-light;
             border-radius: .6rem;
             border: 0;
-            color: white;
+            color: $color-white;
             margin-left: 1.2rem;
             padding: 1.2rem;
           }

@@ -7,7 +7,7 @@
   padding: .8rem;
 
   &__sticky-element {
-    background-color: white;
+    background-color: $color-white;
     padding: 3.2rem;
     position: sticky;
     top: .8rem;
@@ -20,16 +20,16 @@
     }
 
     p {
-      color: #d5d5d5;
+      color: $color-grey-dark-3;
       margin-top: 1.4rem;
       margin-bottom: 2.4rem;
     }
 
     button {
       @include btn-default;
-      background-color: #333;
+      background-color: $color-grey-dark-3;
       border-radius: 50%;
-      color: white;
+      color: $color-white;
       height: 4.4rem;
       width: 4.4rem;
     }
@@ -37,7 +37,7 @@
 }
 
 .guglieri-extra-section {
-  background: #E0E0E0;
+  background: $color-grey-light-2;
   height: 100vh;
   width: 100%;
 }

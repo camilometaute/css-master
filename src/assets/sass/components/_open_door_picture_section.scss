@@ -1,6 +1,6 @@
 .open-door-picture-section {
-  font-family: 'Nunito Sans', sans-serif;
-  background: #FFBC95;
+  @include nunito-sans;
+  background: lighten( $color-secondary-dark, 20%);
   height: 60vh;
   overflow: hidden;
   position: relative;
@@ -28,7 +28,7 @@
   }
 
   &__box {
-    background: white;
+    background: $color-white;
     flex: 0 0 380px;
     height: 75%;
     padding: 3rem;
@@ -39,7 +39,7 @@
 
     @media only screen and (max-width: $bp-medium) {
       height: 100%;
-      border: 1rem solid #FFBC95;
+      border: 1rem solid lighten( $color-secondary-dark, 20%);
     }
 
     @media only screen and (max-width: $bp-small) {
@@ -51,7 +51,7 @@
       margin: 1.4rem 0;
       font-size: 2.2rem;
       font-weight: 700;
-      color: #092C4D;
+      color: $color-grey-dark-3;
       line-height: 2.4rem;
     }
 
@@ -59,7 +59,7 @@
 
       p {
         font-size: 1.4rem;
-        color: #092C4D;
+        color: $color-grey-dark-3;
       }
     }
   }

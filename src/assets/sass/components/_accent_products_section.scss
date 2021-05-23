@@ -14,7 +14,7 @@
     margin-right: 2.4rem;
 
     hr {
-      border-top: 1px solid #333;
+      border-top: 1px solid $red-themeneutral;
       margin-bottom: 3.2rem;
     }
 
@@ -53,8 +53,8 @@
       }
 
       &--head {
-        background: #e52f42;
-        color: white;
+        background: $red-themeprimary;
+        color: $color-white;
         display: flex;
         height: 22rem;
         justify-content: space-between;

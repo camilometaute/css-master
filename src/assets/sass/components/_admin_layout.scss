@@ -24,7 +24,7 @@
   }
 
   &__sidebar {
-    background: #333;
+    background: $dark-mode-dark;
     flex: 0 0 20%;
     height: 100vh;
     padding: 3.2rem 2.4rem;
@@ -34,7 +34,7 @@
     transition: all 0.3s ease-in-out;
 
     h1 {
-      color: white;
+      color: $color-white;
     }
 
     ul {
@@ -45,7 +45,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 1.4rem;
-        color: white;
+        color: $color-white;
 
         span {
           width: 2.4rem;
@@ -66,11 +66,11 @@
   }
 
   &__body {
-    background: white;
+    background: $color-white;
     flex: 0 0 80%;
 
     &__navbar {
-      background-color: rgb(239, 239, 239);
+      background-color: $dark-mode-text-white;
       height: 7rem;
       position: sticky;
       top: 0;
@@ -87,7 +87,7 @@
         }
 
         &:hover {
-          color: #d3d3d3;
+          color: $dark-mode-purple;
         }
 
         svg {
@@ -97,9 +97,10 @@
     }
 
     &__content {
-      background-color: #d9d9d9;
-      padding: 3.2rem;
+      background-color: $color-white;
+      color: $dark-mode-border-gray;
       height: 100vh;
+      padding: 3.2rem;
     }
   }
 }
