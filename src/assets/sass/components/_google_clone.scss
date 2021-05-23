@@ -1,0 +1,57 @@
+.google-clone {
+  @include nunito-sans;
+  padding-right: 2rem;
+
+  &__header {
+    align-items: center;
+    background-color: $color-white;
+    display: flex;
+    height: 5vh;
+    justify-content: flex-end;
+
+    ul {
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+
+      li {
+        align-items: center;
+        display: flex;
+        font-size: 1.4rem;
+        list-style: none;
+        padding: 0 1.2rem;
+
+        img {
+          width: 4rem;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  &__body {
+    background-color: $color-white;
+    display: block;
+    height: 88vh;
+    padding-top: 20rem;
+    text-align: center;
+
+    img {
+      width: 28rem;
+      margin-bottom: 2.4rem;
+    }
+
+    input {
+      border-radius: 2.4rem;
+      border: 1px solid darken($color-grey-light-2, 14%);
+      margin-bottom: 3.2rem;
+      padding: 1rem 1.6rem;
+      width: 45%;
+    }
+  }
+
+  &__footer {
+    height: 7vh;
+    background: pink;
+  }
+}

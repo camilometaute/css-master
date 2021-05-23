@@ -71,6 +71,7 @@
         <router-link to="/debid-card"><font-awesome-icon icon="bookmark" />Debid Card</router-link>
         <router-link to="/card-minimal-subscribe"><font-awesome-icon icon="bookmark" />Card Minimal Subscribe</router-link>
         <router-link to="/course-flexbox"><font-awesome-icon icon="bookmark" />Course Flexbox css-grid</router-link>
+        <router-link to="/google-clone"><font-awesome-icon icon="bookmark" />Google Clone</router-link>
       </div>
     </div>
     <router-view/>
