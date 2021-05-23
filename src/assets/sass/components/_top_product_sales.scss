@@ -1,7 +1,7 @@
 .top-product-sales {
-  background-color: white;
+  background-color: $color-white;
   border-radius: .5rem;
-  border: 1px solid #d9d9d9;
+  border: 1px solid darken($color-grey-light-2, 5%);
   height: 100%;
   margin: 4rem auto;
   max-width: 40rem;
@@ -18,7 +18,7 @@
     }
 
     select {
-      border-color: #fafafa;
+      border-color: $color-white;
       padding: .8rem 1.6rem;
     }
   }

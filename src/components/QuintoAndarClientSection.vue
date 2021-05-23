@@ -12,7 +12,7 @@
     </div>
     <div class="quintoandar-client-section__right">
       <img class="quintoandar-client-section__right__bg" src="https://www.quintoandar.com.br/3d086c0e3af4ea603d6d674e3990fadc.svg" alt="">
-      <img src="https://www.quintoandar.com.br/2101e5ef9bf5758ce5870ce00f3685fd.png" alt="">
+      <img src="https://images.unsplash.com/photo-1496081081095-d32308dd6206?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=dd302358c7e18c27c4086e97caf85781" alt="">
       <p>“Anunciei na sexta-feira. Na segunda, já tinha duas visitas agendadas e em 10 dias o apartamento foi alugado.”</p>
     </div>
   </section>

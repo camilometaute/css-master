@@ -1,8 +1,8 @@
 .pay-amount-component {
-  background: #f1f1f1;
+  background: $color-grey-light-2;
 
   &__container {
-    background: white;
+    background: $color-white;
     border-radius: 1rem;
     margin: 10rem auto;
     padding: 3.2rem 2.4rem;
@@ -19,9 +19,9 @@
       }
 
       label {
-        background-color: #bee7ff;
+        background-color: lighten($color-sky-cool, 44%);
         border-radius: .5rem;
-        color: #0a75c2;
+        color: $color-sky-cool;
         font-size: 1.6rem;
         padding: .4rem 1.2rem;
       }
@@ -37,7 +37,7 @@
         flex-direction: column;
 
         label {
-          color: #a6a6a6;
+          color: $dark-mode-text-gray;
           font-size: 1.4rem;
           letter-spacing: -.4px;
           margin-bottom: .8rem;
@@ -45,8 +45,8 @@
 
         input {
           border-radius: .5rem;
-          border: 1.5px solid #d2d2d2;
-          color: #a3a3a3;
+          border: 1.5px solid darken($color-grey-light-2, 16%);
+          color: $color-grey-dark;
           font-size: 1.3rem;
           padding: 1.2rem;
         }
@@ -85,15 +85,15 @@
       }
 
       .cancel-btn {
-        background: white;
-        border: 1px solid #a7a7a7;
+        background: $color-white;
+        border: 1px solid darken($color-grey-light-2, 20%);
         color: #999;
         cursor: pointer;
       }
 
       .pay-btn {
-        background: #3db5f5;
-        color: white;
+        background: lighten($color-sky-cool, 10%);
+        color: $color-white;
         cursor: pointer;
 
         svg {
