@@ -8,6 +8,7 @@
     display: flex;
     height: 5vh;
     justify-content: flex-end;
+    width: 100%;
 
     ul {
       align-items: center;
@@ -15,11 +16,20 @@
       justify-content: flex-end;
 
       li {
-        align-items: center;
-        display: flex;
         font-size: 1.4rem;
         list-style: none;
         padding: 0 1.2rem;
+
+        a {
+          align-items: center;
+          color: $color-grey-dark-3;
+          display: flex;
+          text-decoration: none;
+
+          &:hover {
+            opacity: .8;
+          }
+        }
 
         img {
           width: 4rem;
@@ -41,17 +51,106 @@
       margin-bottom: 2.4rem;
     }
 
-    input {
+    .main-input-container {
+      align-items: center;
       border-radius: 2.4rem;
       border: 1px solid darken($color-grey-light-2, 14%);
+      display: flex;
+      height: 46px;
       margin-bottom: 3.2rem;
+      margin-left: auto;
+      margin-right: auto;
       padding: 1rem 1.6rem;
       width: 45%;
+
+      &:hover {
+        box-shadow: 0 1px 6px lighten($color-grey-dark, 32%);
+      }
+
+      span {
+        align-items: center;
+        display: flex;
+        margin-right: .8rem;
+        width: 4%;
+
+        svg {
+          fill: $color-grey-dark-2;
+        }
+      }
+
+      input {
+        border: none;
+        height: 100%;
+        display: block;
+        width: 90%;
+        font-size: 1.6rem;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      a {
+        align-items: center;
+        display: flex;
+        width: 4%;
+      }
+    }
+
+    .actions {
+      margin-bottom: 2.4rem;
+
+      button {
+        @include btn-default;
+        background-color: $color-grey-light-1;
+        border-radius: .5rem;
+        font-size: 1.4rem;
+        padding: 1.2rem;
+        width: 16rem;
+
+        &:not(:first-child) {
+          margin-left: 1.5rem;
+        }
+
+        &:hover {
+          box-shadow: 0 0 2px lighten($color-grey-dark, 32%);
+        }
+      }
+    }
+
+    p {
+      font-size: 1.3rem;
     }
   }
 
   &__footer {
-    height: 7vh;
-    background: pink;
+    background-color: $color-grey-light-2;
+    padding: 0 2.4rem;
+    width: 100%;
+
+    p {
+      font-size: 1.4rem;
+      padding: 1.2rem 0;
+      border-bottom: 1px solid lighten($color-grey-dark-2, 20%);
+    }
+
+    .bottom-lists {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1.2rem;
+
+      ul {
+        list-style: none;
+
+        li {
+          display: inline-block;
+          font-size: 1.4rem;
+
+          &:not(:first-child) {
+            padding-left: 2.4rem;
+          }
+        }
+      }
+    }
   }
 }
