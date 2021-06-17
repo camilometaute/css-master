@@ -14,6 +14,15 @@
       <div class="column__9"></div>
       <div class="column__10"></div>
     </div>
+
+    <div class="text-sizes">
+      <p class="box-test font-16 border-xs">Título 16</p>
+      <p class="box-test font-18 border-sm">Título 18</p>
+      <p class="box-test font-22 border-md">Título 22</p>
+      <p class="box-test font-24 border-lg">Título 24</p>
+      <p class="box-test font-32 border-xl">Título 32</p>
+    </div>
+
     <!-- APPBAR -->
     <h1>App Bar</h1>
     <h3>Solution with FLEXBOX</h3>

@@ -24,6 +24,11 @@
   transform: translate(-50%,-50%);
 }
 
+@mixin flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @mixin absCenter {
   position: absolute;
   top: 50%;

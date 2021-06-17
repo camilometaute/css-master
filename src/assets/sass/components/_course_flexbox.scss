@@ -32,6 +32,67 @@
     }
   }
 
+  .text-sizes {
+    @include flex-wrap;
+    justify-content: space-between;
+
+    .box-test {
+      border-radius: map-get($typeBordersRadius, small);
+      cursor: pointer;
+      flex: 0 0 48%;
+      margin: .8rem 0;
+      padding: 1.6rem 2.4rem;
+
+      &:hover {
+        background-color: $color-grey-light-2;
+      }
+    }
+
+    .font-16 {
+      font-size: map-get($fontSizes, font-16);
+    }
+
+    .font-18 {
+      font-size: map-get($fontSizes, font-18);
+    }
+
+    .font-22 {
+      font-size: map-get($fontSizes, font-22);
+    }
+
+    .font-24 {
+      font-size: map-get($fontSizes, font-24);
+    }
+
+    .font-32 {
+      font-size: map-get($fontSizes, font-32);
+    }
+
+    .border-xs {
+      border: map-get($borderWidth, border-xs) solid $color-primary-light;
+    }
+
+    .border-sm {
+      border: map-get($borderWidth, border-sm) solid $color-primary-light;
+    }
+
+    .border-md {
+      border: map-get($borderWidth, border-md) solid $color-primary-light;
+    }
+
+    .border-lg {
+      border: map-get($borderWidth, border-lg) solid $color-primary-light;
+    }
+
+    .border-xl {
+      border: map-get($borderWidth, border-xl) solid $color-primary-light;
+    }
+
+    hr {
+      border-color: $color-grey-light-2;
+    }
+  }
+
   .app-bar {
     background: map-get($typeColors, primary);
     border-radius: map-get($typeBordersRadius, small);
