@@ -63,6 +63,7 @@ import DebidCard from './components/DebidCard.vue';
 import CardMinimalSubscribe from './components/CardMinimalSubscribe.vue';
 import CourseFlexbox from './components/CourseFlexbox.vue';
 import GoogleClone from './components/GoogleClone.vue';
+import Warren from './components/Warren.vue';
 
 Vue.use(Router);
 
@@ -383,6 +384,11 @@ export default new Router({
       path: '/google-clone',
       name: 'GoogleClone',
       component: GoogleClone,
+    },
+    {
+      path: '/warren',
+      name: 'Warren',
+      component: Warren,
     },
   ],
 });
