@@ -64,6 +64,7 @@ import CardMinimalSubscribe from './components/CardMinimalSubscribe.vue';
 import CourseFlexbox from './components/CourseFlexbox.vue';
 import GoogleClone from './components/GoogleClone.vue';
 import Warren from './components/Warren.vue';
+import CardGoogle from './components/CardGoogle.vue';
 
 Vue.use(Router);
 
@@ -389,6 +390,11 @@ export default new Router({
       path: '/warren',
       name: 'Warren',
       component: Warren,
+    },
+    {
+      path: '/card-google',
+      name: 'CardGoogle',
+      component: CardGoogle,
     },
   ],
 });
