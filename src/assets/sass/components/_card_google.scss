@@ -1,0 +1,48 @@
+.card-google {
+  background: #fafafa;
+
+  &__container {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 48px auto;
+    width: 344px;
+
+    &__content {
+      padding: 1.6rem;
+
+      .text-title {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .text-subtitle {
+        font-size: 14px;
+      }
+
+      .text-body {
+        font-size: 14px;
+        margin-bottom: 1.6rem;
+        margin-top: 1.6rem;
+      }
+
+      .cta {
+        background: transparent;
+        border: none;
+        color: #6200ee;
+        cursor: pointer;
+        padding: 1.6px 0;
+        text-transform: uppercase;
+
+        &:hover {
+          color: darken(#6200ee, 80%);
+        }
+
+        &:not(:last-child) {
+          margin-right: 24px;
+        }
+      }
+    }
+
+  }
+}
