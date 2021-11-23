@@ -71,6 +71,7 @@
         <router-link to="/google-clone"><font-awesome-icon icon="bookmark" />Google Clone</router-link>
         <router-link to="/warren"><font-awesome-icon icon="bookmark" />Warren</router-link>
         <router-link to="/card-google"><font-awesome-icon icon="bookmark" />Card google</router-link>
+        <router-link to="/twitter-followers"><font-awesome-icon icon="bookmark" />Twitter followers</router-link>
       </div>
     </div>
     <router-view/>
