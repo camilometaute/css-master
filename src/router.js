@@ -65,6 +65,7 @@ import CourseFlexbox from './components/CourseFlexbox.vue';
 import GoogleClone from './components/GoogleClone.vue';
 import Warren from './components/Warren.vue';
 import CardGoogle from './components/CardGoogle.vue';
+import TwitterFollowers from './components/TwitterFollowers.vue';
 
 Vue.use(Router);
 
@@ -395,6 +396,11 @@ export default new Router({
       path: '/card-google',
       name: 'CardGoogle',
       component: CardGoogle,
+    },
+    {
+      path: '/twitter-followers',
+      name: 'TwitterFollowers',
+      component: TwitterFollowers,
     },
   ],
 });
