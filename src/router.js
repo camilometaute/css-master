@@ -66,6 +66,7 @@ import GoogleClone from './components/GoogleClone.vue';
 import Warren from './components/Warren.vue';
 import CardGoogle from './components/CardGoogle.vue';
 import TwitterFollowers from './components/TwitterFollowers.vue';
+import CardsFlatFile from './components/CardsFlatFile.vue';
 
 Vue.use(Router);
 
@@ -401,6 +402,11 @@ export default new Router({
       path: '/twitter-followers',
       name: 'TwitterFollowers',
       component: TwitterFollowers,
+    },
+    {
+      path: '/cards-flat-file',
+      name: 'CardsFlatFile',
+      component: CardsFlatFile,
     },
   ],
 });
