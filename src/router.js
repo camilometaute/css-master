@@ -67,6 +67,7 @@ import Warren from './components/Warren.vue';
 import CardGoogle from './components/CardGoogle.vue';
 import TwitterFollowers from './components/TwitterFollowers.vue';
 import CardsFlatFile from './components/CardsFlatFile.vue';
+import ZenefitsCustomerSection from './components/ZenefitsCustomerSection.vue';
 
 Vue.use(Router);
 
@@ -407,6 +408,11 @@ export default new Router({
       path: '/cards-flat-file',
       name: 'CardsFlatFile',
       component: CardsFlatFile,
+    },
+    {
+      path: '/zenefits-customers-section',
+      name: 'ZenefitsCustomerSection',
+      component: ZenefitsCustomerSection,
     },
   ],
 });
