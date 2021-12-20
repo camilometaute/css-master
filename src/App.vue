@@ -74,6 +74,7 @@
         <router-link to="/twitter-followers"><font-awesome-icon icon="bookmark" />Twitter followers</router-link>
         <router-link to="/cards-flat-file"><font-awesome-icon icon="bookmark" />CardsFlatFile</router-link>
         <router-link to="/zenefits-customers-section"><font-awesome-icon icon="bookmark" />Zenefits Customer Section</router-link>
+        <router-link to="/speedy-section"><font-awesome-icon icon="bookmark" />Speedy Section</router-link>
       </div>
     </div>
     <router-view/>
