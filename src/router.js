@@ -68,7 +68,8 @@ import CardGoogle from './components/CardGoogle.vue';
 import TwitterFollowers from './components/TwitterFollowers.vue';
 import CardsFlatFile from './components/CardsFlatFile.vue';
 import ZenefitsCustomerSection from './components/ZenefitsCustomerSection.vue';
-import speedySection from './components/speedySection.vue';
+import SpeedySection from './components/SpeedySection.vue';
+import SpeedyDarkSection from './components/SpeedyDarkSection.vue';
 
 Vue.use(Router);
 
@@ -417,8 +418,13 @@ export default new Router({
     },
     {
       path: '/speedy-section',
-      name: 'speedySection',
-      component: speedySection,
+      name: 'SpeedySection',
+      component: SpeedySection,
+    },
+    {
+      path: '/speedy-dark-section',
+      name: 'SpeedyDarkSection',
+      component: SpeedyDarkSection,
     },
   ],
 });
