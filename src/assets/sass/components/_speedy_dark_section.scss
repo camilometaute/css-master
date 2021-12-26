@@ -1,0 +1,58 @@
+.speedy-dark-section {
+  background: #171717;
+  height: 100vh;
+  padding: 4.8rem 2.4rem;
+
+  ul {
+    display: flex;
+
+    li {
+      list-style: none;
+      padding: 2.4rem;
+
+      hr {
+        border-width: 1px;
+        margin-bottom: 1.4rem;
+      }
+
+      span {
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .payment-section {
+    margin: 7.2rem 2.4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      color: white;
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 4.8rem;
+      text-align: center;
+      width: 60%;
+    }
+
+    &__img {
+      width: 100%;
+      position: relative;
+
+      &__front {
+        position: absolute;
+        width: 30rem;
+        left: 50%;
+        margin-left: -12rem;
+        top: 50%;
+        margin-top: -20rem;
+      }
+
+      &__back {
+        width: 100%;
+      }
+    }
+  }
+}
