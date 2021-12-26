@@ -6,6 +6,10 @@
   ul {
     display: flex;
 
+    @media only screen and (max-width: $bp-medium) {
+      flex-wrap: wrap;
+    }
+
     li {
       list-style: none;
       padding: 2.4rem;
