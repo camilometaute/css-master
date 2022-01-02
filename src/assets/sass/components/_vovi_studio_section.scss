@@ -1,0 +1,57 @@
+.vovi-studio-section {
+  display: flex;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
+
+  &__left {
+    padding: 4.8rem;
+    position: relative;
+    width: 30%;
+
+    @media only screen and (max-width: $bp-medium) {
+      margin-bottom: 3.2rem;
+      width: 100%;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 3.8rem;
+      font-weight: lighter;
+      line-height: 4rem;
+      max-width: 70%;
+    }
+  }
+
+  &__right {
+    border-left: 1px solid #ebebeb;
+    padding: 4.8rem;
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 100%;
+    }
+
+    .column-vovi {
+
+      img {
+        width: 100%;
+      }
+
+      h3 {
+        font-size: 2.4rem;
+        font-weight: lighter;
+      }
+
+      span {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

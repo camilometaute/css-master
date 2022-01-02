@@ -216,6 +216,9 @@
         <router-link to="/speedy-dark-section">
           71. Speedy Dark Section
         </router-link>
+        <router-link to="/vovi-studio-section">
+          72. Vovi Studio Section
+        </router-link>
       </div>
     </div>
     <router-view/>
