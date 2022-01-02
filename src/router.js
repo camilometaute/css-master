@@ -70,6 +70,7 @@ import CardsFlatFile from './components/CardsFlatFile.vue';
 import ZenefitsCustomerSection from './components/ZenefitsCustomerSection.vue';
 import SpeedySection from './components/SpeedySection.vue';
 import SpeedyDarkSection from './components/SpeedyDarkSection.vue';
+import VoviStudioSection from './components/VoviStudioSection.vue';
 
 Vue.use(Router);
 
@@ -425,6 +426,11 @@ export default new Router({
       path: '/speedy-dark-section',
       name: 'SpeedyDarkSection',
       component: SpeedyDarkSection,
+    },
+    {
+      path: '/vovi-studio-section',
+      name: 'VoviStudioSection',
+      component: VoviStudioSection,
     },
   ],
 });
