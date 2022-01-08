@@ -219,6 +219,9 @@
         <router-link to="/vovi-studio-section">
           72. Vovi Studio Section
         </router-link>
+        <router-link to="/brands-lab-section">
+          73. Brands Lab Section
+        </router-link>
       </div>
     </div>
     <router-view/>
