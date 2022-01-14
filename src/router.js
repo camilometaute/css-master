@@ -72,6 +72,7 @@ import SpeedySection from './components/SpeedySection.vue';
 import SpeedyDarkSection from './components/SpeedyDarkSection.vue';
 import VoviStudioSection from './components/VoviStudioSection.vue';
 import BrandsLabSection from './components/BrandsLabSection.vue';
+import VoviStudioOverview from './components/VoviStudioOverview.vue';
 
 Vue.use(Router);
 
@@ -437,6 +438,11 @@ export default new Router({
       path: '/brands-lab-section',
       name: 'BrandsLabSection',
       component: BrandsLabSection,
+    },
+    {
+      path: '/vovi-studio-overview',
+      name: 'VoviStudioOverview',
+      component: VoviStudioOverview,
     },
   ],
 });

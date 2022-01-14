@@ -1,0 +1,42 @@
+.vovi-studio-overview {
+    display: flex;
+
+    @include respond(tab-port) {
+      flex-direction: column;
+    }
+
+    &__left {
+      flex: 1;
+      font-size: 2.4rem;
+      font-weight: 200;
+      padding: 5.6rem;
+      border-right: 1px solid #f4f4f4;
+      border-bottom: 1px solid #f4f4f4;
+
+      @include respond(tab-port) {
+        border-right: none;
+      }
+    }
+
+    &__right {
+      flex: 2;
+      padding: 5.6rem;
+      border-left: 1px solid #f4f4f4;
+      border-bottom: 1px solid #f4f4f4;
+
+      @include respond(tab-port) {
+        border-left: none;
+        border-bottom: none;
+      }
+
+      h3 {
+        font-size: 2.4rem;
+        width: 80%;
+        margin-bottom: 2.4rem;
+      }
+
+      p {
+        width: 80%;
+      }
+    }
+}
