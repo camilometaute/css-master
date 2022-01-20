@@ -1,0 +1,46 @@
+.new-quinto-andar {
+  display: flex;
+
+  @media only screen and (max-width: $bp-large) {
+    flex-direction: column;
+  }
+
+
+  &__right {
+    flex: 2;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 2.4rem;
+    border: 2rem solid #3957BD;
+
+    h2 {
+      font-size: 3rem;
+      line-height: 3.6rem;
+      margin-bottom: 1.6rem;
+    }
+
+    p {
+      flex: 1;
+      font-size: 1.4rem;
+      margin-bottom: 1.6rem;
+    }
+
+    button {
+      background-color: black;
+      border: none;
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 600;
+      padding: 1.4rem;
+      display: block;
+      width: 14rem;
+    }
+  }
+}

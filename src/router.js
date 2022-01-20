@@ -73,6 +73,7 @@ import SpeedyDarkSection from './components/SpeedyDarkSection.vue';
 import VoviStudioSection from './components/VoviStudioSection.vue';
 import BrandsLabSection from './components/BrandsLabSection.vue';
 import VoviStudioOverview from './components/VoviStudioOverview.vue';
+import NewQuintoAndar from './components/NewQuintoAndar.vue';
 
 Vue.use(Router);
 
@@ -443,6 +444,11 @@ export default new Router({
       path: '/vovi-studio-overview',
       name: 'VoviStudioOverview',
       component: VoviStudioOverview,
+    },
+    {
+      path: '/new-quinto-andar',
+      name: 'NewQuintoAndar',
+      component: NewQuintoAndar,
     },
   ],
 });
