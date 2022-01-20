@@ -225,6 +225,9 @@
         <router-link to="/vovi-studio-overview">
           74. Vovi Studio Overview
         </router-link>
+        <router-link to="/new-quinto-andar">
+          75. New Quinto Andar
+        </router-link>
       </div>
     </div>
     <router-view/>
