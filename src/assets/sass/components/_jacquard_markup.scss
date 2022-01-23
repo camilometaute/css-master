@@ -1,0 +1,71 @@
+.jacquard-markup {
+  margin-top: 9.6rem;
+  padding: 7.2rem 5.6rem;
+
+  span {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    color: #1A1A1A;
+    font-size: 9.6rem;
+    font-weight: 100;
+    line-height: 10rem;
+    margin-top: 6.4rem;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  &__grid {
+    display: flex;
+    margin-top: 22rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+    }
+
+    &__left {
+      flex: 1;
+      padding-top: 7.2rem;
+      position: relative;
+
+      &::before {
+        background: #1A1A1A;
+        content: "";
+        height: 2px;
+        position: absolute;
+        top: 0;
+        width: 34%;
+      }
+
+      h5 {
+        font-size: 3.2rem;
+        font-weight: 100;
+        line-height: 4rem;
+        margin-bottom: 4rem;
+        width: 70%;
+      }
+
+      p {
+        font-size: 1.4rem;
+        width: 70%;
+      }
+
+    }
+
+    &__right {
+      flex: 1;
+
+      @media only screen and (max-width: $bp-medium) {
+        margin-top: 9.6rem;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

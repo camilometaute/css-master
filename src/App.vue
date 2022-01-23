@@ -228,6 +228,9 @@
         <router-link to="/new-quinto-andar">
           75. New Quinto Andar
         </router-link>
+        <router-link to="/jacquard-markup">
+          76.   Jacquard markup
+        </router-link>
       </div>
     </div>
     <router-view/>
