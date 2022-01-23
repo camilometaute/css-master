@@ -74,6 +74,7 @@ import VoviStudioSection from './components/VoviStudioSection.vue';
 import BrandsLabSection from './components/BrandsLabSection.vue';
 import VoviStudioOverview from './components/VoviStudioOverview.vue';
 import NewQuintoAndar from './components/NewQuintoAndar.vue';
+import JacquardMarkup from './components/JacquardMarkup.vue';
 
 Vue.use(Router);
 
@@ -449,6 +450,11 @@ export default new Router({
       path: '/new-quinto-andar',
       name: 'NewQuintoAndar',
       component: NewQuintoAndar,
+    },
+    {
+      path: '/jacquard-markup',
+      name: 'JacquardMarkup',
+      component: JacquardMarkup,
     },
   ],
 });
