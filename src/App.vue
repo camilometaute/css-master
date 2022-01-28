@@ -231,6 +231,9 @@
         <router-link to="/jacquard-markup">
           76.   Jacquard markup
         </router-link>
+        <router-link to="/flat-file-demo">
+          77.   Flat File Demo
+        </router-link>
       </div>
     </div>
     <router-view/>

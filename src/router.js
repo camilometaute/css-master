@@ -75,6 +75,7 @@ import BrandsLabSection from './components/BrandsLabSection.vue';
 import VoviStudioOverview from './components/VoviStudioOverview.vue';
 import NewQuintoAndar from './components/NewQuintoAndar.vue';
 import JacquardMarkup from './components/JacquardMarkup.vue';
+import FlatFileDemo from './components/FlatFileDemo.vue';
 
 Vue.use(Router);
 
@@ -455,6 +456,11 @@ export default new Router({
       path: '/jacquard-markup',
       name: 'JacquardMarkup',
       component: JacquardMarkup,
+    },
+    {
+      path: '/flat-file-demo',
+      name: 'FlatFileDemo',
+      component: FlatFileDemo,
     },
   ],
 });
