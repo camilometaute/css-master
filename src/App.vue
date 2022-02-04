@@ -234,6 +234,9 @@
         <router-link to="/flat-file-demo">
           77.   Flat File Demo
         </router-link>
+        <router-link to="/lulo-section">
+          78.   Lulo Section
+        </router-link>
       </div>
     </div>
     <router-view/>
