@@ -77,6 +77,7 @@ import NewQuintoAndar from './components/NewQuintoAndar.vue';
 import JacquardMarkup from './components/JacquardMarkup.vue';
 import FlatFileDemo from './components/FlatFileDemo.vue';
 import LuloSection from './components/LuloSection.vue';
+import JacquardLanding from './components/JacquardLanding.vue';
 
 Vue.use(Router);
 
@@ -467,6 +468,11 @@ export default new Router({
       path: '/lulo-section',
       name: 'LuloSection',
       component: LuloSection,
+    },
+    {
+      path: '/jacquard-landing',
+      name: 'JacquardLanding',
+      component: JacquardLanding,
     },
   ],
 });
