@@ -237,6 +237,9 @@
         <router-link to="/lulo-section">
           78.   Lulo Section
         </router-link>
+        <router-link to="/jacquard-landing">
+          79.   Jacquard Landing
+        </router-link>
       </div>
     </div>
     <router-view/>
