@@ -240,6 +240,9 @@
         <router-link to="/jacquard-landing">
           79.   Jacquard Landing
         </router-link>
+        <router-link to="/cookies-enginstill">
+          80.   Cookies eginstill
+        </router-link>
       </div>
     </div>
     <router-view/>

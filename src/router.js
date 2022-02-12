@@ -78,6 +78,7 @@ import JacquardMarkup from './components/JacquardMarkup.vue';
 import FlatFileDemo from './components/FlatFileDemo.vue';
 import LuloSection from './components/LuloSection.vue';
 import JacquardLanding from './components/JacquardLanding.vue';
+import EnginStill from './components/EnginStill.vue';
 
 Vue.use(Router);
 
@@ -473,6 +474,11 @@ export default new Router({
       path: '/jacquard-landing',
       name: 'JacquardLanding',
       component: JacquardLanding,
+    },
+    {
+      path: '/cookies-enginstill',
+      name: 'EnginStill',
+      component: EnginStill,
     },
   ],
 });
