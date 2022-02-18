@@ -1,0 +1,69 @@
+.executive-agency {
+  width: 100%;
+
+  &__image-section {
+    background-attachment: fixed;
+    background-image: url('https://www.executiveagency.ca/wp-content/uploads/2020/01/mobile-01-2-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+  }
+
+  &__content {
+    background-color: #000;
+    height: 100vh;
+    padding: 9.6rem;
+    width: 100%;
+
+    h1 {
+      color: #6f6f6f;
+      font-size: 3.2rem;
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      color: white;
+      font-size: 1.4rem;
+      width: 80%;
+    }
+
+    .top-marker {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12.8rem;
+
+      h4 {
+        font-size: 2.2rem;
+        color: white;
+      }
+
+      .pagination {
+        color: white;
+        font-size: 2rem;
+        letter-spacing: .8rem;
+
+        span {
+          color: #4d4d4d;
+        }
+      }
+    }
+
+    .image-gallery {
+      display: flex;
+      overflow-x: hidden;
+      margin-top: 11.8rem;
+      width: calc(100% - -9.6rem);
+
+      img {
+        width: 32rem;
+
+        &:not(:last-child) {
+          margin-right: 4rem;
+        }
+      }
+    }
+  }
+
+}

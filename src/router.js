@@ -79,6 +79,7 @@ import FlatFileDemo from './components/FlatFileDemo.vue';
 import LuloSection from './components/LuloSection.vue';
 import JacquardLanding from './components/JacquardLanding.vue';
 import EnginStill from './components/EnginStill.vue';
+import ExecutiveAgency from './components/ExecutiveAgency.vue';
 
 Vue.use(Router);
 
@@ -479,6 +480,11 @@ export default new Router({
       path: '/cookies-enginstill',
       name: 'EnginStill',
       component: EnginStill,
+    },
+    {
+      path: '/executive-agency',
+      name: 'ExecutiveAgency',
+      component: ExecutiveAgency,
     },
   ],
 });
