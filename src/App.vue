@@ -246,6 +246,9 @@
         <router-link to="/executive-agency">
           81.   Executive Agency
         </router-link>
+        <router-link to="/thefutur-card-price">
+          82.   The futur
+        </router-link>
       </div>
     </div>
     <router-view/>
