@@ -249,6 +249,9 @@
         <router-link to="/thefutur-card-price">
           82.   The futur
         </router-link>
+        <router-link to="/publish-stories-signup">
+          83.   Publish Stories SignUp
+        </router-link>
       </div>
     </div>
     <router-view/>
