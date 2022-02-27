@@ -81,6 +81,7 @@ import JacquardLanding from './components/JacquardLanding.vue';
 import EnginStill from './components/EnginStill.vue';
 import ExecutiveAgency from './components/ExecutiveAgency.vue';
 import TheFuturCardPrice from './components/TheFuturCardPrice.vue';
+import PublishStoriesSignUp from './components/PublishStoriesSignUp.vue';
 
 Vue.use(Router);
 
@@ -491,6 +492,11 @@ export default new Router({
       path: '/thefutur-card-price',
       name: 'TheFuturCardPrice',
       component: TheFuturCardPrice,
+    },
+    {
+      path: '/publish-stories-signup',
+      name: 'PublishStoriesSignUp',
+      component: PublishStoriesSignUp,
     },
   ],
 });

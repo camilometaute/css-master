@@ -1,0 +1,36 @@
+.publish-stories-sign {
+  background-image: url("https://images.unsplash.com/photo-1616441065574-ad70163c3a76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  background-position-x: 67%;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+  border: .8rem solid white;
+  box-shadow: 0 .5rem 10rem rgba($color-black, .2);
+  color: white;
+  height: 50rem;
+  margin-top: 4.8rem;
+  margin-left: 4.8rem;
+  padding: 7.2rem 4.8rem;
+  width: 40rem;
+
+  h2  {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 1.6rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+
+  button {
+    background-color: #648ec2;
+    border-radius: .4rem;
+    border:none;
+    color: white;
+    font-weight: 600;
+    padding: 2rem 1.6rem;
+  }
+}
