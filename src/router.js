@@ -82,6 +82,7 @@ import EnginStill from './components/EnginStill.vue';
 import ExecutiveAgency from './components/ExecutiveAgency.vue';
 import TheFuturCardPrice from './components/TheFuturCardPrice.vue';
 import PublishStoriesSignUp from './components/PublishStoriesSignUp.vue';
+import AffirmSection from './components/AffirmSection.vue';
 
 Vue.use(Router);
 
@@ -497,6 +498,11 @@ export default new Router({
       path: '/publish-stories-signup',
       name: 'PublishStoriesSignUp',
       component: PublishStoriesSignUp,
+    },
+    {
+      path: '/affirm-section',
+      name: 'AffirmSection',
+      component: AffirmSection,
     },
   ],
 });

@@ -250,7 +250,10 @@
           82.   The futur
         </router-link>
         <router-link to="/publish-stories-signup">
-          83.   Publish Stories SignUp
+          83.   Publish Stories SignUp 
+        </router-link>
+        <router-link to="/affirm-section">
+          84.   Affirm section
         </router-link>
       </div>
     </div>
