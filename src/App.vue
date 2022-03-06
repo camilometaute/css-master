@@ -3,9 +3,9 @@
     <!-- <img class="logo-css" alt="Vue logo" src="http://alternafestival.es/wp-content/uploads/css-logo.png">
      -->
     <!-- <HelloWorld msg="Welcome to CSS Master Course"/> -->
-    <div class="menu">
-
-      <div class="menu__options">
+    <div class="menu" v-bind:class="{'menu__active': isActive}">
+      <button class="menu__hamburguer" v-on:click="openMenu">MENU</button>
+      <div class="menu__options" v-bind:class="{'menu__options__active': isActive}">
         <router-link to="/outdoor">
           1. OutDoor Project
         </router-link>
@@ -250,7 +250,7 @@
           82.   The futur
         </router-link>
         <router-link to="/publish-stories-signup">
-          83.   Publish Stories SignUp 
+          83.   Publish Stories SignUp
         </router-link>
         <router-link to="/affirm-section">
           84.   Affirm section
@@ -270,6 +270,11 @@ export default {
   data: function(){
     return {
       isActive: false
+    }
+  },
+  methods: {
+    openMenu: function() {
+      this.isActive = !this.isActive;
     }
   },
   components: {

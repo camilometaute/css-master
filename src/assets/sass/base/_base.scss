@@ -32,32 +32,47 @@ body {
 
   #app {
     display: flex;
-    margin-left: 240px;
   }
 
   .menu {
+    z-index: 1;
+    width: 240px;
+    transition: all .3s ease-in-out;
+
+    &__active {
+      width: 0px;
+    }
+
+    &__hamburguer {
+      border: none;
+      cursor: pointer;
+      margin-left: 100%;
+      padding: 2.4rem;
+      width: 12rem;
+
+      &:hover {
+        opacity: .6;
+      }
+    }
+
     &__options {
       background-color: white;
-    cursor: pointer;
-    border-left: 1px solid #d3d3d3;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: column;
-    left: 0;
-    bottom: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding: 2.4rem 1.6rem;
-    position: fixed;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    width: 240px;
-    height: 100vh;
-    z-index: 2;
+      border-left: 1px solid #d3d3d3;
+      bottom: 0;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding: 2.4rem 1.6rem;
+      transition: all .3s ease-in-out;
+      width: 240px;
+      z-index: 2;
+
+      &__active {
+        margin-left: -240px;
+      }
 
       span {
         color: $color-grey-dark;
