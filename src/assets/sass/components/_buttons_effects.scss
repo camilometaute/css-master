@@ -1,0 +1,71 @@
+.buttons-effects {
+  padding-top: 92px;
+  background-color: #fafafa;
+  width: 100%;
+
+  .button-return, .button-upload {
+    border-radius: 20rem;
+    color: white;
+    cursor: pointer;
+    padding: 1.6rem 2.4rem;
+    width: 20rem;
+  }
+
+  .button-return {
+    background-color: #2ECC72;
+    border: 1px solid white;
+    position: relative;
+
+    &:hover {
+      background-color: #22c66f;
+
+      &::before {
+        left: 2.4rem;
+      }
+    }
+
+    &::before {
+      content: "\f007";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      left: -2rem;
+      margin-right: 50%;
+      position: absolute;
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  .button-upload {
+    background-color: $color-black;
+    position: relative;
+    overflow: hidden;
+
+    span {
+      position: relative;
+      transition-delay: .2s;
+      z-index: 2;
+    }
+
+    &:hover {
+      &::before {
+        bottom: 0;
+      }
+
+      span {
+        color: $color-black;
+      }
+    }
+
+    &::before {
+      background-color: $color-grey-light-2;
+      bottom: -10rem;
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      transition: all .3s ease-in-out;
+      width: 100%;
+      z-index: 0;
+    }
+  }
+}

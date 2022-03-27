@@ -255,6 +255,9 @@
         <router-link to="/affirm-section">
           84.   Affirm section
         </router-link>
+        <router-link to="/buttons-effects">
+          85.   Buttons hover effects
+        </router-link>
       </div>
     </div>
     <router-view/>

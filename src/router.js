@@ -83,6 +83,7 @@ import ExecutiveAgency from './components/ExecutiveAgency.vue';
 import TheFuturCardPrice from './components/TheFuturCardPrice.vue';
 import PublishStoriesSignUp from './components/PublishStoriesSignUp.vue';
 import AffirmSection from './components/AffirmSection.vue';
+import ButtonsEffects from './components/ButtonsEffects.vue';
 
 Vue.use(Router);
 
@@ -503,6 +504,11 @@ export default new Router({
       path: '/affirm-section',
       name: 'AffirmSection',
       component: AffirmSection,
+    },
+    {
+      path: '/buttons-effects',
+      name: 'ButtonsEffects',
+      component: ButtonsEffects,
     },
   ],
 });
