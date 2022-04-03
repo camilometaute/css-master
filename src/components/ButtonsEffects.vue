@@ -4,6 +4,7 @@
     <button class="button-upload">
       <span>UPLOAD</span>
     </button>
+    <button class="button-resize">Resize</button>
   </div>
 </template>
 
