@@ -1,10 +1,13 @@
 <template>
   <div class="buttons-effects">
     <button class="button-return">RETURN</button>
-    <button class="button-upload">
-      <span>UPLOAD</span>
-    </button>
     <button class="button-resize">Resize</button>
+    <button class="button-slide-down">
+      <span>Slide Down</span>
+    </button>
+    <button class="button-slide-up">
+      <span>Slide Up</span>
+    </button>
   </div>
 </template>
 
