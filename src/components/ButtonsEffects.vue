@@ -8,6 +8,9 @@
     <button class="button-slide-up">
       <span>Slide Up</span>
     </button>
+    <button class="button-slide-left">
+      <span>Slide left</span>
+    </button>
   </div>
 </template>
 
