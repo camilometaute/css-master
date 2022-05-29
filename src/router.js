@@ -84,6 +84,7 @@ import TheFuturCardPrice from './components/TheFuturCardPrice.vue';
 import PublishStoriesSignUp from './components/PublishStoriesSignUp.vue';
 import AffirmSection from './components/AffirmSection.vue';
 import ButtonsEffects from './components/ButtonsEffects.vue';
+import LayoutAirbnb from './components/LayoutAirbnb.vue';
 
 Vue.use(Router);
 
@@ -509,6 +510,11 @@ export default new Router({
       path: '/buttons-effects',
       name: 'ButtonsEffects',
       component: ButtonsEffects,
+    },
+    {
+      path: '/layout-airbnb',
+      name: 'LayoutAirbnb',
+      component: LayoutAirbnb,
     },
   ],
 });

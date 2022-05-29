@@ -258,6 +258,9 @@
         <router-link to="/buttons-effects">
           85.   Buttons hover effects
         </router-link>
+        <router-link to="/layout-airbnb">
+          86.   Layout Airbnb
+        </router-link>
       </div>
     </div>
     <router-view/>
