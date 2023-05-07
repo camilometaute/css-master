@@ -261,6 +261,9 @@
         <router-link to="/layout-airbnb">
           86.   Layout Airbnb
         </router-link>
+        <router-link to="/card-ikea">
+          87.   Card IKEA
+        </router-link>
       </div>
     </div>
     <router-view/>

@@ -85,6 +85,7 @@ import PublishStoriesSignUp from './components/PublishStoriesSignUp.vue';
 import AffirmSection from './components/AffirmSection.vue';
 import ButtonsEffects from './components/ButtonsEffects.vue';
 import LayoutAirbnb from './components/LayoutAirbnb.vue';
+import CardIkea from './components/CardIkea.vue';
 
 Vue.use(Router);
 
@@ -515,6 +516,11 @@ export default new Router({
       path: '/layout-airbnb',
       name: 'LayoutAirbnb',
       component: LayoutAirbnb,
+    },
+    {
+      path: '/card-ikea',
+      name: 'CardIkea',
+      component: CardIkea,
     },
   ],
 });
