@@ -264,6 +264,9 @@
         <router-link to="/card-ikea">
           87.   Card IKEA
         </router-link>
+        <router-link to="/capital-layout">
+          88.   Capital Layout
+        </router-link>
       </div>
     </div>
     <router-view/>

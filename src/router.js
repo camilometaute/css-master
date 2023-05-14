@@ -86,6 +86,7 @@ import AffirmSection from './components/AffirmSection.vue';
 import ButtonsEffects from './components/ButtonsEffects.vue';
 import LayoutAirbnb from './components/LayoutAirbnb.vue';
 import CardIkea from './components/CardIkea.vue';
+import CapitalLayout from './components/CapitalLayout.vue';
 
 Vue.use(Router);
 
@@ -521,6 +522,11 @@ export default new Router({
       path: '/card-ikea',
       name: 'CardIkea',
       component: CardIkea,
+    },
+    {
+      path: '/capital-layout',
+      name: 'CapitalLayout',
+      component: CapitalLayout,
     },
   ],
 });
