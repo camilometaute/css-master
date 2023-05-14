@@ -5,6 +5,10 @@
   justify-content: space-around;
   padding: 9.6rem;
   width: 100%;
+  @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+      padding: 2.4rem;
+  }
 
   &--left {
     background-color: $color-white;
@@ -12,13 +16,26 @@
     height: 90vh;
     padding: 2.4rem;
     width: 40%;
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 100%;
+        height: 40vh;
+    }
   }
 
   &--right {
     color: white;
+    display: flex;
+    flex-direction: column;
     height: 90vh;
+    justify-content: end;
     padding: 4.8rem;
     width: 60%;
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 100%;
+        height: 40vh;
+    }
 
     h1 {
       font-size: 4.2rem;
