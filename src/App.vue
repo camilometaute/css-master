@@ -267,6 +267,9 @@
         <router-link to="/capital-layout">
           88.   Capital Layout
         </router-link>
+        <router-link to="/go-trade">
+          89.   Go Trade
+        </router-link>
       </div>
     </div>
     <router-view/>

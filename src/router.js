@@ -87,6 +87,7 @@ import ButtonsEffects from './components/ButtonsEffects.vue';
 import LayoutAirbnb from './components/LayoutAirbnb.vue';
 import CardIkea from './components/CardIkea.vue';
 import CapitalLayout from './components/CapitalLayout.vue';
+import GoTrade from './components/GoTrade.vue';
 
 Vue.use(Router);
 
@@ -527,6 +528,11 @@ export default new Router({
       path: '/capital-layout',
       name: 'CapitalLayout',
       component: CapitalLayout,
+    },
+    {
+      path: '/go-trade',
+      name: 'GoTrade',
+      component: GoTrade,
     },
   ],
 });
