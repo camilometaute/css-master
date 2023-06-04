@@ -270,6 +270,9 @@
         <router-link to="/go-trade">
           89.   Go Trade
         </router-link>
+        <router-link to="/awwwards-masters">
+          90.   Awwwards Masters
+        </router-link>
       </div>
     </div>
     <router-view/>

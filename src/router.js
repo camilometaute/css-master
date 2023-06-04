@@ -88,6 +88,7 @@ import LayoutAirbnb from './components/LayoutAirbnb.vue';
 import CardIkea from './components/CardIkea.vue';
 import CapitalLayout from './components/CapitalLayout.vue';
 import GoTrade from './components/GoTrade.vue';
+import AwwwardsMasters from './components/AwwwardsMasters.vue';
 
 Vue.use(Router);
 
@@ -533,6 +534,11 @@ export default new Router({
       path: '/go-trade',
       name: 'GoTrade',
       component: GoTrade,
+    },
+    {
+      path: '/awwwards-masters',
+      name: 'AwwwardsMasters',
+      component: AwwwardsMasters,
     },
   ],
 });

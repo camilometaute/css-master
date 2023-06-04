@@ -1,0 +1,74 @@
+.awwwards-masters {
+  align-items: center;
+  color: $dark-mode-dark-gray;
+  column-gap: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1.6rem;
+  justify-content: center;
+  padding: 4.8rem;
+  width: 100%;
+
+  span {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 13rem;
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+    @media only screen and (max-width: $bp-large) {
+      font-size: 10rem;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 5rem;
+    }
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  &__column {
+    background-color: $dark-mode-dark-gray;
+    border-radius: 2.4rem;
+    height: 60rem;
+    padding: 9.6rem 6.4rem;
+    text-align: center;
+    width: 32%;
+
+    @media only screen and (max-width: $bp-large) {
+      height: 64rem;
+      width: 48%;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      height: 64rem;
+      width: 98%;
+    }
+
+    h3 {
+      color: $dark-mode-text-white;
+      font-size: 3.2rem;
+      font-weight: 600;
+      line-height: 3.4rem;
+      margin-bottom: 1.6rem;
+    }
+
+    p {
+      color: $dark-mode-text-white;
+      font-size: 1.6rem;
+    }
+
+    &__img {
+      margin-top: 4rem;
+    }
+  }
+
+}
