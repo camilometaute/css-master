@@ -89,6 +89,7 @@ import CardIkea from './components/CardIkea.vue';
 import CapitalLayout from './components/CapitalLayout.vue';
 import GoTrade from './components/GoTrade.vue';
 import AwwwardsMasters from './components/AwwwardsMasters.vue';
+import AwwwardsDirectory from './components/AwwwardsDirectory.vue';
 
 Vue.use(Router);
 
@@ -539,6 +540,11 @@ export default new Router({
       path: '/awwwards-masters',
       name: 'AwwwardsMasters',
       component: AwwwardsMasters,
+    },
+    {
+      path: '/awwwards-directory',
+      name: 'AwwwardsDirectory',
+      component: AwwwardsDirectory,
     },
   ],
 });

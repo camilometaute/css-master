@@ -1,0 +1,96 @@
+.awwwards-directory {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1.6rem;
+  justify-content: center;
+  margin: 13rem auto;
+  max-width: 1200px;
+
+  @media only screen and (max-width: $bp-large) {
+    margin: 13rem 1.6rem;
+  }
+
+  &__card {
+    background-color: $dark-mode-dark-gray;
+    border-radius: 1.6rem;
+    padding: 3.2rem;
+    width: 49%;
+
+
+    @media only screen and (max-width: $bp-small) {
+      width: 98%;
+    }
+
+    &__image {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5.6rem;
+
+      &__img-1 {
+        width: 5.6rem;
+        height: 5.6rem;
+        border-radius: 50%;
+      }
+
+      &__img-2 {
+        border-radius: .8rem;
+        height: 20rem;
+        width: 20rem;
+      }
+    }
+
+
+    &__content {
+      align-items: flex-end;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.6rem;
+      padding: 3.2rem 0;
+
+      &__text {
+        color: $color-white;
+        margin-bottom: 1.6rem;
+
+        span {
+          font-size: 1.4rem;
+        }
+
+        h3 {
+          font-size: 3.6rem;
+        }
+      }
+
+      &__box {
+        border-radius: .8rem;
+        border: 1px solid $color-grey-dark-2;
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        height: 6rem;
+        padding: 1.2rem;
+        text-align: center;
+        width: 6rem;
+
+        span {
+          font-size: 1.2rem;
+          line-height: 1.4rem;
+        }
+
+        p {
+          font-size: 2.4rem;
+          line-height: 2rem;
+        }
+      }
+    }
+
+    &__bottom {
+      color: $color-white;
+      display: flex;
+      font-size: 1.4rem;
+      justify-content: space-between;
+    }
+  }
+
+
+
+}

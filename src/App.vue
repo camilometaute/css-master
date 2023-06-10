@@ -273,6 +273,9 @@
         <router-link to="/awwwards-masters">
           90.   Awwwards Masters
         </router-link>
+        <router-link to="/awwwards-directory">
+          91.   Awwwards Directory
+        </router-link>
       </div>
     </div>
     <router-view/>
