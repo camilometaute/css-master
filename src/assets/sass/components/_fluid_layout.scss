@@ -1,0 +1,44 @@
+.fluid-layout-container {
+  background-color: $color-grey-dark-3;
+
+  .fluid-layout {
+    border-radius: 1.2rem;
+    border: 1px solid $color-grey-dark-2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin: 9.6rem auto;
+    max-width: 60rem;
+    padding: 2.4rem;
+
+    &__name, &__mail {
+      background-color: $dark-mode-dark-gray;
+      border-radius: .8rem;
+      border: 1px solid $dark-mode-border-gray;
+      color: white;
+      padding: 1.6rem;
+
+      &::placeholder {
+        color: $color-white;
+      }
+    }
+
+    &__name {
+      flex: 1 0 100px;
+    }
+
+    &__mail {
+      flex: 1 0 100px;
+    }
+
+    &__button {
+      background-color: $color-tertiary-light;
+      border-radius: .8rem;
+      border: none;
+      color: $color-white;
+      flex: 1 0 180px;
+      padding: 1.6rem 1.2rem;
+    }
+  }
+
+}

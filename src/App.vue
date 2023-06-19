@@ -276,6 +276,9 @@
         <router-link to="/awwwards-directory">
           91.   Awwwards Directory
         </router-link>
+        <router-link to="/fluid-layout">
+          92.   Fluid Layout flexbox
+        </router-link>
       </div>
     </div>
     <router-view/>

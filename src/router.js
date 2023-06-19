@@ -90,6 +90,7 @@ import CapitalLayout from './components/CapitalLayout.vue';
 import GoTrade from './components/GoTrade.vue';
 import AwwwardsMasters from './components/AwwwardsMasters.vue';
 import AwwwardsDirectory from './components/AwwwardsDirectory.vue';
+import FluidLayout from './components/FluidLayout.vue';
 
 Vue.use(Router);
 
@@ -545,6 +546,11 @@ export default new Router({
       path: '/awwwards-directory',
       name: 'AwwwardsDirectory',
       component: AwwwardsDirectory,
+    },
+    {
+      path: '/fluid-layout',
+      name: 'FluidLayout',
+      component: FluidLayout,
     },
   ],
 });
