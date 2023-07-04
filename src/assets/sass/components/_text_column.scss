@@ -1,9 +1,23 @@
 .text-column {
-  text-align: center;
+  align-items: center;
+  background-color: $dark-mode-dark;
+  display: flex;
+  justify-content: center;
   margin: 7.2rem auto;
 
+  h1  {
+    color: $dark-mode-text-gray;
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
   p {
-    color: $dark-mode-dark;
+    background-color: $dark-mode-extra-dark;
+    border-radius: 1.6rem;
+    color: $dark-mode-text-gray;
     columns: auto 40rem;
+    font-size: 1.6rem;
+    margin: 4.8rem;
+    padding: 7.2rem;
   }
 }
