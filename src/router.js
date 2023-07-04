@@ -91,6 +91,7 @@ import GoTrade from './components/GoTrade.vue';
 import AwwwardsMasters from './components/AwwwardsMasters.vue';
 import AwwwardsDirectory from './components/AwwwardsDirectory.vue';
 import FluidLayout from './components/FluidLayout.vue';
+import TextColumn from './components/TextColumn.vue';
 
 Vue.use(Router);
 
@@ -552,5 +553,10 @@ export default new Router({
       name: 'FluidLayout',
       component: FluidLayout,
     },
+    {
+      path: '/text-column',
+      name: 'TextColumn',
+      component: TextColumn,
+    }
   ],
 });

@@ -279,6 +279,9 @@
         <router-link to="/fluid-layout">
           92.   Fluid Layout flexbox
         </router-link>
+        <router-link to="/text-column">
+          93.   Text column
+        </router-link>
       </div>
     </div>
     <router-view/>

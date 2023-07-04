@@ -1,0 +1,9 @@
+.text-column {
+  text-align: center;
+  margin: 7.2rem auto;
+
+  p {
+    color: $dark-mode-dark;
+    columns: auto 40rem;
+  }
+}
