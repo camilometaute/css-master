@@ -92,6 +92,7 @@ import AwwwardsMasters from './components/AwwwardsMasters.vue';
 import AwwwardsDirectory from './components/AwwwardsDirectory.vue';
 import FluidLayout from './components/FluidLayout.vue';
 import TextColumn from './components/TextColumn.vue';
+import ArquitectureHeader from './components/ArquitectureHeader.vue';
 
 Vue.use(Router);
 
@@ -557,6 +558,11 @@ export default new Router({
       path: '/text-column',
       name: 'TextColumn',
       component: TextColumn,
+    },
+    {
+      path: '/arquitecture-header',
+      name: 'ArquitectureHeader',
+      component: ArquitectureHeader,
     }
   ],
 });

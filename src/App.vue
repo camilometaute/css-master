@@ -282,6 +282,9 @@
         <router-link to="/text-column">
           93.   Text column
         </router-link>
+        <router-link to="/arquitecture-header">
+          94.   Arquitecture interior header
+        </router-link>
       </div>
     </div>
     <router-view/>

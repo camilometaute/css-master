@@ -1,0 +1,64 @@
+
+.arquitecture-header {
+  text-align: center;
+
+&__title, &__subtitle {
+  color: $dark-mode-dark;
+  margin: 0 auto;
+  max-width: 50vw;
+}
+
+  &__title {
+    font-size: 4.8rem;
+    font-weight: 300;
+    line-height: 5rem;
+    margin-top: 14rem;
+  }
+
+  &__subtitle {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-bottom: 5.6rem;
+    padding-top: 2.4rem;
+  }
+
+  &__img {
+    height: 60vh;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  &__panel {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    &__box {
+      align-items: center;
+      background-color: $dark-mode-dark;
+      display: flex;
+      margin-top: -4rem;
+      padding: 4.8rem 5.6rem;
+      width: 60%;
+
+      @media only screen and (max-width: $bp-medium) {
+          width: 100%;
+          margin: -8rem 2.4rem 0 2.4rem;
+      }
+
+      &__title {
+        text-align: left;
+
+        span {
+          color: $color-white;
+        }
+
+        h3 {
+          font-size: 2rem;
+          color: $color-white;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
