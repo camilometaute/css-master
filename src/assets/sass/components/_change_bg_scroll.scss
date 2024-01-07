@@ -1,0 +1,102 @@
+
+.change-bg-scroll {
+  animation: fade-in cubic-bezier(1, -0.47, 0.85, 1.52);
+  animation-timeline: view(100%);
+  padding: 7.2rem 4.8rem;
+
+
+  &--body {
+    max-width: 900px;
+    margin: 0 auto;
+
+      &--main {
+        color: #CDCBFF;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        justify-content: flex-end;
+        margin-bottom: 4rem;
+
+        h1 {
+          font-size: 7.2rem;
+          line-height: 110%;
+          font-weight: 400;
+
+          @media only screen and (max-width: $bp-largest) {
+            font-size: 5.4rem;
+          }
+
+          @media only screen and (max-width: $bp-medium) {
+            font-size: 4rem;
+          }
+        }
+
+
+        span {
+          font-size: 1.8rem;
+          font-weight: 100;
+        }
+      }
+
+      &--content {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+        grid-column-gap: 1.6rem;
+        height: 80vh;
+
+        @media only screen and (max-width: $bp-largest) {
+          grid-template-columns: repeat(2, minmax(200px, 1fr));
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+          grid-template-columns: repeat(1, minmax(200px, 1fr));
+        }
+
+        &--card {
+          color: $color-white;
+          border-top: 1px solid $color-grey-dark-2;
+
+          span {
+            font-size: 1.4rem;
+          }
+
+          img {
+            border-radius: .8rem;
+            margin-top: .8rem;
+            width: 100%;
+          }
+
+          p {
+            font-size: 1.4rem;
+            font-weight: 100;
+
+            strong {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      &--footer {
+        height: 80vh;
+        color: #041D21;
+
+        span {
+          font-size: 1.6rem;
+        }
+
+        h2 {
+          font-size: 4.8rem;
+          font-weight: 200;
+          line-height: 5rem;
+          margin-top: 4.8rem;
+        }
+      }
+  }
+
+
+  @keyframes fade-in {
+    from { background-color: #041D21; }
+    to { background-color: #ffffff; }
+  }
+}

@@ -93,6 +93,7 @@ import AwwwardsDirectory from './components/AwwwardsDirectory.vue';
 import FluidLayout from './components/FluidLayout.vue';
 import TextColumn from './components/TextColumn.vue';
 import ArquitectureHeader from './components/ArquitectureHeader.vue';
+import ChangeBgScroll from './components/ChangeBgScroll.vue';
 
 Vue.use(Router);
 
@@ -563,6 +564,11 @@ export default new Router({
       path: '/arquitecture-header',
       name: 'ArquitectureHeader',
       component: ArquitectureHeader,
+    },
+    {
+      path: '/change-bg-scroll',
+      name: 'ChangeBgScroll',
+      component: ChangeBgScroll,
     }
   ],
 });

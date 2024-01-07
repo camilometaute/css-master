@@ -285,6 +285,9 @@
         <router-link to="/arquitecture-header">
           94.   Arquitecture interior header
         </router-link>
+        <router-link to="/change-bg-scroll">
+          95.   Change background scroll
+        </router-link>
       </div>
     </div>
     <router-view/>
