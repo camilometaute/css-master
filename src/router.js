@@ -95,6 +95,7 @@ import TextColumn from './components/TextColumn.vue';
 import ArquitectureHeader from './components/ArquitectureHeader.vue';
 import ChangeBgScroll from './components/ChangeBgScroll.vue';
 import GridDermatology from './components/GridDermatology.vue';
+import ScrollPlaygroundCss from './components/ScrollPlaygroundCss.vue';
 
 Vue.use(Router);
 
@@ -575,6 +576,11 @@ export default new Router({
       path: '/grid-dermatology',
       name: 'GridDermatology',
       component: GridDermatology,
+    },
+    {
+      path: '/scroll-playground-css',
+      name: 'ScrollPlaygroundCss',
+      component: ScrollPlaygroundCss,
     }
   ],
 });

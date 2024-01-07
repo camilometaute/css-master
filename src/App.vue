@@ -291,6 +291,9 @@
         <router-link to="/grid-dermatology">
           96. Grid Dermatology
         </router-link>
+        <router-link to="/scroll-playground-css">
+          97. Scroll playground css
+        </router-link>
       </div>
     </div>
     <router-view/>
