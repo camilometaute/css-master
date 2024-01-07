@@ -288,6 +288,9 @@
         <router-link to="/change-bg-scroll">
           95.   Change background scroll
         </router-link>
+        <router-link to="/grid-dermatology">
+          96. Grid Dermatology
+        </router-link>
       </div>
     </div>
     <router-view/>

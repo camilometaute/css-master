@@ -94,6 +94,7 @@ import FluidLayout from './components/FluidLayout.vue';
 import TextColumn from './components/TextColumn.vue';
 import ArquitectureHeader from './components/ArquitectureHeader.vue';
 import ChangeBgScroll from './components/ChangeBgScroll.vue';
+import GridDermatology from './components/GridDermatology.vue';
 
 Vue.use(Router);
 
@@ -569,6 +570,11 @@ export default new Router({
       path: '/change-bg-scroll',
       name: 'ChangeBgScroll',
       component: ChangeBgScroll,
+    },
+    {
+      path: '/grid-dermatology',
+      name: 'GridDermatology',
+      component: GridDermatology,
     }
   ],
 });

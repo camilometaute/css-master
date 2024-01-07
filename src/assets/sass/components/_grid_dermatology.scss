@@ -1,0 +1,82 @@
+.grid-dermatology {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &--container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    margin-top: 9.6rem;
+
+    @media only screen and (max-width: $bp-largest) {
+      grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+
+    &--img {
+      z-index: 2;
+
+      img {
+        height: 70%;
+        margin-left: 16rem;
+        margin-top: 20%;
+        width: 80%;
+
+        @media only screen and (max-width: $bp-largest) {
+          height: 100%;
+          max-height: 40rem;
+          margin-left: 0px;
+          margin-top: 0px;
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+    }
+
+    &--content {
+      background-color: #FCF980;
+      color: $color-grey-dark-3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 7.2rem 9.6rem;
+
+      .number {
+        color: $color-grey-dark-3;
+        display: block;
+        font-size: 3.2rem;
+      }
+
+      .number-label {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        font-size: 3.2rem;
+        line-height: 100%;
+        font-weight: 100;
+        margin-top: 5.4rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+      }
+
+      button {
+        background-color: $color-grey-dark-3;
+        border-radius: 2rem;
+        border: 0px;
+        color: $color-white;
+        cursor: pointer;
+        padding: 1.6rem;
+        width: 20rem;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+
+  }
+}
