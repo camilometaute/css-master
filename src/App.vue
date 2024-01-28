@@ -294,6 +294,9 @@
         <router-link to="/scroll-playground-css">
           97. Scroll playground css
         </router-link>
+        <router-link to="/grid-articles-content">
+          98. Grid articles content
+        </router-link>
       </div>
     </div>
     <router-view/>

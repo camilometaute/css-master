@@ -96,6 +96,7 @@ import ArquitectureHeader from './components/ArquitectureHeader.vue';
 import ChangeBgScroll from './components/ChangeBgScroll.vue';
 import GridDermatology from './components/GridDermatology.vue';
 import ScrollPlaygroundCss from './components/ScrollPlaygroundCss.vue';
+import GridArticlesContent from './components/GridArticlesContent.vue';
 
 Vue.use(Router);
 
@@ -581,6 +582,11 @@ export default new Router({
       path: '/scroll-playground-css',
       name: 'ScrollPlaygroundCss',
       component: ScrollPlaygroundCss,
+    },
+    {
+      path: '/grid-articles-content',
+      name: 'GridArticlesContent',
+      component: GridArticlesContent,
     }
   ],
 });
