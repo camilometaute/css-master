@@ -297,6 +297,9 @@
         <router-link to="/grid-articles-content">
           98. Grid articles content
         </router-link>
+        <router-link to="/authkit-layout">
+          99. Authkit layout
+        </router-link>
       </div>
     </div>
     <router-view/>

@@ -97,6 +97,7 @@ import ChangeBgScroll from './components/ChangeBgScroll.vue';
 import GridDermatology from './components/GridDermatology.vue';
 import ScrollPlaygroundCss from './components/ScrollPlaygroundCss.vue';
 import GridArticlesContent from './components/GridArticlesContent.vue';
+import AuthkitLayout from './components/AuthkitLayout.vue';
 
 Vue.use(Router);
 
@@ -587,6 +588,11 @@ export default new Router({
       path: '/grid-articles-content',
       name: 'GridArticlesContent',
       component: GridArticlesContent,
+    },
+    {
+      path: '/authkit-layout',
+      name: 'AuthkitLayout',
+      component: AuthkitLayout,
     }
   ],
 });
